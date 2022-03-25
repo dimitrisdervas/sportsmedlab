@@ -1,0 +1,58 @@
+- name: Lab
+  link: /en/lab
+  submenu:
+    - name: History
+      link: /en/history/
+    - name: Teaching Staff
+      link: /en/lab#dep
+    - name: Equipment
+      link: /en/lab#exoplismos  
+- name: Education
+  link: /en/education 
+  submenu:
+    - name: Undergraduate Lessons
+      link: /en/education#proptyxiaka
+    - name: Postgraduate Lessons
+      link: /en/education#metaptyxiaka
+- name: Research
+  link: /en/research
+  submenu:
+    - name: Scientific Interests
+      link: /en/research#interests
+    - name: Research Programs
+      link: /en/research#science-projects
+    - name: Awards
+      link: /en/research#awards
+- name: Publications
+  link: /en/publications
+  submenu:
+    - name: Books
+      link: /en/books-all
+    - name: Published Articles
+      link: /en/papers-all
+    - name: Talks
+      link: /en/talks-all
+    - name: Oral Presentations
+      link: /en/anakoinoseis-all
+- name: Conferences
+  link: /en/conferences
+- name: Services
+  link: /en/services
+  submenu:
+    - name: "Athletes Screening"
+      link: /en/services#section
+    - name: "Rehabilitation Programs"
+      link: /en/services#section-1
+- name: Photos
+  link: /gallery
+  submenu:
+    - name: Conferences
+      link: /en/gallery#synedria
+    - name: Conference Posters
+      link: /en/gallery#afises
+    - name: Athletes Screening
+      link: /en/gallery#iatrikos-elegxos
+    - name: Rehabilitation
+      link: /en/gallery#asthenon
+- name: Contact
+  link: /en/contact

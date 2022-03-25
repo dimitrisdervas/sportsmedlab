@@ -1,0 +1,79 @@
+---
+title: "Publications"
+layout: page
+permalink: /en/publications/
+image-hero: /assets/images/slideshow/book-covers.jpg
+tag: publications
+---
+<div class="wrapper">
+<div class="section-title editable" id="books"><a href="{{site.baseurl}}/{{page.lang}}/books-all">Books{% include svg-title-link.html %}</a></div>
+<div class="list publications">
+<ul>
+{% assign books-year = site.data[page.lang].books | sort: "year" | reverse %}
+	{% for item in books-year limit: 3 %}
+		<li>
+			<div class="title">{{item.title}}</div>
+			<div class="names">{{item.names}}</div>
+			<div class="names">{{item.year}}</div>
+			<div class="names">{{item.publisher}}</div>
+		</li>
+	{% endfor %}
+	</ul>
+	<div class="more"><a href="{{site.baseurl}}/{{page.lang}}/books-all">more</a></div>
+</div></div>
+
+
+<div class="wrapper">
+<div class="section-title editable"><a href="{{site.baseurl}}/{{page.lang}}/papers-all">Published Articles{% include svg-title-link.html %}</a></div>
+<div class="list publications">
+<ul>
+{% assign published-year = site.data[page.lang].published-articles | sort: "year" | reverse %}
+	{% for item in published-year limit: 3 %}
+		<li>
+			<div class="title">{{item.title}}</div>
+			<div class="names">{{item.names}}</div>
+			<div class="year">{{item.year}}</div>
+			<div class="publisher">{{item.publisher}}</div>
+		</li>
+	{% endfor %}
+	</ul>
+	 <div class="more"><a href="{{site.baseurl}}/{{page.lang}}/papers-all">more</a></div>
+</div></div>
+
+
+<div class="wrapper">
+<div class="section-title editable"><a href="{{site.baseurl}}/{{page.lang}}/talks-all">Talks{% include svg-title-link.html %}</a></div>
+<div class="list publications">
+<ul>
+{% assign talks-year = site.data[page.lang].talks | sort: "year" | reverse %}
+	{% for item in talks-year limit: 3 %}
+		<li>
+			<div class="title">{{item.title}}</div>
+			<div class="names">{{item.speaker}}</div>
+			<div class="year">{{item.year}}</div>
+			<div class="congress">{{item.congress}}</div>
+		</li>
+	{% endfor %}
+	</ul>
+	<div class="more"><a href="{{site.baseurl}}/{{page.lang}}/talks-all">more</a></div>
+</div></div>
+
+
+
+<div class="wrapper">
+<div class="section-title editable" ><a href="{{site.baseurl}}/{{page.lang}}/papers-all">Scientific Announcements{% include svg-title-link.html %}</a></div>
+<div class="list publications">
+<ul>
+{% assign published-year = site.data[page.lang].epistimonikes-anakoinoseis| sort: "year" | reverse %}
+	{% for item in published-year limit: 3 %}
+		<li>
+			<div class="title">{{item.title}}</div>
+			<div class="names">{{item.names}}</div>
+			<div class="year">{{item.year}}</div>
+			<div class="publisher">{{item.conference}}</div>
+		</li>
+	{% endfor %}
+	</ul>
+	 <div class="more"><a href="{{site.baseurl}}/{{page.lang}}/papers-all">more</a></div>
+</div></div>
+

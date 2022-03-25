@@ -1,0 +1,14 @@
+{{ range (where .Site.RegularPages.ByTitle "Section" "staff_members" ).Language.Lang }}
+
+{{.}}
+
+<li>
+    <div class="photo">
+    <img src="{{ .Params.image }}" alt="{{ .Params.title }}" />
+    </div>
+    <div class="details">
+    <div class="title"><a href="{{ .Params.url }}">{{.Params.name}}</a></div>
+    <div class="names">{{.Params.position | markdownify }}</div>
+    </div>
+</li>
+{{ end }}

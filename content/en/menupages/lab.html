@@ -1,0 +1,43 @@
+---
+layout: page
+title: Lab
+permalink: /en/lab/
+tag: lab
+image-hero: /assets/images/slideshow/exoplismos-0030.jpg
+---
+<div class="wrapper">
+<div class="section-title editable" ><a href="{{site.baseurl}}/{{page.lang}}/history">History{% include svg-title-link.html %}</a></div>
+<div class="content">
+<p>The Laboratory of Sports Medicine of AUTh was established in 1992. It is the biggest Sports Medicine centre in Greece which is standardized by ISO 2007. The main staff of the Laboratory includes 7 professors and 8 researchers, who are skilled and are experts in sports cardiology, exercise physiology, sports nutrition and physical rehabilitation. The laboratory of Sports Medicine is a fully equipped for non-invasive cardiac evaluation of athletes. It collaborates with many sports clubs and leagues for the screening of athletes. And until today, there have been more than 30,000 athletes examined in the laboratory. The last 25 years cardiac and renal rehabilitation programs are applied in the Laboratory of Sports Medicine.
+</p>
+	 <div class="more"><a href="/{{page.lang}}/history">More</a></div>
+</div></div>
+
+<section class="wrapper">
+		<div class="dep">
+			<div class="section-title editable nolink" id="dep">Teaching Staff</div>
+			<ul>
+                {% assign staff-members = site.staff_members | where: "lang",page.lang %}
+                {% assign dep-members = staff-members | sort: 'order' %}
+                    {% for item in dep-members %}
+                    <li>
+                        <div class="photo">
+                            <img src="{{site.baseurl}}{{ item.image }}" alt="{{ item.title }}">
+                        </div>
+                        <div class="details">
+                            <div class="title"><a href="{{ item.url }}">{{item.name}}</a></div>
+                            <div class="names">{{item.position | markdownify }}</div>
+                        </div>
+                    </li>
+                    {% endfor %}
+			</ul>
+		</div>
+</section>
+
+
+<div class="wrapper">
+<div class="section-title editable nolink" id="exoplismos">Equipment</div>
+<div class="content">
+    {% include images-block-photoswipe-limit.html path="exoplismos" name="exoplismos" limit="8" %}
+	</div>
+</div>

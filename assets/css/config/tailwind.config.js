@@ -1,20 +1,32 @@
 module.exports = {
-  purge: require('./purge.config.js'),
-  darkMode: 'media',
+  darkMode: "media",
+  content: {
+    enabled: process.env.HUGO_ENVIRONMENT === "production",
+    content: [
+      "./hugo_stats.json",
+      "./func/*.html",
+      "./layouts/**/*.html",
+      "./assets/js/**/*.jsx",
+    ],
+  },
   theme: {
     extend: {
       // Fonts are stored in their own module to tidy up the root config file.
-      fontFamily: require('./fonts.config.js'),
+      fontFamily: {
+        robregular: ["Roboto-Regular"],
+        robmono: ["Roboto-mono"],
+        code: ["source code pro", "monospace"],
+      },
+      fontFamily: require("./fonts.config.js"),
       fontSize: {
-        huge: ['13rem', {
-          letterSpacing: '1.2',
-          lineHeight: '.9',
-        }],
-      }
-    }
-  },
-  variants: {
-    // https://tailwindcss.com/docs/configuring-variants
-    display: ['responsive', 'group-hover', 'hover']
+        huge: [
+          "13rem",
+          {
+            letterSpacing: "1.2",
+            lineHeight: ".9",
+          },
+        ],
+      },
+    },
   },
 };

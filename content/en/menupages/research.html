@@ -1,0 +1,67 @@
+---
+title: "Research"
+layout: page
+image-hero: /assets/images/slideshow/iatrikos-elegxos-0013.jpg
+permalink: /en/research/
+tag: research
+---
+
+<div class="wrapper">
+	<div class="section-title editable nolink" id="interests">Scientific Interests</div>
+	<div class="list list publications">
+	<ul>
+		{% for item in site.data[page.lang].interests %}
+			<li>
+				<div class="title">{{item.title}}</div>
+			</li>
+		{% endfor %}
+		</ul>
+	</div>
+</div>
+
+<div class="wrapper">
+	<div class="section-title editable nolink" id="science-projects">Reasearch Programs</div>
+	<div class="list publications">
+	<ul>
+		{% for item in site.data[page.lang].research-programs %}
+			<li>
+				<div class="title">{{item.title}}</div>
+				<div class="names">{{item.date}}</div>
+				<div class="year">{{item.authority}}</div>
+			</li>
+		{% endfor %}
+		</ul>
+	</div>
+</div>
+
+
+
+<div class="wrapper">
+<div class="section-title editable nolink" id="awards">Awards</div>
+<div class="list publications">
+<ul>
+{% assign published-year = site.data[page.lang].awards | sort: "year" | reverse %}
+	{% for item in published-year %}
+		<li>
+			<div class="title">{{item.title}}</div>
+			<div class="names">{{item.names}}</div>
+			<div class="year">{{item.year}}</div>
+			<div class="publisher">{{item.congress}}</div>
+		</li>
+	{% endfor %}
+	</ul>
+</div></div>
+
+<div class="wrapper">
+<div class="section-title editable nolink" id="awards">Collaborations</div>
+<div class="list publications">
+<ul>
+	{% for item in site.data[page.lang].synergazomena-kentra  %}
+		<li>
+			<div class="title">{{item.center}}{% if item.department != "" %} - {{item.department}}{% endif %}</div>
+			<div class="year">{{item.city}}</div>
+			<div class="publisher">{{item.country}}</div>
+		</li>
+	{% endfor %}
+	</ul>
+</div></div>

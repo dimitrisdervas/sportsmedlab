@@ -2,10 +2,21 @@
 # This is where root config key goes.
 # ###################################
 title: Huge Starter Tailwind + React
-baseURL: https://huge-starter-tailwind-react.netlify.app
-DefaultContentLanguage: en
+baseURL: 
 enableRobotsTXT: true
 disableAliases: true
+staticDir: static
+
 
 build:
   writeStats: true
+
+DefaultContentLanguage: gr
+
+languages:
+  gr:
+    languageName: "Ελληνικά"
+    weight: 10
+  en:
+    languageName: English
+    weight: 20

@@ -1,0 +1,28 @@
+---
+title: "Awards"
+layout: content/awards
+permalink: /en/awards/
+tag: research, sidebar
+data-content: awards
+---
+
+<div class="wrapper">
+<div class="section-title editable nolink">Βραβεύσεις</div>
+<div class="list publications">
+	<ul>
+	{% assign published-year = site.data[page.lang].awards | sort: "year" | reverse %}
+	{% for item in published-year  %}
+		<li>
+			<div class="title">"{{item.title}}"</div>
+			<div class="names">{{item.name}}</div>
+			<div class="year">{{item.year}}</div>
+			<div class="publisher">{{item.publisher}}</div>
+		</li>
+	{% endfor %}
+	</ul>
+</div>
+</div>
+
+<div class="wrapper">
+	<img src="{{site.baseurl}}/assets/images/nefro.jpg">
+</div>

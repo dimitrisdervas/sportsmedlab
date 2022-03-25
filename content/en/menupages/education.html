@@ -1,0 +1,35 @@
+---
+title: "Education"
+layout: page
+permalink: /en/education/
+image-hero: /assets/images/slideshow/synedria-0009.jpg
+tag: education
+---
+
+<div class="wrapper">
+	<div class="section-title editable nolink" id="proptyxiaka">Undergraduate Lessons</div>
+	<div class="list publications">
+	<ul>
+		{% for item in site.data[page.lang].lessons-proptyxiaka %}
+			<li>
+				<div class="title">{{item.title}}<div class="link"><a href="{{item.link}}" target="_blank">Information<i class="material-icons">info</i></a></div></div>
+				<!--<div class="names">κατηγορία: {{item.category}}</div>-->
+			</li>
+		{% endfor %}
+		</ul>
+	</div>
+</div>
+
+<div class="wrapper">
+	<div class="section-title editable nolink" id="metaptyxiaka">Postgraduate Lessons</div>
+	<div class="list publications">
+	<ul>
+		{% for item in site.data[page.lang].lessons-metaptyxiaka %}
+			<li>
+				<div class="title">{{item.title}}<div class="link"><a href="{{item.link}}" target="_blank">Information<i class="material-icons">info</i></a></div></div>
+				<div class="names">{{item.category}}</div>
+			</li>
+		{% endfor %}
+		</ul>
+	</div>
+</div>

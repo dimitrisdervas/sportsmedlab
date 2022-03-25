@@ -1,8 +1,82 @@
-<header>
-  <div class="max-w-3xl mx-auto px-4">
-  <a class="{{ if eq . site.Home }}active{{ end }}" href="{{ site.Home.RelPermalink }}">HUGE</a>
-  {{ range site.RegularPages }}
-    <a class="{{ if eq . $ }}active{{ end }}" href="{{ .RelPermalink }}">{{ .Title }}</a>
-  {{ end }}
-  </div>
+<header class="container mx-auto">
+
+
+<div class="flex justify-center items-center ">
+
+        <div class="logo-image">
+            <a class=" flex items-center flex-wrap justify-start"  href="/">
+                <img class="w-16"src="/images/logo/spmedlab_logo.png">
+                <div class="title font-bold text-2xl">Εργαστήριο Αθλητιατρικής</div>   
+            </a>
+        </div>
+               
+        <div class="logo-text justify-center flex px-8">
+                <div class="subtitle1">Τμήμα Επιστήμης Φυσικής Αγωγής και Αθλητισμού Θεσσαλονίκης</div>
+                <div class="subtitle2">Σχολή Επιστημών Φυσικής Αγωγής και Αθλητισμού</div>
+                
+        </div>
+        <div class="auth">
+            <a class=" flex items-center flex-wrap justify-start" href="/">
+                <img class="w-16" src="/images/logo/LogoAUTH300ppi.png">
+                <div class="subtitle3">Αριστοτέλειο Πανεπιστήμιο Θεσσαλονίκης</div>
+            </a></div>
+
+</div>
+
+{{ partial "navigation.html" . }}
+
+
+<!-- Swiper -->
+
+<style>
+  @media only screen and (max-width: 600px) { 
+    .heroslideshow {
+      height: 30vh; }
+    }
+  @media only screen and (min-width: 1440px) { 
+    .heroslideshow {
+      height: 90vh; }
+    }
+    @media only screen and (min-width: 1920px) { 
+    .heroslideshow {
+      height: 100vh; }
+    }
+</style>
+
+<div class="heroslideshow swiper-container w-full ">
+<div class="swiper-wrapper">
+
+    
+    {{ range (where .Site.RegularPages.ByTitle "Section" "slideshow" ) }}
+    <div class="swiper-slide flex-col flex">
+
+        {{ partial "image_scrset.html" . }}
+    
+        <div class="px-4 md:absolute md:inset-y-1/2 md:ml-8 md:bg-white">
+            <div class="w-full md:px-8 py-8   
+                        md:w-80 md:block md:bg-white">
+                <div class="bold text-xl my-2">{{ .Title }}</div>
+                <p class="text-sm mb-4">{{ .Params.description }}</p>
+                {{ $product := printf "/products/%s" .Params.product_link }}
+                <a
+                class="bg-black px-6 py-2 text-white w-24 mb-2"
+                href="{{ $product | relLangURL }}"
+                >Shop</a
+                >
+            </div>
+        </div>
+    </div>
+    {{ end }}
+</div>
+  <!-- Add Pagination -->
+  <div class="swiper-pagination"></div>
+</div>
+
+
+
+
+</div>
+
+
+
 </header>

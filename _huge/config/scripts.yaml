@@ -1,6 +1,4 @@
 # https://github.com/theNewDynamic/huge/wiki/Scripts
 scripts:
-- name: hugely
-  path: js/hugely/index.jsx
-  params:
-    placeholder: Say it Hugely!
+- name: alpine
+  path: js/alpine/index.js

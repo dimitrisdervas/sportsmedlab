@@ -1,0 +1,108 @@
+{{ define "main" }}
+    
+<div class="wrapper">
+    <div class="font-bold text-2xl p-4" id="interests">Τομείς ερευνητικής δραστηριότητας</div>
+    <div class="list list publications">
+
+<!-- Editor Link -->
+
+
+    <ul>
+        {{ range ((index .Site.Data .Language.Lang).interests)}}
+        
+            <li>
+                <div class="title">{{.title}}</div>
+            </li>
+        {{end}}
+        </ul>
+    </div>
+</div>
+
+<div class="wrapper">
+    <div class="font-bold text-2xl p-4" id="science-projects">Ερευνητικά προγράμματα</div>
+    <div class="list publications">
+
+
+    <ul>
+        {{ range ((index .Site.Data .Language.Lang).research_programs) }}
+            <li>
+                <div class="title">{{.title}}</div>
+                <div class="names">{{.date}}</div>
+                <div class="year">{{.authority}}</div>
+            </li>
+        {{end}}
+        </ul>
+    </div>
+</div>
+
+
+<div class="wrapper">
+<div class="font-bold text-2xl p-4" id="awards">Βραβεύσεις</div>
+<div class="list publications">
+
+
+<ul>
+{{ range ((index .Site.Data .Language.Lang).awards) }}
+
+        <li>
+            <div class="title">{{.title}}</div>
+            <div class="names">{{.names}}</div>
+            <div class="year">{{.year}}</div>
+            <div class="publisher">{{.congress}}</div>
+        </li>
+    {{end}}
+    </ul>
+</div></div>
+
+<div class="wrapper">
+<div class="font-bold text-2xl p-4" id="awards">Συνεργαζόμενα κέντρα του εξωτερικού</div>
+<div class="list publications">
+
+
+
+<ul>
+
+    {{ range ((index .Site.Data .Language.Lang).synergazomena_kentra) }}
+        <li>
+            <div class="title">{{.center}}{{.department}}</div>
+            <div class="year">{{.city}}</div>
+            <div class="publisher">{{.country}}</div>
+        </li>
+    {{end}}
+    </ul>
+</div></div>
+
+
+<div class="wrapper">
+    <div class="font-bold text-2xl p-4" id="awards">Διδακτορικά</div>
+    <div class="list publications">
+        <ul>
+            {{ range ((index .Site.Data .Language.Lang).phd) }}
+                <li>
+                    <div class="title">"{{.title}}"</div>
+                    <div class="names">{{.name}}</div>
+                    <div class="year">{{.year}}</div>
+                    <div class="publisher">{{.publisher}}</div>
+                </li>
+            {{end}}
+        </ul>
+    </div>
+</div>
+
+<div class="wrapper">
+    <div class="font-bold text-2xl p-4" id="awards">Μεταπτυχιακά</div>
+    <div class="list publications">
+        <ul>
+            {{ range ((index .Site.Data .Language.Lang).msc) }}
+		<li>
+			<div class="title">"{{.title}}"</div>
+			<div class="names">{{.name}}</div>
+			<div class="year">{{.year}}</div>
+			<div class="publisher">{{.publisher}}</div>
+		</li>
+            {{end}}
+        </ul>
+    </div>
+</div>
+
+{{ end }}

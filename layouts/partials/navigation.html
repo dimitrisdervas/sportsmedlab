@@ -1,0 +1,32 @@
+<nav class="flex container justify-around mx-auto py-8">
+
+{{ range ((index .Site.Data .Language.Lang).navigation)}}
+        <a class="px-4"href="{{.link}}">{{ .name }}</a>
+{{ end }}
+
+{{/*    */}}
+{{/*  LANGUAGES  */}}
+{{/*    */}}
+{{ with .Site.Home }}
+    <ul>
+        {{ range $.Site.Home.AllTranslations }}
+        <li>
+            <a href="{{ .Permalink }}">{{ .Language.LanguageName }}</a>
+        </li>
+        {{ end }}
+    </ul>
+{{ else }}
+    {{ if .IsTranslated }}
+        <ul>
+        {{ range .Translations }}
+        <li>
+            <a href="{{ .Permalink }}">{{ .Lang }}: {{ .Title }}{{ if .IsPage }} ({{ i18n "wordCount" . }}){{ end }}</a>
+        </li>
+        {{ end }}
+        </ul>
+    {{ end }}
+{{ end }}
+
+</nav>
+
+

@@ -1,3 +1,6 @@
+github.com/gohugoio/hugo-mod-jslibs-dist v0.0.0-20220304163136-9963fae47a8a h1:ZZ0QWrSiQFD3qCiTg4tZNArPlSYwjwa6MLOpaRyaKxc=
+github.com/gohugoio/hugo-mod-jslibs-dist/alpinejs/v3 v3.900.100 h1:vEpD998c0khrykCrsDP+rG+1wxLDcMOAWZ2X0BpU5bM=
+github.com/gohugoio/hugo-mod-jslibs-dist/alpinejs/v3 v3.900.100/go.mod h1:WWQxcmPs5Xy3xDgi29ipkmZT6NKVb3bsqyCDTY3eYYY=
 github.com/theNewDynamic/huge v0.0.0-20210901152246-a2b7c4c39f5a h1:2kFK+OI3QKJ6cZwXedeLFffySIpspHcO83HsMRKcOLw=
 github.com/theNewDynamic/huge v0.0.0-20210901152246-a2b7c4c39f5a/go.mod h1:wZCHbuGglX7Iwa2xbJ/FcDIUzUsMGW6CyLboOp5iKR8=
 github.com/theNewDynamic/huge v0.0.0-20210902192144-67dcefd2414c h1:Ol7GJjGdrot+D+yV/Rye9RIkNGWxzRUZNIf1na5DCJc=

@@ -1,0 +1,82 @@
+{{ define "main" }}
+    
+<div class="wrapper">
+<div class="font-bold text-2xl p-4" id="books"><a href="/gr/books-all">Βιβλία</a></div>
+<div class="list publications">
+
+
+
+<ul>
+{{ range ((index .Site.Data .Language.Lang).books) }}
+		<li>
+			<div class="title">{{.title}}</div>
+			<div class="names">{{.names}}</div>
+			<div class="names">{{.year}}</div>
+			<div class="names">{{.publisher}}</div>
+		</li>
+	{{ end }}
+	</ul>
+	<div class="more"><a href="/gr/books-all">Περισσότερα</a></div>
+</div></div>
+
+
+<div class="wrapper">
+<div class="font-bold text-2xl p-4"><a href="/gr/papers-all">Δημοσιεύσεις</a></div>
+<div class="list publications">
+
+
+
+<ul>
+{{ range ((index .Site.Data .Language.Lang).published_articles) }}
+		<li>
+			<div class="title">{{.title}}</div>
+			<div class="names">{{.names}}</div>
+			<div class="year">{{.year}}</div>
+			<div class="publisher">{{.publisher}}</div>
+		</li>
+	{{ end }}
+	</ul>
+	 <div class="more"><a href="/gr/papers-all">Περισσότερα</a></div>
+</div></div>
+
+
+<div class="wrapper">
+<div class="font-bold text-2xl p-4"><a href="/gr/talks-all">Διαλέξεις</a></div>
+<div class="list publications">
+
+
+<ul>
+{{ range ((index .Site.Data .Language.Lang).talks) }}
+		<li>
+			<div class="title">{{.title}}</div>
+			<div class="names">{{.speaker}}</div>
+			<div class="year">{{.year}}</div>
+			<div class="congress">{{.congress}}</div>
+		</li>
+	{{ end }}
+	</ul>
+	<div class="more"><a href="/gr/talks-all">Περισσότερα</a></div>
+</div></div>
+
+
+
+<div class="wrapper">
+<div class="font-bold text-2xl p-4" ><a href="/gr/papers-all">Επιστημονικές ανακοινώσεις</a></div>
+<div class="list publications">
+
+
+<ul>
+{{ range ((index .Site.Data .Language.Lang).epistimonikes_anakoinoseis) }}
+		<li>
+			<div class="title">{{.title}}</div>
+			<div class="names">{{.names}}</div>
+			<div class="year">{{.year}}</div>
+			<div class="publisher">{{.conference}}</div>
+		</li>
+	{{ end }}
+	</ul>
+	 <div class="more"><a href="/gr/papers-all">Περισσότερα</a></div>
+</div></div>
+
+
+{{ end }}
