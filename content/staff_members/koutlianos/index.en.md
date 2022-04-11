@@ -4,7 +4,7 @@ name: Koutlianos Nikolaos
 lang: en
 position: Assistant Professor - Athletes’ Physical Health Evaluation
 degree: Ιατρός - Πτυχ. Φυσικής Αγωγής
-image: images/staff-members/koutlianos.jpg
+image: koutlianos.jpg
 cv_document: entipa/cv/en/cv-koutlianos.pdf
 contact:
   tel: 2310 992 188

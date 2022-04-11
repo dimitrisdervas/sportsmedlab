@@ -3,68 +3,52 @@
 <iframe src="https://cdn.knightlab.com/libs/timeline3/latest/embed/index.html?source=143qDyQxWEGhZ58ZTHfMaidCz77EF-kh15B7qnYbRCpk&font=Default&lang=el&initial_zoom=2&height=650" width="100%" height="634px" frameborder="0"></iframe>
                                 
 
-   <a href="/gr/history">Σύντομη Παρουσίαση<svg fill="#000000" height="24" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"> <path d="M0 0h24v24H0z" fill="none" /> <path d="M10 16.5l6-4.5-6-4.5v9zM12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8z" /> </svg></a>
 
-
+<section class="container mx-auto  mb-16">
+     <div class="prose text-5xl font-bold  drop-shadow-sm p-8 pb-16"> Ιστορικό </div>
+    <div class="prose mx-auto  drop-shadow-sm ">
 {{ with .Site.GetPage "/lab/history.md" }}
     {{ .Summary }}
     {{ if .Truncated }}
       <a href="{{ .RelPermalink }}">Read More ...</a>
     {{ end }}
 {{ end }}
+</div>
+</section>
 
 
-<section class="wrapper">
-    <div class="dep">
-        <div class="section-title nolink editable">
-                Διδακτικό Προσωπικό
-        </div>
-        <ul>
-            {{.Page.Language}}
-            {{.Language}}
+{{/*  PROSOPIKO  */}}
+<section class="container mx-auto  mb-16">
+    <div class="prose text-5xl font-bold  drop-shadow-sm p-8 pb-16"> Διδακτικό Προσωπικό </div>
+    <ul class="grid grid-cols-3 gap-x-8  gap-y-12 px-8 pb-8 ">           
         {{ range (where  .Site.RegularPages "Section" "staff_members")  }}
-        {{ if eq .Language .Page.Language }}
-            <li>
-                <div class="photo">
-                    <img src="/{{ .Params.image }}" alt="{{ .Params.title }}" />
+            {{ if eq .Language .Page.Language }}
+            <li class="flex flex-1 shadow-md rounded-md mb-4 bg-gray-100 items-center">
+                <div class="w-64">
+                {{ $image := string .Params.image}}
+                {{ with .Resources.GetMatch $image }}
+                    {{ with .Fill "150x150" }}
+                        <img src="{{ .RelPermalink }}" width="{{ .Width }}" height="{{ .Height }}">
+                    {{ end }}
+                {{ end }}
+
                 </div>
-                <div class="details">
-                    <div class="title"><a href="{{ .Params.url }}">{{.Params.name}}</a></div>
-                    <div class="names">{{ .Params.position | markdownify }}</div>
+                <div class="px-4">
+                    <div class="font-bold text-2xl"><a href="{{ .RelPermalink }}">{{.Params.name}}</a></div>
+                    <div class="prose">{{ .Params.position | markdownify }}</div>
                 </div>
             </li>
             {{ end }}
-            {{ end }}
-        </ul>
-    </div>
-</section>
-
-<section class="wrapper">
-    <div class="dep">
-        <div class="section-title nolink editable">
-                Διδακτικό Προσωπικό
+        {{ end }}
+    </ul>
         </div>
-        <ul>
-            {{.Page.Language}}
-            {{.Language}}
-        {{ range (where  .Site.RegularPages "Section" "staff_science")  }}
-        {{ if eq .Language .Page.Language }}
-            <li>
-                <div class="details">
-                    <div class="title"><a href="{{ .Params.url }}">{{.Params.name}}</a></div>
-                    <div class="names">{{ .Params.speciality | markdownify }}</div>
-                </div>
-            </li>
-            {{ end }}
-            {{ end }}
-        </ul>
-    </div>
 </section>
 
-
+<section class="container mx-auto  mb-16">
+    <div class="prose mx-auto  drop-shadow-sm ">
 {{ with .Site.GetPage "/lab/exoplismos.md" }}{{ .Content }}{{ end }}
-
-
+</div>
+</section>
 
 
     

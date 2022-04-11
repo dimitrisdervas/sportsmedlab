@@ -6,7 +6,7 @@ position:
   Μόνιμη Επίκουρη Καθηγήτρια Φυσικής Επαναδραστηριοποίησης Ατόμων με Διαταραχές
   Υγείας
 degree: Πτυχιούχος Φυσικής Αγωγής
-image: images/staff-members/mameletzi.jpg
+image: mameletzi.jpg
 cv_document: entipa/cv/gr/cv-mameletzi.pdf
 contact:
   tel: 2310 992 493

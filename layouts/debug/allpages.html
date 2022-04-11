@@ -1,5 +1,30 @@
-{{ define "main"}}
-<script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
+<!DOCTYPE html>
+<html>
+  <head>
+ <script
+      defer
+      src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"
+    ></script>
+    <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp"></script>
+    <style type="text/tailwindcss">
+      @layer components {
+        .page_variables {
+          @apply text-base text-white  flex w-full justify-start  pb-1 px-1;
+        }
+
+        .variable_title {
+          @apply text-white w-40;
+        }
+        .variable_value {
+          @apply text-gray-300 text-left;
+        }
+      }
+    </style>
+    
+</head>
+<html>
+    <body>
+        
 
 <h1>{{ .Title }}</h1>
 <div class="p-2 border">
@@ -191,4 +216,5 @@
 
 </div>
 </div>
-{{ end }}
+    </body>
+</html>

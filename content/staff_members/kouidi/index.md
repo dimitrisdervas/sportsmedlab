@@ -4,7 +4,7 @@ name: Ευαγγελία Κουϊδή
 lang: gr
 position: Καθηγήτρια Αθλητιατρικής ΤΕΦΑΑ ΑΠΘ
 degree: "Πτυχιούχος ΤΕΦΑΑ ΑΠΘ το 1992, Πτυχιούχος Ιατρικής Σχολής ΑΠΘ το 1998"
-image: "images/staff-members/kouidi.jpg"
+image: "kouidi.jpg"
 cv_document: entipa/cv/gr/cv-kouidi.pdf
 contact:
   tel: 2310 992 189

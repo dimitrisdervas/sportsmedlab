@@ -1,6 +1,8 @@
 {{ define "main" }}
     
-<div class="wrapper">
+
+<div class="container mx-auto pb-16 grid grid-cols-2 gap-8">
+<div class="border rounded-md shadow-md p-8">
     <div class="font-bold text-2xl p-4" id="interests">Τομείς ερευνητικής δραστηριότητας</div>
     <div class="list list publications">
 
@@ -10,7 +12,7 @@
     <ul>
         {{ range ((index .Site.Data .Language.Lang).interests)}}
         
-            <li>
+            <li class="border-gray-400 border-b-2">
                 <div class="title">{{.title}}</div>
             </li>
         {{end}}
@@ -18,14 +20,14 @@
     </div>
 </div>
 
-<div class="wrapper">
+<div class="border rounded-md shadow-md p-8">
     <div class="font-bold text-2xl p-4" id="science-projects">Ερευνητικά προγράμματα</div>
     <div class="list publications">
 
 
     <ul>
         {{ range ((index .Site.Data .Language.Lang).research_programs) }}
-            <li>
+            <li class="border-gray-400 border-b-2">
                 <div class="title">{{.title}}</div>
                 <div class="names">{{.date}}</div>
                 <div class="year">{{.authority}}</div>
@@ -36,7 +38,7 @@
 </div>
 
 
-<div class="wrapper">
+<div class="border rounded-md shadow-md p-8">
 <div class="font-bold text-2xl p-4" id="awards">Βραβεύσεις</div>
 <div class="list publications">
 
@@ -44,7 +46,7 @@
 <ul>
 {{ range ((index .Site.Data .Language.Lang).awards) }}
 
-        <li>
+        <li class="border-gray-400 border-b-2">
             <div class="title">{{.title}}</div>
             <div class="names">{{.names}}</div>
             <div class="year">{{.year}}</div>
@@ -54,7 +56,7 @@
     </ul>
 </div></div>
 
-<div class="wrapper">
+<div class="border rounded-md shadow-md p-8">
 <div class="font-bold text-2xl p-4" id="awards">Συνεργαζόμενα κέντρα του εξωτερικού</div>
 <div class="list publications">
 
@@ -63,7 +65,7 @@
 <ul>
 
     {{ range ((index .Site.Data .Language.Lang).synergazomena_kentra) }}
-        <li>
+        <li class="border-gray-400 border-b-2">
             <div class="title">{{.center}}{{.department}}</div>
             <div class="year">{{.city}}</div>
             <div class="publisher">{{.country}}</div>
@@ -73,12 +75,12 @@
 </div></div>
 
 
-<div class="wrapper">
+<div class="border rounded-md shadow-md p-8">
     <div class="font-bold text-2xl p-4" id="awards">Διδακτορικά</div>
     <div class="list publications">
         <ul>
             {{ range ((index .Site.Data .Language.Lang).phd) }}
-                <li>
+                <li class="border-gray-400 border-b-2">
                     <div class="title">"{{.title}}"</div>
                     <div class="names">{{.name}}</div>
                     <div class="year">{{.year}}</div>
@@ -89,12 +91,12 @@
     </div>
 </div>
 
-<div class="wrapper">
+<div class="border rounded-md shadow-md p-8">
     <div class="font-bold text-2xl p-4" id="awards">Μεταπτυχιακά</div>
     <div class="list publications">
         <ul>
             {{ range ((index .Site.Data .Language.Lang).msc) }}
-		<li>
+		<li class="border-gray-400 border-b-2">
 			<div class="title">"{{.title}}"</div>
 			<div class="names">{{.name}}</div>
 			<div class="year">{{.year}}</div>
@@ -104,5 +106,5 @@
         </ul>
     </div>
 </div>
-
+</div>
 {{ end }}

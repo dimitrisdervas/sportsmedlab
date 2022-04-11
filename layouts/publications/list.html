@@ -1,6 +1,7 @@
 {{ define "main" }}
     
-<div class="wrapper">
+<div class="container mx-auto pb-16 grid grid-cols-2 gap-8">
+    <div class=" border rounded-md shadow-md p-8 ">
 <div class="font-bold text-2xl p-4" id="books"><a href="/gr/books-all">Βιβλία</a></div>
 <div class="list publications">
 
@@ -8,19 +9,21 @@
 
 <ul>
 {{ range ((index .Site.Data .Language.Lang).books) }}
-		<li>
-			<div class="title">{{.title}}</div>
-			<div class="names">{{.names}}</div>
-			<div class="names">{{.year}}</div>
+		<li class="py-4">
+			<div class="title font-bold text-xl">{{.title}}</div>
+            <div class="flex flex-wrap ">
+			<div class="names w-full">{{.names}}</div>
+			<div class="names pr-2">{{.year}}</div>
 			<div class="names">{{.publisher}}</div>
+            </div>
+
 		</li>
 	{{ end }}
 	</ul>
-	<div class="more"><a href="/gr/books-all">Περισσότερα</a></div>
 </div></div>
 
 
-<div class="wrapper">
+    <div class=" border rounded-md shadow-md p-8 ">
 <div class="font-bold text-2xl p-4"><a href="/gr/papers-all">Δημοσιεύσεις</a></div>
 <div class="list publications">
 
@@ -28,11 +31,14 @@
 
 <ul>
 {{ range ((index .Site.Data .Language.Lang).published_articles) }}
-		<li>
-			<div class="title">{{.title}}</div>
-			<div class="names">{{.names}}</div>
-			<div class="year">{{.year}}</div>
-			<div class="publisher">{{.publisher}}</div>
+		<li class="py-4">
+                        <div class="flex ">
+			<div class="year pr-4">{{.year}}</div>
+			<div class="publisher text-gray-600">{{.publisher}}</div>
+            </div>
+			<div class="title font-bold text-xl py-1">{{.title}}</div>
+			<div class="names text-gray-500">{{.names}}</div>
+
 		</li>
 	{{ end }}
 	</ul>
@@ -40,7 +46,7 @@
 </div></div>
 
 
-<div class="wrapper">
+    <div class=" border rounded-md shadow-md p-8 ">
 <div class="font-bold text-2xl p-4"><a href="/gr/talks-all">Διαλέξεις</a></div>
 <div class="list publications">
 
@@ -60,7 +66,7 @@
 
 
 
-<div class="wrapper">
+    <div class=" border rounded-md shadow-md p-8 ">
 <div class="font-bold text-2xl p-4" ><a href="/gr/papers-all">Επιστημονικές ανακοινώσεις</a></div>
 <div class="list publications">
 
@@ -78,5 +84,5 @@
 	 <div class="more"><a href="/gr/papers-all">Περισσότερα</a></div>
 </div></div>
 
-
+</div>
 {{ end }}

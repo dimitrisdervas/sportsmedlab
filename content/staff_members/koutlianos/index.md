@@ -4,7 +4,7 @@ name: Νικόλαος Κουτλιάνος
 lang: gr
 position: Αναπληρωτής Καθηγητής Αξιολόγησης Σωματικής Υγείας Αθλουμένων
 degree: Ιατρός - Πτυχ. Φυσικής Αγωγής
-image: images/staff-members/koutlianos.jpg
+image: koutlianos.jpg
 cv_document: entipa/cv/gr/cv-koutlianos.pdf
 contact:
   tel: 2310 992 188

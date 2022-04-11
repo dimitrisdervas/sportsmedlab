@@ -4,7 +4,7 @@ name: Kouidi Evangelia
 lang: en
 position: PROFESSOR SPORTS MEDICINE
 degree: "Πτυχιούχος ΤΕΦΑΑ ΑΠΘ το 1992, Πτυχιούχος Ιατρικής Σχολής ΑΠΘ το 1998"
-image: "images/staff-members/kouidi.jpg"
+image: "kouidi.jpg"
 cv_document: entipa/cv/en/cv-kouidi.pdf
 contact:
   tel: 2310 992 189

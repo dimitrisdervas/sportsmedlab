@@ -1,97 +1,107 @@
 {{ define "main" }}
 
-<div class="wrapper">
-    <div class="font-bold text-2xl p-4" id="proptyxiaka">
-            Προπτυχιακά Μαθήματα
-    </div>
-    <div class="list publications">
-    <ul>
-        {{ range ((index .Site.Data .Language.Lang).lessons_proptyxiaka)}}
-            <li>
-                <div class="title bg-gray-200  ">
-                    <a class=" flex items-center py-4 justify-between hover:bg-sky-600 hover:text-white px-2 pr-8" href="{{.link}}" target="_blank">
-                    {{.title}}
-                    <div class="link">
-                        Πληροφορίες<i class="material-icons">info</i>
-                    </div>
-                    </a>
-                </div>
-                <div class="names text-right pr-2 text-gray-500">κατηγορία: {{.category}}</div>
-            </li>
-        {{ end }}
-        </ul>
-    </div>
-</div>
-
-<div class="wrapper">
-    <div class="font-bold text-2xl p-4" id="metaptyxiaka">
-            Μεταπτυχιακά Μαθήματα
-    </div>
-    <div class="list publications">
+<div class="container mx-auto pb-16 grid grid-cols-2 gap-8">
+    <div class=" border rounded-md shadow-md p-8 ">
+        <div class="font-bold text-2xl p-4" id="proptyxiaka">
+                Προπτυχιακά Μαθήματα
+        </div>
+        <div class="list publications">
         <ul>
-            {{ range ((index .Site.Data .Language.Lang).lessons_metaptyxiaka) }}
-                <li>
-                    <div class="title flex items-center bg-gray-200 py-4 justify-between">{{.title}}
-                        <div class="link"><a href="{{.link}}" target="_blank">Πληροφορίες<i class="material-icons">info</i></a></div></div>
-                    <div class="names text-right pr-2">
-                        <a class="hover:text-sky-800" href="{{.category_link}}">μεταπτυχιακό: {{.category}}</div>
-                    
+            {{ range ((index .Site.Data .Language.Lang).lessons_proptyxiaka)}}
+                <li class="border-gray-400 border-b-2 ">
+                    <a class=" flex flex-wrap items-center py-4  hover:bg-sky-600 hover:text-white  pr-8" href="{{.link}}" target="_blank">
+                        <div class="w-full text-lg font-bold">{{.title}}</div>
+                        <div class="names text-right pr-2 text-gray-500 text-sm  ">κατηγορία: {{.category}}</div>                        
+                    </a>      
                 </li>
             {{ end }}
+            </ul>
+        </div>
+    </div>
+        
+    <div class="border rounded-md shadow-md p-8 ">
+        <div class="font-bold text-2xl p-4" id="metaptyxiaka">
+                Μεταπτυχιακά Μαθήματα
+        </div>
+        <div class="list publications">
+            <ul>
+                {{/*  https://discourse.gohugo.io/t/groupby-for-data-files-in-hugo/21893  */}}
+                {{ $metaptyxiako := slice }}
+                {{ range (index .Site.Data .Language.Lang).lessons_metaptyxiaka }}
+                    {{ $metaptyxiako = $metaptyxiako | append .category }}
+                {{ end }}
+                {{ $metaptyxiako = uniq $metaptyxiako | sort }}
+                {{ range $metaptyxiako }}
+                    {{ $metaptyxiako := . }}
+                        {{ range where (index $.Site.Data $.Language.Lang).lessons_metaptyxiaka "category" $metaptyxiako }}
+
+                        <a class="hover:text-sky-800" href="{{ .category_link}}">Mεταπτυχιακό: {{ $metaptyxiako }}</a>
+                            <li class="border-gray-400 border-b-2 ">
+                                <div class="title flex items-center  py-4 justify-between  hover:bg-sky-600 hover:text-white  pr-8">
+                                            <a href="{{.link}}" target="_blank">
+                                                <div class="w-full text-lg font-bold">{{.title}}</div>
+                                                <i class="material-icons">info</i></a>
+                                </div>
+                            </li>
+                        {{ end }}
+                {{ end }}
+            </ul>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+    <div class="border rounded-md shadow-md p-8 ">
+        <div class="font-bold text-2xl p-4">Εισηγήσεις μελών Δ.Ε.Π.</div>
+        <div class="list-link">
+        <ul>
+        {{ range ((index .Site.Data .Language.Lang).posters) }}
+        {{ if eq .type "dialexi"}}
+                <li>
+                    <div class="title ">
+                        <a class="flex items-center rounded-md bg-gray-100 font-bold py-4 justify-between mb-4 hover:bg-sky-600 hover:text-white px-2 pr-8"
+                            href="/entipa/{{.file}}" target="_blank">"{{.title}}"
+                            <svg fill="#000000" height="28" viewbox="0 0 24 24" width="28" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M19 9h-4V3H9v6H5l7 7 7-7zM5 18v2h14v-2H5z" />
+                                <path d="M0 0h24v24H0z" fill="none" />
+                            </svg>
+                        </a>
+                    </div>
+                </li>
+        {{ end }}
+        {{ end }}
         </ul>
+        </div>
+    </div>
+
+    <div class="border rounded-md shadow-md p-8 ">
+        <div class="font-bold text-2xl p-4">
+            Εισηγήσεις μελών Δ.Ε.Π.
+        </div>
+        <div class="list-link">
+        <ul>
+        {{ range ((index .Site.Data .Language.Lang).posters) }}
+        {{ if eq .type "poster"}}
+                <li>
+                    <div class="title ">
+                        <a class="flex items-center font-bold rounded-md bg-gray-100 py-4 justify-between mb-4 hover:bg-sky-600 hover:text-white px-2 pr-8"
+                            href="/entipa/{{.file}}" target="_blank">"{{.title}}"
+                            <svg fill="#000000" height="28" viewbox="0 0 24 24" width="28" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M19 9h-4V3H9v6H5l7 7 7-7zM5 18v2h14v-2H5z" />
+                                <path d="M0 0h24v24H0z" fill="none" />
+                            </svg>
+                        </a>
+                    </div>
+                </li>
+        {{ end }}
+        {{ end }}
+        </ul>
+        </div>
     </div>
 </div>
-
-
-
-<div class="wrapper">
-    <div class="font-bold text-2xl p-4">
-        <a href="/gr/posters-all">Εισηγήσεις μελών Δ.Ε.Π.<svg fill="#000000" height="24" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"> <path d="M0 0h24v24H0z" fill="none" /> <path d="M10 16.5l6-4.5-6-4.5v9zM12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8z" /> </svg></a>
-    </div>
-    <div class="list-link">
-    <ul>
-    {{ range ((index .Site.Data .Language.Lang).posters) }}
-    {{ if eq .type "dialexi"}}
-            <li>
-                <div class="title ">
-                    <a class="flex items-center bg-gray-200 py-4 justify-between mb-4 hover:bg-sky-600 hover:text-white px-2 pr-8"
-                        href="/entipa/{{.file}}" target="_blank">"{{.title}}"
-                        <svg fill="#000000" height="28" viewbox="0 0 24 24" width="28" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M19 9h-4V3H9v6H5l7 7 7-7zM5 18v2h14v-2H5z" />
-                            <path d="M0 0h24v24H0z" fill="none" />
-                        </svg>
-                    </a>
-                </div>
-            </li>
-    {{ end }}
-    {{ end }}
-    </ul>
-    </div>
-</div>
-
-<div class="wrapper">
-    <div class="font-bold text-2xl p-4">
-        <a href="/gr/posters-all">Εισηγήσεις μελών Δ.Ε.Π.<svg fill="#000000" height="24" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"> <path d="M0 0h24v24H0z" fill="none" /> <path d="M10 16.5l6-4.5-6-4.5v9zM12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8z" /> </svg></a>
-    </div>
-    <div class="list-link">
-    <ul>
-    {{ range ((index .Site.Data .Language.Lang).posters) }}
-    {{ if eq .type "poster"}}
-            <li>
-                <div class="title ">
-                    <a class="flex items-center bg-gray-200 py-4 justify-between mb-4 hover:bg-sky-600 hover:text-white px-2 pr-8"
-                        href="/entipa/{{.file}}" target="_blank">"{{.title}}"
-                        <svg fill="#000000" height="28" viewbox="0 0 24 24" width="28" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M19 9h-4V3H9v6H5l7 7 7-7zM5 18v2h14v-2H5z" />
-                            <path d="M0 0h24v24H0z" fill="none" />
-                        </svg>
-                    </a>
-                </div>
-            </li>
-    {{ end }}
-    {{ end }}
-    </ul>
-    </div>
-</div>
-
 {{ end }}

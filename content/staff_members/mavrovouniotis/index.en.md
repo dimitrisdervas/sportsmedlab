@@ -4,7 +4,7 @@ name: Fotis Mavrovouniotis
 lang: en
 position: Αναπληρωτής Καθηγητής Άσκησης και Σωματικής Υγείας
 degree: Πτυχιούχος Φυσικής Αγωγής
-image: images/staff-members/maurovouniotis.jpg
+image: maurovouniotis.jpg
 cv_document: entipa/cv/en/cv-mavrovouniotis.pdf
 contact:
   tel: 2310 992 187

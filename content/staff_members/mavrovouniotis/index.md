@@ -4,7 +4,7 @@ name: Φώτιος Μαυροβουνιώτης
 lang: gr
 position: Καθηγητής Άσκησης και Σωματικής Υγείας
 degree: Πτυχιούχος Φυσικής Αγωγής
-image: images/staff-members/maurovouniotis.jpg
+image: mavrovouniotis.jpg
 cv_document: entipa/cv/gr/cv-mavrovouniotis.pdf
 contact:
   tel: 2310 992 187

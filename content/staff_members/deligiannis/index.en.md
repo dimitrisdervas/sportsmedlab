@@ -4,7 +4,7 @@ name: Deligiannis Asterios
 lang: en
 position: "EMERITUS PROFESSOR OF SPORTS MEDICINE"
 degree: Πτυχίο Ιατρικής ΑΠΘ (1975)
-image: images/staff-members/deligiannis.jpg
+image: deligiannis.jpg
 cv_document: entipa/cv/en/cv-deligiannis.pdf
 contact:
   tel: 2310 992 181
