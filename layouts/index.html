@@ -3,19 +3,19 @@
 
 {{/*  εργαστηριο  */}}
 <div class="container mx-auto  ">
-    <div class="border flex flex-wrap  justify-between shadow-md rounded-md mb-16 items-center">   
+    <div class=" flex flex-wrap  justify-between shadow-md rounded-md mb-16 items-center">   
     {{ with .Site.GetPage "/lab" }}
     {{ $image := .Resources.GetMatch "ergastirio-outdoor-backside.jpg"}}
     {{ $image := $image.Fill "800x600" }}
     {{ $image := $image.Filter (images.Sepia 15) }}
-    <div class="flex  items-center">
+    <div class="grid grid-cols-2 gap-4 flex  items-center">
         <img class="drop-shadow-lg rounded-sm" src="{{ $image.RelPermalink }}" width="{{ $image.Width }}" height="{{ $image.Height }}">
         <div class="px-8">
-            <div class="prose text-5xl font-bold py-2 drop-shadow-sm">Εργαστήριο Αθλητιατρικής</div>
-            <div class="prose text-3xl font-bold py-2">35 χρόνια παρουσίας στην Θεσ/νίκη</div>
-            <div class="prose">
-            <a href="{{ .RelPermalink}}">Η ιστορία του Εργαστηρίου</a>
-            </div>
+            <a class="prose hover:text-red-600" href="{{ .RelPermalink}}">
+                <div class="prose text-5xl font-bold py-2 drop-shadow-sm">Εργαστήριο Αθλητιατρικής</div>
+                <div class="prose text-3xl font-bold py-2">35 χρόνια παρουσίας στην Θεσ/νίκη</div>
+                <div class="prose">Η ιστορία του Εργαστηρίου</div>
+             </a>
         </div>
     </div>
     {{ end }}
@@ -65,8 +65,8 @@
     <ul class="grid grid-cols-3 gap-x-8  gap-y-12 px-8 pb-8 ">           
         {{ range (where  .Site.RegularPages "Section" "staff_members")  }}
             {{ if eq .Language .Page.Language }}
-            <li class="flex flex-1 shadow-md rounded-md mb-4 bg-gray-100 items-center">
-                <div class="w-64">
+            <li class="grid grid-cols-3 gap-4 shadow-md rounded-md mb-4 bg-gray-100 place-items-center">
+                <div class="col-span-1">
                 {{ $image := string .Params.image}}
                 {{ with .Resources.GetMatch $image }}
                     {{ with .Fill "150x150" }}
@@ -75,9 +75,11 @@
                 {{ end }}
 
                 </div>
-                <div class="px-4">
+                <div class="col-span-2 ">
+                    <div class="p-2">
                     <div class="font-bold text-2xl"><a href="{{ .RelPermalink }}">{{.Params.name}}</a></div>
-                    <div class="prose">{{ .Params.position | markdownify }}</div>
+                    <div class="prose text-sm">{{ .Params.position | markdownify }}</div>
+                    </div>
                 </div>
             </li>
             {{ end }}

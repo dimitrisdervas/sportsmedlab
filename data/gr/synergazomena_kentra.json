@@ -3,12 +3,17 @@
     "department": "Dept of Nephrology in Lund",
     "center": "Skåne University Hospital",
     "city": "Lund",
-    "country": "Sweden"
+    "country": "Sweden",
+    "image": "Lund_university.svg",
+    "link": "https://www.lunduniversity.lu.se/lucat/group/v1000438"
+
   },
   {
     "department": "",
     "center": "St George’s Hospital",
     "city": "London",
-    "country": "UK"
+    "country": "UK",
+    "image": "stgeorge.png",
+    "link": "https://www.stgeorges.nhs.uk/"
   }
 ]

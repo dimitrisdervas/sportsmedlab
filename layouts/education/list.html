@@ -2,16 +2,16 @@
 
 <div class="container mx-auto pb-16 grid grid-cols-2 gap-8">
     <div class=" border rounded-md shadow-md p-8 ">
-        <div class="font-bold text-2xl p-4" id="proptyxiaka">
+        <div class="font-bold text-3xl p-4" id="proptyxiaka">
                 Προπτυχιακά Μαθήματα
         </div>
         <div class="list publications">
         <ul>
             {{ range ((index .Site.Data .Language.Lang).lessons_proptyxiaka)}}
-                <li class="border-gray-400 border-b-2 ">
-                    <a class=" flex flex-wrap items-center py-4  hover:bg-sky-600 hover:text-white  pr-8" href="{{.link}}" target="_blank">
+                <li class="border-gray-100 border-b-2 ">
+                    <a class=" flex flex-wrap items-center py-4 px-2 hover:text-red-600  pr-8" href="{{.link}}" target="_blank">
                         <div class="w-full text-lg font-bold">{{.title}}</div>
-                        <div class="names text-right pr-2 text-gray-500 text-sm  ">κατηγορία: {{.category}}</div>                        
+                        {{/*  <div class="names text-right pr-2 text-gray-500 text-sm  ">κατηγορία: {{.category}}</div>                          */}}
                     </a>      
                 </li>
             {{ end }}
@@ -20,7 +20,7 @@
     </div>
         
     <div class="border rounded-md shadow-md p-8 ">
-        <div class="font-bold text-2xl p-4" id="metaptyxiaka">
+        <div class="font-bold text-3xl p-4" id="metaptyxiaka">
                 Μεταπτυχιακά Μαθήματα
         </div>
         <div class="list publications">
@@ -35,12 +35,18 @@
                     {{ $metaptyxiako := . }}
                         {{ range where (index $.Site.Data $.Language.Lang).lessons_metaptyxiaka "category" $metaptyxiako }}
 
-                        <a class="hover:text-sky-800" href="{{ .category_link}}">Mεταπτυχιακό: {{ $metaptyxiako }}</a>
-                            <li class="border-gray-400 border-b-2 ">
-                                <div class="title flex items-center  py-4 justify-between  hover:bg-sky-600 hover:text-white  pr-8">
-                                            <a href="{{.link}}" target="_blank">
-                                                <div class="w-full text-lg font-bold">{{.title}}</div>
-                                                <i class="material-icons">info</i></a>
+                        
+                            <li class="border-gray-100 border-b-2 py-2">
+                                <div class="title flex items-center  justify-between ">
+                                            <a href="{{.link}}" target="_blank" class="w-3/4   
+                                            text-lg font-bold hover:text-red-600">
+                                                {{.title}}
+                                            </a>
+                                            <a class="hover:text-red-600 
+                                            w-1/4
+                                             bg-gray-100 rounded-md text-gray-500 p-2 text-right font-bold text-sm" 
+                                                href="{{ .category_link}}">{{ $metaptyxiako }}
+                                            </a>
                                 </div>
                             </li>
                         {{ end }}
@@ -57,19 +63,18 @@
 
 
     <div class="border rounded-md shadow-md p-8 ">
-        <div class="font-bold text-2xl p-4">Εισηγήσεις μελών Δ.Ε.Π.</div>
+        <div class="font-bold text-3xl p-4">Εισηγήσεις μελών Δ.Ε.Π.</div>
         <div class="list-link">
         <ul>
         {{ range ((index .Site.Data .Language.Lang).posters) }}
         {{ if eq .type "dialexi"}}
                 <li>
                     <div class="title ">
-                        <a class="flex items-center rounded-md bg-gray-100 font-bold py-4 justify-between mb-4 hover:bg-sky-600 hover:text-white px-2 pr-8"
+                        <a class="flex items-center font-bold rounded-md 
+                        py-4 justify-between mb-4 
+                        hover:text-red-500  px-2 pr-8"
                             href="/entipa/{{.file}}" target="_blank">"{{.title}}"
-                            <svg fill="#000000" height="28" viewbox="0 0 24 24" width="28" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M19 9h-4V3H9v6H5l7 7 7-7zM5 18v2h14v-2H5z" />
-                                <path d="M0 0h24v24H0z" fill="none" />
-                            </svg>
+<span class="text-gray-600 px-2">(.pdf)</span>
                         </a>
                     </div>
                 </li>
@@ -80,7 +85,7 @@
     </div>
 
     <div class="border rounded-md shadow-md p-8 ">
-        <div class="font-bold text-2xl p-4">
+        <div class="font-bold text-3xl p-4">
             Εισηγήσεις μελών Δ.Ε.Π.
         </div>
         <div class="list-link">
@@ -89,12 +94,11 @@
         {{ if eq .type "poster"}}
                 <li>
                     <div class="title ">
-                        <a class="flex items-center font-bold rounded-md bg-gray-100 py-4 justify-between mb-4 hover:bg-sky-600 hover:text-white px-2 pr-8"
+                        <a class="flex items-center font-bold rounded-md 
+                        py-4 justify-between mb-4 
+                        hover:text-red-500  px-2 pr-8"
                             href="/entipa/{{.file}}" target="_blank">"{{.title}}"
-                            <svg fill="#000000" height="28" viewbox="0 0 24 24" width="28" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M19 9h-4V3H9v6H5l7 7 7-7zM5 18v2h14v-2H5z" />
-                                <path d="M0 0h24v24H0z" fill="none" />
-                            </svg>
+<span class="text-gray-600 px-2">(.pdf)</span>
                         </a>
                     </div>
                 </li>

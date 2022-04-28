@@ -1,37 +1,59 @@
 {{ define "main" }}
     
+<div class="container mx-auto mb-16">
+    <div class="font-bold text-3xl pb-8" id="awards">Συνεργαζόμενα κέντρα του εξωτερικού</div>
+    <div class=" border rounded-md shadow-md">
+        <ul class="grid grid-cols-2 gap-8 p-16">
+        {{ range ((index .Site.Data .Language.Lang).synergazomena_kentra) }}
+            <li class="">
+                <a href="{{.link}}">
+                <img src="/images/kentra/{{.image}}" alt="{{.center}}{{.department}}">
+                </a>
+            </li>
+        {{end}}
+        </ul>
+    </div>  
+</div>
+</div>
+
+<div class="container mx-auto mb-16">
+    <div class="">
+        <div class="font-bold text-3xl pb-8 " id="interests">Τομείς ερευνητικής δραστηριότητας</div>
+        <div class="list list publications">
+
+    <!-- Editor Link -->
+
+
+        <ul class="grid grid-cols-3 gap-8">
+            {{ range ((index .Site.Data .Language.Lang).interests)}}
+            
+                <li class="border rounded-md shadow-md p-8 flex items-center">
+                    <div class="title text-xl">{{.title}}</div>
+                </li>
+            {{end}}
+            </ul>
+        </div>
+    </div>
+</div>
 
 <div class="container mx-auto pb-16 grid grid-cols-2 gap-8">
-<div class="border rounded-md shadow-md p-8">
-    <div class="font-bold text-2xl p-4" id="interests">Τομείς ερευνητικής δραστηριότητας</div>
-    <div class="list list publications">
-
-<!-- Editor Link -->
 
 
-    <ul>
-        {{ range ((index .Site.Data .Language.Lang).interests)}}
-        
-            <li class="border-gray-400 border-b-2">
-                <div class="title">{{.title}}</div>
-            </li>
-        {{end}}
-        </ul>
-    </div>
-</div>
+
+
+
 
 <div class="border rounded-md shadow-md p-8">
-    <div class="font-bold text-2xl p-4" id="science-projects">Ερευνητικά προγράμματα</div>
+    <div class="font-bold text-2xl py-4" id="science-projects">Ερευνητικά προγράμματα</div>
     <div class="list publications">
-
-
     <ul>
-        {{ range ((index .Site.Data .Language.Lang).research_programs) }}
-            <li class="border-gray-400 border-b-2">
-                <div class="title">{{.title}}</div>
-                <div class="names">{{.date}}</div>
-                <div class="year">{{.authority}}</div>
-            </li>
+        {{ range first 5 ((index .Site.Data .Language.Lang).research_programs) }}
+         <li class="py-4">
+                <div class="flex ">
+                    <div class="names text-gray-500">{{.authority}}</div>
+                </div>
+                <div class="title font-bold text-xl py-1">{{.title}}</div>
+    		</li>
         {{end}}
         </ul>
     </div>
@@ -39,69 +61,60 @@
 
 
 <div class="border rounded-md shadow-md p-8">
-<div class="font-bold text-2xl p-4" id="awards">Βραβεύσεις</div>
+<div class="font-bold text-2xl py-4" id="awards">Βραβεύσεις</div>
 <div class="list publications">
 
 
 <ul>
-{{ range ((index .Site.Data .Language.Lang).awards) }}
+{{ range first 5 ((index .Site.Data .Language.Lang).awards) }}
+        <li class="py-4">
+            <div class="flex ">
+			<div class="year pr-4 text-gray-600 font-bold ">{{.year}}</div>
+			<div class="names text-gray-500">{{.names}}</div>
+            </div>
+			<div class="title font-bold text-xl py-1">{{.congress}}</div>
 
-        <li class="border-gray-400 border-b-2">
-            <div class="title">{{.title}}</div>
-            <div class="names">{{.names}}</div>
-            <div class="year">{{.year}}</div>
-            <div class="publisher">{{.congress}}</div>
-        </li>
-    {{end}}
-    </ul>
-</div></div>
+		</li>
 
-<div class="border rounded-md shadow-md p-8">
-<div class="font-bold text-2xl p-4" id="awards">Συνεργαζόμενα κέντρα του εξωτερικού</div>
-<div class="list publications">
-
-
-
-<ul>
-
-    {{ range ((index .Site.Data .Language.Lang).synergazomena_kentra) }}
-        <li class="border-gray-400 border-b-2">
-            <div class="title">{{.center}}{{.department}}</div>
-            <div class="year">{{.city}}</div>
-            <div class="publisher">{{.country}}</div>
-        </li>
     {{end}}
     </ul>
 </div></div>
 
 
+
+
 <div class="border rounded-md shadow-md p-8">
-    <div class="font-bold text-2xl p-4" id="awards">Διδακτορικά</div>
+    <div class="font-bold text-2xl py-4" id="awards">Διδακτορικά</div>
     <div class="list publications">
         <ul>
-            {{ range ((index .Site.Data .Language.Lang).phd) }}
-                <li class="border-gray-400 border-b-2">
-                    <div class="title">"{{.title}}"</div>
-                    <div class="names">{{.name}}</div>
-                    <div class="year">{{.year}}</div>
-                    <div class="publisher">{{.publisher}}</div>
-                </li>
+            {{ range first 5 ((index .Site.Data .Language.Lang).phd) }}
+            <li class="py-4">
+            <div class="flex ">
+			<div class="year pr-4 text-gray-600 font-bold ">{{.year}}</div>
+			<div class="names text-gray-500">{{.name}}</div>
+            </div>
+			<div class="title font-bold text-xl py-1">{{.title}}</div>
+		
+
+		</li>
+
             {{end}}
         </ul>
     </div>
 </div>
 
 <div class="border rounded-md shadow-md p-8">
-    <div class="font-bold text-2xl p-4" id="awards">Μεταπτυχιακά</div>
+    <div class="font-bold text-2xl py-4" id="awards">Μεταπτυχιακά</div>
     <div class="list publications">
         <ul>
-            {{ range ((index .Site.Data .Language.Lang).msc) }}
-		<li class="border-gray-400 border-b-2">
-			<div class="title">"{{.title}}"</div>
-			<div class="names">{{.name}}</div>
-			<div class="year">{{.year}}</div>
-			<div class="publisher">{{.publisher}}</div>
-		</li>
+            {{ range first 5 ((index .Site.Data .Language.Lang).msc) }}
+            <li class="py-4">
+                <div class="flex ">
+                <div class="year pr-4 text-gray-600 font-bold ">{{.year}}</div>
+                <div class="names text-gray-500">{{.name}}</div>
+                </div>
+                <div class="title font-bold text-xl py-1">{{.title}}</div>
+    		</li>
             {{end}}
         </ul>
     </div>
