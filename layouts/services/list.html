@@ -8,30 +8,24 @@
         <div class=" border shadow-md rounded-md ">
             {{ with .Site.GetPage "/services" }}
                 {{ $image := .Resources.GetMatch "ecg.jpg"}}
-                {{ $image := $image.Fill "800x600" }}
+                {{ $image := $image.Fill "800x400 Center" }}
                 <img class="drop-shadow-lg rounded-sm mb-4" src="{{ $image.RelPermalink }}" width="{{ $image.Width }}" height="{{ $image.Height }}">
             {{ end }}
             <div class="px-8 py-8">
             {{ with .Site.GetPage "/services/check_health" }}
-
-            <div class="prose">
-                    {{.Content}}
-                </div>
+                <div class="prose"> {{.Content}} </div>
             {{ end }}
             </div>
         </div>
         <div class=" border shadow-md rounded-md ">
             {{ with .Site.GetPage "/services" }}
                 {{ $image := .Resources.GetMatch "exercise.jpg"}}
-                {{ $image := $image.Fill "800x600" }}
+                {{ $image := $image.Fill "800x400 Center" }}
                 <img class="drop-shadow-lg rounded-sm mb-4" src="{{ $image.RelPermalink }}" width="{{ $image.Width }}" height="{{ $image.Height }}">
             {{ end }}
             <div class="px-4 py-8">
             {{ with .Site.GetPage "/services/exercise_programs" }}            
-                <div class="prose">
-                    {{.Content}}
-                </div>
-
+                <div class="prose"> {{.Content}} </div>
             {{ end }}
             </div>
         </div>

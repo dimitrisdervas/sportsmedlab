@@ -1,6 +1,6 @@
 ---
 title: "Εκπαίδευση"
-image: /images/slideshow/bookcovers.png
+image: bookcovers.png
 tag: education
 ---
 
