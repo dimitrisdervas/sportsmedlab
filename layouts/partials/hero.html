@@ -1,0 +1,15 @@
+<div class="hero  w-full " 
+
+ {{ if eq .Kind  "home" }}
+style=""
+{{ end }}
+>
+        
+        {{ range first 1 (where .Site.RegularPages.ByTitle "Section" "slideshow" ) }}
+
+            {{ partial "image_scrset.html" . }}
+        
+
+        {{ end }}
+</div>
+

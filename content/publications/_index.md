@@ -1,6 +1,6 @@
 ---
 title: "Δημοσιεύσεις"
-image-hero: /assets/images/slideshow/book-covers.jpg
+image: /images/slideshow/bookcovers.png
 tag: publications
 ---
 

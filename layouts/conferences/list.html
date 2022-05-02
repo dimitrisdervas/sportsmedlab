@@ -1,6 +1,6 @@
 {{ define "main" }}
 
-<div class="container mx-auto pb-16">
+<div class="container mx-auto mb-16 border rounded-md shadow-md p-8">
         <div class="p-4">
             <div class="subtitle">
                 <div class="date text-black text-lg font-bold">1-3 Απριλίου 2022</div>
@@ -15,7 +15,7 @@
 
 
 
-<div class="container mx-auto pb-16 grid grid-cols-2 gap-4">
+<div class="container mx-auto pb-16 grid grid-cols-2 gap-8">
 {{/*  https://mertbakir.gitlab.io/hugo/group-by-data-files/  */}}
 {{ $conferencesTypes := slice }}
 {{ range ((index .Site.Data .Language.Lang).conferences) }}

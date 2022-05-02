@@ -1,6 +1,6 @@
 ---
 title: "Εκπαίδευση"
-image-hero: /assets/images/slideshow/synedria-0009.jpg
+image: /images/slideshow/bookcovers.png
 tag: education
 ---
 

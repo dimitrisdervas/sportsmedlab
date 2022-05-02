@@ -1,5 +1,5 @@
 ---
 title: "Συνέδρια"
-image-hero: /assets/images/slideshow/synedria.jpg
+image: /images/conferences/conference_04_22.jpg
 tag: conferences
 ---
