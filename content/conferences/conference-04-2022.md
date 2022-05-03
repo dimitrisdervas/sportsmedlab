@@ -5,7 +5,16 @@ image-hero: "/assets/images/slideshow/slideshowpanellinio2022.png"
 ---
 ## ΠΑΡΑΣΚΕΥΗ 1 ΑΠΡΙΛΙΟΥ 2022
 
-### Στρογγυλή Τράπεζα «Παθολογία Αθλουμένων» 
+### Κεντρική Oμιλία 
+Πρόεδρος: Γ. Τζέτζης
+
+- [Άθληση στην εποχή του κορωνοϊού: Οφέλη-κίνδυνοι - Α. Δεληγιάννης](https://www.youtube.com/watch?v=FajnL3wWWc4) 48:02
+
+### ΔΙΑΛΕΞΗ 
+
+- [Πρόληψη από Αιφνίδιο Καρδιακό Θάνατο κατά την Άθληση - Ε. Κουϊδή](https://www.youtube.com/watch?v=5MI2x5d0zaM) 26:41
+
+### Παθολογία Αθλουμένων» 
 Πρόεδροι: Π. Ζεμπεκάκης - Αικ. Παπαγιάννη
 
 - [Αρτηριακή υπέρταση και άσκηση - Κ. Δίπλα - Ιατρικής της Άθλησης στον 21ο αιώνα](https://www.youtube.com/watch?v=NT9KaQF6NTU)20:21
@@ -18,7 +27,7 @@ image-hero: "/assets/images/slideshow/slideshowpanellinio2022.png"
 - [Σακχαρώδης διαβήτης και Άσκηση - Κ. Κώτσα - Ιατρικής της Άθλησης στον 21ο αιώνα](https://www.youtube.com/watch?v=XWKdVsnPXMU)21:32
 
 
-### Στρογγυλή Τράπεζα «Σύγχρονα Θέματα Αθλητιατρικής» 
+### Σύγχρονα Θέματα Αθλητιατρικής» 
 Πρόεδροι: Κ. Χριστούλας - Β. Μούγιος
 
 - [Βάδισμα ή τρέξιμο; - Ν. Στεργίου - Ιατρικής της Άθλησης στον 21ο αιώνα](https://www.youtube.com/watch?v=gVfEECswMYE) 22:31
@@ -30,7 +39,7 @@ image-hero: "/assets/images/slideshow/slideshowpanellinio2022.png"
 - [Φαρμακευτικό ντόπινγκ στον αθλητισμό - Ν. Κουτλιάνος - Ιατρικής της Άθλησης στον 21ο αιώνα](https://www.youtube.com/watch?v=skcyjGNowhI) 18:15
 
 
-### Στρογγυλή Τράπεζα (σε συνεργασία με την EURORECKD) «Θεραπευτική Άσκηση στη Χρόνια Νεφρική Νόσο» 
+### «Θεραπευτική Άσκηση στη Χρόνια Νεφρική Νόσο» σε συνεργασία με την EURORECKD 
 Πρόεδροι: Ν. Clyne - Α. Δεληγιάννης
 
 
@@ -45,7 +54,7 @@ image-hero: "/assets/images/slideshow/slideshowpanellinio2022.png"
 - [Exercise training in hemodialysis patients - C. Grupp](https://www.youtube.com/watch?v=27xcFr5VL6A) 18:09
 
 
-### Στρογγυλή Τράπεζα «Αθλητιατρική στο Ποδόσφαιρο» 
+### Αθλητιατρική στο Ποδόσφαιρο» 
 Πρόεδροι: Ι. Βράμπας - Ε. Κέλλης
 
 - [Συστήματα πρόληψης κακώσεων - Θ. Μεταξάς - Ιατρική της Άθλησης](https://www.youtube.com/watch?v=lU1CyxCmWZw) 14:31
@@ -64,17 +73,9 @@ image-hero: "/assets/images/slideshow/slideshowpanellinio2022.png"
 - [Recommendations for exercise in patients with coronary heart disease - A. Biffi](https://www.youtube.com/watch?v=rjkciQ9xMqA) 32:18
 
 
-### ΔΙΑΛΕΞΗ «Πρόληψη από Αιφνίδιο Καρδιακό Θάνατο κατά την Άθληση» Πρόεδρος: Γ. Κοχιαδάκης
-
-- [Πρόληψη από Αιφνίδιο Καρδιακό Θάνατο κατά την Άθληση - Ε. Κουϊδή](https://www.youtube.com/watch?v=5MI2x5d0zaM) 26:41
 
 
-### Τελετή Έναρξης - Χαιρετισμοί Eπισήμων Κεντρική Oμιλία Πρόεδρος: Γ. Τζέτζης
-
-- [Άθληση στην εποχή του κορωνοϊού: Οφέλη-κίνδυνοι - Α. Δεληγιάννης](https://www.youtube.com/watch?v=FajnL3wWWc4) 48:02
-
-
-### Στρογγυλή Τράπεζα «Αθλητιατρική στον Μαραθώνιο» 
+### Αθλητιατρική στον Μαραθώνιο» 
 Πρόεδροι: Ν. Γελαδάς - Κ. Αλεξανδρής
 
 - [Θερμορύθμιση κατά τη μαραθώνια προσπάθεια - Α. Φλουρής - Ιατρικής της Άθλησης 21ο αιώνα](https://www.youtube.com/watch?v=EE6aaxsxVTg) 18:34
@@ -87,7 +88,7 @@ image-hero: "/assets/images/slideshow/slideshowpanellinio2022.png"
 
 
 
-### Στρογγυλή Τράπεζα «Επιστροφή στις Αθλητικές Δραστηριότητες μετά από Αρθροπλαστική» 
+### Επιστροφή στις Αθλητικές Δραστηριότητες μετά από Αρθροπλαστική» 
 Πρόεδροι: E. Τσιρίδης - Σ. Παπαστεργίου
 
 - [Προσαρμογές στην κινηματική αλυσίδα του κάτω άκρου μετά από αρθροπλαστική ισχίου–γόνατος σε αθλητές](https://www.youtube.com/watch?v=GKpX1qdx5Mc) 25:47
@@ -99,7 +100,7 @@ image-hero: "/assets/images/slideshow/slideshowpanellinio2022.png"
 - [Επιστροφή στα sports μετά από MIS αρθροπλαστική ισχίου - Ε. Κενανίδης](https://www.youtube.com/watch?v=G8NrNPjcI4s) 13:18
 
 
-### Στρογγυλή Τράπεζα «Καρδιακές Παθήσεις και Άσκηση στους Νέους» 
+### Καρδιακές Παθήσεις και Άσκηση στους Νέους» 
 Πρόεδροι: Γ. Ευθυμιάδης - Γ. Γιαννόπουλος
 
 - [Exercise and cardiovascular health: is there an optimal dose? - M. Borjesson](https://www.youtube.com/watch?v=IzZO2GfIn1Q) 16:43
@@ -112,7 +113,7 @@ image-hero: "/assets/images/slideshow/slideshowpanellinio2022.png"
 
 
 
-### Στρογγυλή Τράπεζα «Ειδικά Θέματα Εφαρμοσμένης Αθλητιατρικής» 
+### Ειδικά Θέματα Εφαρμοσμένης Αθλητιατρικής» 
 Πρόεδροι: Χ. Τσορμπατζούδης - Χ. Ευαγγελινού
 
 - [Άσκηση για άτομα με κώφωση - Ε. Φωτιάδου](https://www.youtube.com/watch?v=VV4_H6OX8_w) 20:04
@@ -124,7 +125,7 @@ image-hero: "/assets/images/slideshow/slideshowpanellinio2022.png"
 - [Exercise with artificial limbs: An update - S. Bubanj](https://www.youtube.com/watch?v=2gteInabUTg) 14:33
 
 
-### Στρογγυλή Τράπεζα «Η Αθλητιατρική στον Κλασσικό Αθλητισμό Αναπτυξιακών Ηλικιών» 
+### Η Αθλητιατρική στον Κλασσικό Αθλητισμό Αναπτυξιακών Ηλικιών» 
 Πρόεδροι: Ι. Αμοιρίδης - A. Ζαφειρίδης
 
 - [Ασφαλής και ωφέλιμη ένταξη παιδιών και εφήβων (Part 2) - Β. Μάνου](https://www.youtube.com/watch?v=4hDl5GLItEs) 12:01
@@ -138,7 +139,7 @@ image-hero: "/assets/images/slideshow/slideshowpanellinio2022.png"
 - [Κόπωση και άσκηση - Δ. Πατίκας](https://www.youtube.com/watch?v=26KcehlMelg) 16:24
 
 
-### Στρογγυλή Τράπεζα «Άσκηση στην Τρίτη Ηλικία» 
+### Άσκηση στην Τρίτη Ηλικία» 
 Πρόεδροι: Φ. Μαυροβουνιώτης - Σ. Δούκα
 
 - [Περιφερικό Νευρικό Σύστημα και άσκηση - Α. Κυπάρος](https://www.youtube.com/watch?v=P-myM8LzwX0) 18:12
