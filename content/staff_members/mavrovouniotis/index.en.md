@@ -2,7 +2,7 @@
 title: Mavrovouniotis
 name: Fotis Mavrovouniotis
 lang: en
-position: Αναπληρωτής Καθηγητής Άσκησης και Σωματικής Υγείας
+position: PROFESSOR
 degree: Πτυχιούχος Φυσικής Αγωγής
 image: maurovouniotis.jpg
 cv_document: entipa/cv/en/cv-mavrovouniotis.pdf

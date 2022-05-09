@@ -1,15 +1,7 @@
-<div class="hero  w-full " 
-
- {{ if eq .Kind  "home" }}
-style=""
-{{ end }}
->
+<div class="hero  w-full">
         
         {{ range first 1 (where .Site.RegularPages.ByTitle "Section" "slideshow" ) }}
-
             {{ partial "image_scrset.html" . }}
-        
-
         {{ end }}
 </div>
 

@@ -9,9 +9,6 @@ link: "https://www.myway-project.org/"
 Μία ευρωπαϊκή καινοτόμος συνεργασία μεταξύ φορέων για την ανάπτυξη, εφαρμογή και μεταφορά καινοτόμων πρακτικών που σχετίζονται με τη φυσική δραστηριότητα που βελτιώνει την υγεία σε ασθενείς μετά το εγκεφαλικό επεισόδιο.
 
 
-
-
-
 <a class="w-full flex flex-wrap md:flex-no-wrap justify-center md:justify-start items-center" href="https://www.myway-project.org/">
 <img class="md:w-1/5" src="/images/myway/myway.png" alt="myway">
 <img class="md:w-2/5" src="/images/myway/erasmus_logo.jpg" alt="erasmus+">

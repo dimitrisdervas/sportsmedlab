@@ -1,0 +1,55 @@
+{{ define "main" }}
+
+<iframe src="https://cdn.knightlab.com/libs/timeline3/latest/embed/index.html?source=143qDyQxWEGhZ58ZTHfMaidCz77EF-kh15B7qnYbRCpk&font=Default&lang=el&initial_zoom=2&height=650" width="100%" height="634px" frameborder="0"></iframe>
+                                
+
+
+<section class="container mx-auto  mb-16">
+     <div class="prose text-5xl font-bold  drop-shadow-sm p-8 pb-16"> History </div>
+    <div class="prose mx-auto  drop-shadow-sm ">
+{{ with .Site.GetPage "/lab/history.md" }}
+    {{ .Summary }}
+    {{ if .Truncated }}
+      <a href="{{ .RelPermalink }}">Read More ...</a>
+    {{ end }}
+{{ end }}
+</div>
+</section>
+
+
+{{/*  PROSOPIKO  */}}
+<section class="container mx-auto  mb-16">
+    <div class="prose text-5xl font-bold  drop-shadow-sm p-8 pb-16">Teaching Staff</div>
+    <ul class="grid grid-cols-3 gap-x-8  gap-y-12 px-8 pb-8 ">           
+        {{ range (where  .Site.RegularPages "Section" "staff_members")  }}
+            {{ if eq .Language .Page.Language }}
+            <li class="flex flex-1 shadow-md rounded-md mb-4 bg-gray-100 items-center">
+                <div class="w-64">
+                {{ $image := string .Params.image}}
+                {{ with .Resources.GetMatch $image }}
+                    {{ with .Fill "150x150" }}
+                        <img src="{{ .RelPermalink }}" width="{{ .Width }}" height="{{ .Height }}">
+                    {{ end }}
+                {{ end }}
+
+                </div>
+                <div class="px-4">
+                    <div class="font-bold text-2xl"><a href="{{ .RelPermalink }}">{{.Params.name}}</a></div>
+                    <div class="prose">{{ .Params.position | markdownify }}</div>
+                </div>
+            </li>
+            {{ end }}
+        {{ end }}
+    </ul>
+        </div>
+</section>
+
+<section class="container mx-auto  mb-16">
+    <div class="prose mx-auto  drop-shadow-sm ">
+{{ with .Site.GetPage "/lab/exoplismos.md" }}{{ .Content }}{{ end }}
+</div>
+</section>
+
+
+    
+{{ end }}
