@@ -3,14 +3,14 @@
 
 
 {{/*  YOUTUBE VIDEOS  */}}
-<div class="container mx-auto shadow-md rounded-md mb-16 ">
+<div class="container mx-auto shadow-md rounded-md mb-16 bg-white ">
     <div class="flex justify-between">
-        <div class="w-2/3">      
-            <a href="conference-04-2022/">
+        <div class="">      
+            <a class="flex justify-center" href="conference-04-2022/">
                 <img class="w-full" src="/images/conferences/conference_04_22.jpg" alt="">
             </a>
         </div>  
-        <a class="date text-black text-lg font-bold  bg-gray-200 opacity-80 hover:bg-sky-600 hover:text-white" 
+        <a class="w-1/3 date text-black text-lg font-bold  bg-gray-200 opacity-80 hover:bg-sky-600 hover:text-white" 
         href="https://www.youtube.com/channel/UCYRSJ_S8qYoNv0IIjmO-NIA/videos">
            <div class="w-full text-center p-8">δείτε τα video του συνεδρίου στο YouTube</div>
            <div class="flex justify-center pb-8">
@@ -21,7 +21,7 @@
 </div>
 
 
-<div class="container mx-auto pb-16 grid grid-cols-2 gap-8">
+<div class="container mx-auto pb-16 grid grid-cols-2 gap-8 ">
 {{/*  https://mertbakir.gitlab.io/hugo/group-by-data-files/  */}}
 {{ $conferencesTypes := slice }}
 {{ range ((index .Site.Data .Language.Lang).conferences) }}
@@ -32,15 +32,15 @@
 {{ range $conferencesTypes }}
 
     {{ $conferenceType := . }}
-<div class=" border rounded-md shadow-md p-8 ">
-<div class="font-bold text-2xl py-4">{{ $conferenceType }}</div>
+<div class=" border rounded-md shadow-md p-8 bg-white">
+<div class="font-bold text-2xl py-4 text-tahiti">{{ $conferenceType }}</div>
 
     {{ range where ((index $.Site.Data $.Language.Lang).conferences) "type" $conferenceType }}
 <div class="mb-2">
             <div class="flex ">
 			    <div class="year pr-4 text-gray-800 font-bold  ">{{.year}}</div>
             </div>
-			<div class="title prose">{{.name}}</div>
+			<div class="title prose text-tahiti">{{.name}}</div>
 </div>
     {{ end }}
 </div>

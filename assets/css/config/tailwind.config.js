@@ -10,6 +10,11 @@ module.exports = {
     ],
   },
   theme: {
+    colors: {
+      transparent: "transparent",
+      tahiti: "#001c48",
+      bodybg: "#f2f2f3",
+    },
     extend: {
       // Fonts are stored in their own module to tidy up the root config file.
       fontFamily: {
@@ -29,4 +34,8 @@ module.exports = {
       },
     },
   },
+    plugins: [
+        require("@tailwindcss/typography"),
+        // ...
+    ],
 };

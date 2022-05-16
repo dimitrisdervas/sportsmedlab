@@ -1,4 +1,4 @@
-<header class="w-full  md:pb-6 lg:pb-6 pt-2 z-10      {{ if eq .Kind  "home" }} hover:bg-gray-200 hover:opacity-80 absolute top-0 {{ end}}"
+<header class="w-full py-2 shadow-md border-t-4 border-red-500 z-10  bg-white    {{ if eq .Kind  "home" }} hover:bg-gray-200 hover:opacity-80 absolute top-0 {{ end}}"
             {{ if eq .Kind  "home" }}
 
             style="@media only screen and (min-width: 768px) { height: 23vh; }"
@@ -6,23 +6,48 @@
         >
 
 
-<div class="flex container mx-auto  pb-8 justify-between items-center ">
+<div class="flex container mx-auto  justify-between items-center ">
 
-        <div class="logo-image">
+        <div class="logo-image border-r ">
             <a class=" flex items-center flex-wrap justify-between"  href="/">
                 <img class="w-full h-full"src="/images/logo/logo_with_letters.png">
             </a>
         </div>
                
+        <nav class="flex container mx-auto justify-around mx-auto py-2 ">
 
-        <div class="auth">
+        {{ range ((index .Site.Data .Language.Lang).navigation)}}
+
+        <a class="px-4 text-lg
+                    {{with .Site.Home}}
+                    drop-shadow-lg
+                    {{ end }}
+        hover:text-red-600 font-bold" href="{{.link}}">{{ .name }}</a>
+        {{ end }}
+
+        {{/*    */}}
+        {{/*  LANGUAGES  */}}
+        {{/*    */}}
+        {{ if .Page.IsTranslated }}
+            <ul>
+            {{ range .Translations }}
+            <li>
+                <a href="{{ .Permalink }}">{{ .Site.Language.LanguageName }}</a>
+            </li>
+            {{ end }}
+            </ul>
+        {{ end }}
+
+        </nav>
+
+        <div class="auth border-l pl-2">
             <a class=" flex items-center flex-wrap justify-start" href="https://www.phed.auth.gr/">
                 <img class="w-42" src="/images/logo/new-color-teffa-auth-web.png">
             </a></div>
 
 </div>
 
-{{ partial "navigation.html" . }}
+
 
 </header>
 

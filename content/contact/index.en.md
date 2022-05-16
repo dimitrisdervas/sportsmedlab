@@ -9,58 +9,45 @@ map:
 ---
 
 
-
 ## Sweaty Hearts
 
-Τηλ: 2310 992493, 2310 992184</p>
+Phone: 2310 992493, 2310 992184</p>
 
 email: mamel@phed.auth.gr
 
 
 
+## TEFAA Thermi
 
-## Εργαστήριο Αθλητιατρικής Τ.Ε.Φ.Α.Α. Α.Π.Θ.
+TEFAA Thermi PC 57001 (opposite of Lida Maria) Laboratory Building (3rd floor)
 
+Phone: +302310 992184, 992182, 992181 
 
-Εγκαταστάσεις Τ.Ε.Φ.Α.Α. ΘΕΡΜΗ Τ.Κ. 57001 (έναντι οικισμού Λήδα Μαρία) Κτίριο Εργαστηρίων (3ος όροφος)
+Phone/Fax: +302310 992188
 
-Τηλ: +302310 992184, 992182, 992181
+e-mails: 
 
-Fax: +302310 992188
-
-
-
-
-
-## Διδακτικό Προσωπικό
-
-
-### Δεληγιάννης Αστέριος - Ομότιμος Καθηγητής
-
+### Asterios Deligiannis
 - stergios@med.auth.gr
 - adeligia@phed.auth.gr
 
-### ΕΥΑΓΓΕΛΙΑ ΚΟΥΙΔΗ - Διευθύντρια Εργαστηρίου 
+### Evangelia Kouidi
 - ekouidi@med.auth.gr
 - kouidi@phed.auth.gr
 
-### ΦΩΤΙΟΣ ΜΑΥΡΟΒΟΥΝΙΩΤΗΣ
-
+### Fotios Mavrovouniotis
 - mavrov@phed.auth.gr
 
-### ΝΙΚΟΛΑΟΣ ΚΟΥΤΛΙΑΝΟΣ
-
+### Nikolaos Koutlianos
 - koutlian@phed.auth.gr
 
-### ΔΗΜΗΤΡΑ ΜΑΜΕΛΕΤΖΗ
-
+### Dimitra Mameletzi
 - mamel@phed.auth.gr
 
 
+## Useful Links:
 
-## Χρήσιμα Links:
-
-- [ΤΕΦΑΑ ΑΠΘ](https://www.phed.auth.gr/)
+- [PHED AUTH](https://www.phed.auth.gr/)
 - [Cardiac Rehab από το εργαστήριο Αθλητιατρικής ΤΕΦΑΑ ΑΠΘ](https://cardiacrehab.gr/)
 - [Mywayproject](https://www.myway-project.org/)
 - [Sweaty hearts](https://sweatyhearts.carrd.co/)

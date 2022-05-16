@@ -83,41 +83,7 @@
 
 
 
-<div class="border rounded-md shadow-md p-8 bg-white">
-    <div class="font-bold text-2xl py-4 text-tahiti" id="awards">Διδακτορικά</div>
-    <div class="list publications">
-        <ul>
-            {{ range first 5 ((index .Site.Data .Language.Lang).phd) }}
-            <li class="py-4">
-            <div class="flex ">
-			<div class="year pr-4 text-gray-600 font-bold ">{{.year}}</div>
-			<div class="names text-gray-500">{{.name}}</div>
-            </div>
-			<div class="title font-bold text-xl py-1 text-tahiti">{{.title}}</div>
-		
 
-		</li>
 
-            {{end}}
-        </ul>
-    </div>
-</div>
-
-<div class="border rounded-md shadow-md p-8 bg-white">
-    <div class="font-bold text-2xl py-4 text-tahiti" id="awards">Μεταπτυχιακά</div>
-    <div class="list publications">
-        <ul>
-            {{ range first 5 ((index .Site.Data .Language.Lang).msc) }}
-            <li class="py-4">
-                <div class="flex ">
-                <div class="year pr-4 text-gray-600 font-bold ">{{.year}}</div>
-                <div class="names text-gray-500">{{.name}}</div>
-                </div>
-                <div class="title font-bold text-xl py-1 text-tahiti">{{.title}}</div>
-    		</li>
-            {{end}}
-        </ul>
-    </div>
-</div>
 </div>
 {{ end }}
