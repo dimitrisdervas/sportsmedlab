@@ -11,7 +11,15 @@
                 <div class="year pr-4 text-gray-600 font-bold ">{{.year}}</div>
                 <div class="names text-gray-500">{{.name}}</div>
                 </div>
-                <div class="title font-bold text-xl py-1 text-tahiti">{{.title}}</div>
+                <div class="title font-bold text-xl py-1 text-tahiti">
+                    {{ $title := .title }}
+                    {{ $link := .link }}
+                    {{ with .link }}
+                        <a class="a:no-underline" href="{{.}}" target="_blank">{{$title}}</a>
+                    {{ else }}
+                        {{$title}}
+                    {{ end }}
+                </div>
     		</li>
         {{end}}
         </ul>
