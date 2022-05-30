@@ -1,10 +1,10 @@
 {{ define "main" }}
 
-<div class="container mx-auto pb-16 grid grid-cols-2 gap-8">
+<div class="container mx-auto pb-16 ">
   <div class="border rounded-md shadow-md p-8 bg-white">
     <div class="font-bold text-2xl py-4 text-tahiti" id="books">Βιβλία</div>
-    <div class="list publications">
-      <ul>
+    <div class="list publications ">
+      <ul class="grid grid-cols-3 gap-8">
         {{ range ((index .Site.Data .Language.Lang).books) }}
         <li class="py-4">
           <div class="title font-bold text-xl text-tahiti">{{.title}}</div>
@@ -18,7 +18,9 @@
       </ul>
     </div>
   </div>
+</div>
 
+  <div class="container mx-auto pb-16 grid grid-cols-2 gap-8">
   <div class="border rounded-md shadow-md p-8 bg-white">
     <div class="font-bold text-2xl py-4 text-tahiti">Δημοσιεύσεις</div>
     <div class="list publications">
@@ -29,7 +31,7 @@
             <div class="year pr-4 text-gray-600 font-bold">{{.year}}</div>
             <div class="publisher text-gray-600">{{.publisher}}</div>
           </div>
-          <div class="title font-bold text-xl py-1 text-tahiti">{{.title}}</div>
+          <div class="title font-bold text-xl py-1 text-tahiti"><a href="{{.link}}" target="_blank">{{.title}}</a></div>
           <div class="names text-gray-500">{{.names}}</div>
         </li>
         {{ end }}
@@ -44,31 +46,7 @@
     </div>
   </div>
 
-  <div class="border rounded-md shadow-md p-8 bg-white">
-    <div class="font-bold text-2xl py-4 text-tahiti">Διαλέξεις</div>
-    <div class="list publications">
-      <ul>
-        {{ range first 5 ((index .Site.Data .Language.Lang).talks) }}
-        <li class="py-4">
-          <div class="flex">
-            <div class="year pr-4 text-gray-600 font-bold">{{.year}}</div>
-            <div class="names text-gray-500">{{.speaker}}</div>
-          </div>
-          <div class="title font-bold text-xl py-1 text-tahiti">{{.title}}</div>
-          <div class="publisher text-gray-600">{{.congress}}</div>
-        </li>
 
-        {{ end }}
-      </ul>
-    </div>
-    <div class="flex justify-end">
-      <a
-        class="bg-indigo-800 px-8 py-4 text-white hover:bg-red-700"
-        href="talks"
-        >Περισσότερα</a
-      >
-    </div>
-  </div>
 
   <div class="border rounded-md shadow-md p-8 bg-white">
     <div class="font-bold text-2xl py-4 text-tahiti">

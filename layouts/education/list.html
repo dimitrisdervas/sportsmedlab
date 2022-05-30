@@ -45,7 +45,7 @@
                                             </a>
                                             <a class="hover:text-red-600 
                                             w-1/4
-                                             bg-gray-100 rounded-md text-gray-500 p-2 text-right font-bold text-sm" 
+                                            bg-gray-100 rounded-md text-gray-500 p-2 text-right font-bold text-sm" 
                                                 href="{{ .category_link}}">{{ $metaptyxiako }}
                                             </a>
                                 </div>
@@ -61,52 +61,4 @@
 
 
 
-
-
-    <div class="border rounded-md shadow-md p-8 bg-white ">
-        <div class="font-bold text-3xl py-4 text-tahiti">Εισηγήσεις μελών Δ.Ε.Π.</div>
-        <div class="list-link">
-        <ul>
-        {{ range ((index .Site.Data .Language.Lang).posters) }}
-        {{ if eq .type "dialexi"}}
-                <li>
-                    <div class="title ">
-                        <a class="flex items-center font-bold rounded-md 
-                        py-4 justify-between mb-4 
-                        hover:text-red-600  px-2 pr-8"
-                            href="{{.file}}" target="_blank">"{{.title}}"
-<span class="text-gray-600 px-2">(.pdf)</span>
-                        </a>
-                    </div>
-                </li>
-        {{ end }}
-        {{ end }}
-        </ul>
-        </div>
-    </div>
-
-    <div class="border rounded-md shadow-md p-8 bg-white ">
-        <div class="font-bold text-3xl py-4 text-tahiti">
-            Εισηγήσεις μελών Δ.Ε.Π.
-        </div>
-        <div class="list-link">
-        <ul>
-        {{ range ((index .Site.Data .Language.Lang).posters) }}
-        {{ if eq .type "poster"}}
-                <li>
-                    <div class="title ">
-                        <a class="flex items-center font-bold rounded-md 
-                        py-4 justify-between mb-4 
-                        hover:text-red-600  px-2 pr-8"
-                            href="{{.file}}" target="_blank">"{{.title}}"
-<span class="text-gray-600 px-2">(.pdf)</span>
-                        </a>
-                    </div>
-                </li>
-        {{ end }}
-        {{ end }}
-        </ul>
-        </div>
-    </div>
-</div>
 {{ end }}

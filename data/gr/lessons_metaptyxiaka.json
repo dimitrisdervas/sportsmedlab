@@ -1,14 +1,56 @@
 [
   {
     "title": "Προγράμματα Άσκησης σε Άτομα με Χρόνιες Παθήσεις",
-    "category": "ΔΠΜΣ Ανθρώπινη απόδοση και υγεία",
-    "link": "https://qa.auth.gr/el/class/1/600069552",
+    "category": "ΠΜΣ Ανθρώπινη απόδοση και υγεία",
+    "link": "",
     "category_link": "https://humanperformance.phed.auth.gr/"
   },
   {
-    "title": "Αθλητιατρική",
-    "category": "ΔΠΜΣ Ανθρώπινη απόδοση και υγεία",
-    "link": "https://qa.auth.gr/el/class/1/600063036",
+    "title": "Ιατρική της άσκησης",
+    "category": "ΠΜΣ Ανθρώπινη απόδοση και υγεία",
+    "link": "https://qa.auth.gr/el/class/1/600197818",
+    "category_link": "https://humanperformance.phed.auth.gr/"
+  },
+  {
+    "title": "Άσκηση σε άτομα με χρόνιες παθήσεις",
+    "category": "ΠΜΣ Ανθρώπινη απόδοση και υγεία",
+    "link": "https://qa.auth.gr/el/class/1/600205162",
+    "category_link": "https://humanperformance.phed.auth.gr/"
+  },
+  {
+    "title": "Καρδιαγγειακή αποκατάσταση",
+    "category": "ΠΜΣ Ανθρώπινη απόδοση και υγεία",
+    "link": "https://qa.auth.gr/el/class/1/600205160",
+    "category_link": "https://humanperformance.phed.auth.gr/"
+  },
+  {
+    "title": "Κλινική Εργοφυσιολογία και Εργομετρία",
+    "category": "ΠΜΣ Ανθρώπινη απόδοση και υγεία",
+    "link": "https://qa.auth.gr/el/class/1/600197820",
+    "category_link": "https://humanperformance.phed.auth.gr/"
+  },
+  {
+    "title": "Εργονομία της Επιβάρυνσης",
+    "category": "ΠΜΣ Ανθρώπινη απόδοση και υγεία",
+    "link": "https://qa.auth.gr/el/class/1/600197814",
+    "category_link": "https://humanperformance.phed.auth.gr/"
+  },
+  {
+    "title": "Περιβάλλον και Αθλητική Απόδοση",
+    "category": "ΠΜΣ Ανθρώπινη απόδοση και υγεία",
+    "link": "https://qa.auth.gr/el/class/1/600205175",
+    "category_link": "https://humanperformance.phed.auth.gr/"
+  },
+  {
+    "title": "Εργογόνα Βοηθήματα - Αθλητική Διατροφή",
+    "category": "ΠΜΣ Ανθρώπινη απόδοση και υγεία",
+    "link": "https://qa.auth.gr/el/class/1/600197836",
+    "category_link": "https://humanperformance.phed.auth.gr/"
+  },
+  {
+    "title": "Φυσιολογία",
+    "category": "ΠΜΣ Ανθρώπινη απόδοση και υγεία",
+    "link": "https://qa.auth.gr/el/class/1/600197834",
     "category_link": "https://humanperformance.phed.auth.gr/"
   },
   {

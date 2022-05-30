@@ -1,583 +1,1322 @@
 [
   {
-    "title": "Arterial Function after a 246 km Ultra-marathon Running Race",
-    "names": "Nikolaos Koutlianos, Panagiota Sotiriou, Georgios Christou, Efstathios Pagourelias, Maria Anifanti, Konstantinos Christou, Maria Tsironi, Panagiotis Andriopoulos, Evangelia Kouidi, Asterios Deligiannis",
-    "year": 2021,
-    "publisher": "Int J Sports Med",
-    "link": "https://www.thieme-connect.com/products/ejournals/abstract/10.1055/a-1467-6508"
-  },
-  {
-    "title": "Impact of a 246 Km ultra-marathon running race on heart: Insights from advanced deformation analysis",
-    "names": "Efstathios D. Pagourelias, Georgios A. Christou, Panagiota G. Sotiriou, Maria A. Anifanti, Nikolaos A. Koutlianos, Maria P. Tsironi, Konstantinos A. Christou, Vasileios P. Vassilikos, Asterios P. Deligiannis, Evangelia J. Kouidi",
-    "year": 2021,
-    "publisher": "European Journal of Sport Science",
-    "link": "https://doi.org/10.1080/17461391.2021.1930194"
-  },
-  {
-    "title": "To improve the life of patients with kidney disease: the impact of exercise",
-    "names": "Naomi Clyne, Asterios Deligiannis",
-    "year": 2021,
-    "publisher": "Clinical Kidney Journal",
-    "link": "https://doi.org/10.1093/ckj/sfaa275"
-  },
-  {
-    "title": "A Novel mHealth Monitoring System during Cycling in Elite Athletes",
-    "names": "Alexandros Iliadis, Milena Tomovic, Dimitrios Dervas, Markella Psymarnou, Kosmas Christoulas, Evangelia Joseph Kouidi, Asterios Pantazis Deligiannis",
-    "year": 2021,
-    "publisher": "Int. J. Environ. Res. Public Health 2021, 18(9), 4788",
-    "link": "https://doi.org/10.3390/ijerph18094788"
-  },
-  {
-    "title": "Viral Infection in Athletes",
-    "names": "Asterios Deligiannis",
-    "year": 2021,
-    "publisher": "Science Excel",
-    "link": ""
-  },
-  {
-    "title": "Long-Term Effect of an Exercise Training Program on Physical Functioning and Quality of Life in Pulmonary Hypertension: A Randomized Controlled Trial",
-    "names": "Olga Kagioglou,1 Sophia-Anastasia Mouratoglou,2 George Giannakoulas,2 Dorothea Kapoukranidou,3 Maria Anifanti,1 Asterios Deligiannis,1 Aelita Skarbaliene,4 Arturas Razbadauskas,4 and Evangelia Kouid",
-    "year": 2021,
-    "publisher": "BioMed Research International, Volume 2021, Article ID 8870615, 12 pages",
-    "link": ""
-  },
-  {
-    "title": "Sudden cardiac death in sports: could we save Pheidippides?",
-    "names": "Deligiannis A, Kouidi E.",
-    "year": 2021,
-    "publisher": "Acta Cardiol 2021; 8:1-15.",
-    "link": "https://doi.org/10.1080/00015385.2020.1867388"
+    "title": "Cardiovascular effects of doping substances, commonly prescribed medications and ergogenic aids in relation to sports: a position statement of the sport cardiology and exercise …",
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=_SH8Z5cAAAAJ&cstart=20&pagesize=80&citation_for_view=_SH8Z5cAAAAJ:XoXfffV-tXoC",
+    "names": "PE Adami, N Koutlianos, A Baggish, S Bermon, E Cavarretta, ...",
+    "publisher": "European Journal of Preventive Cardiology 29 (3), 559-575",
+    "": ", 2022",
+    "citations": 5,
+    "year": 2022,
+    "type": "articles"
   },
   {
     "title": "The role of cardiac computed tomography in pre-participation screening of mature athletes",
-    "names": "Christou GA, Deligiannis AP, Kouidi EJ.",
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=_SH8Z5cAAAAJ&cstart=20&pagesize=80&citation_for_view=_SH8Z5cAAAAJ:LI9QrySNdTsC",
+    "names": "GA Christou, AP Deligiannis, EJ Kouidi",
+    "publisher": "European Journal of Sport Science 22 (4), 636-649",
+    "": ", 2022",
+    "citations": 3,
+    "year": 2022,
+    "type": "articles"
+  },
+  {
+    "title": "The acute effects of an ultramarathon on biventricular function in master athletes: everything in moderation or not?",
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=_SH8Z5cAAAAJ&cstart=20&pagesize=80&citation_for_view=_SH8Z5cAAAAJ:FPJr55Dyh1AC",
+    "names": "ED Pagourelias, GA Christou, EJ Kouidi",
+    "publisher": "European Heart Journal-Cardiovascular Imaging",
+    "": ", 2022",
+    "citations": 1,
+    "year": 2022,
+    "type": "articles"
+  },
+  {
+    "title": "Development of the International Cardiac Rehabilitation Registry Including Variable Selection and Definition Process",
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=_SH8Z5cAAAAJ&cstart=100&pagesize=100&citation_for_view=_SH8Z5cAAAAJ:q3CdL3IzO_QC",
+    "names": "MI Chowdhury, K Turk-Adawi, AS Babu, GLM Ghisi, P Seron, T Joo Yeo, ...",
+    "publisher": "Ubiquity Press",
+    "": ", 2022",
+    "citations": 1,
+    "year": 2022,
+    "type": "articles"
+  },
+  {
+    "title": "The effect of a 6-month intradialytic exercise program on hemodialysis adequacy and body composition: a randomized controlled trial",
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=_SH8Z5cAAAAJ&cstart=100&pagesize=100&citation_for_view=_SH8Z5cAAAAJ:_axFR9aDTf0C",
+    "names": "E Vogiatzaki, V Michou, V Liakopoulos, A Roumeliotis, S Roumeliotis, ...",
+    "publisher": "International Urology and Nephrology, 1-11",
+    "": ", 2022",
+    "citations": "",
+    "year": 2022,
+    "type": "articles"
+  },
+  {
+    "title": "Delphi consensus recommendations on how to provide cardiovascular rehabilitation in the COVID-19 era",
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=_SH8Z5cAAAAJ&cstart=20&pagesize=80&citation_for_view=_SH8Z5cAAAAJ:vbGhcppDl1QC",
+    "names": "M Ambrosetti, A Abreu, V Cornelissen, D Hansen, MC Iliou, H Kemps, ...",
+    "publisher": "European journal of preventive cardiology 28 (5), 541-557",
+    "": ", 2021",
+    "citations": 10,
     "year": 2021,
-    "publisher": "Eur J Sport Sci 2021; 1:1-27",
-    "link": "https://doi.org/10.1080/17461391.2021.1883125"
+    "type": "articles"
   },
   {
-    "title": "Exploring the determinants of the cardiac changes after ultra-long duration exercise: The echocardiographic Spartathlon study.",
-    "names": "Christou GA, Pagourelias ED, Anifanti MA, Sotiriou PG, Koutlianos NA, Tsironi MP, Andriopoulos PI, Christou KA, Kouidi EJ, Deligiannis AP",
+    "title": "A novel mHealth monitoring system during cycling in elite athletes",
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=_SH8Z5cAAAAJ&cstart=20&pagesize=80&citation_for_view=_SH8Z5cAAAAJ:oNZyr7d5Mn4C",
+    "names": "A Iliadis, M Tomovic, D Dervas, M Psymarnou, K Christoulas, EJ Kouidi, ...",
+    "publisher": "International Journal of Environmental Research and Public Health 18 (9), 4788",
+    "": ", 2021",
+    "citations": 4,
+    "year": 2021,
+    "type": "articles"
+  },
+  {
+    "title": "Impact of a 246 Km ultra-marathon running race on heart: Insights from advanced deformation analysis",
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=_SH8Z5cAAAAJ&cstart=20&pagesize=80&citation_for_view=_SH8Z5cAAAAJ:e_rmSamDkqQC",
+    "names": "ED Pagourelias, GA Christou, PG Sotiriou, MA Anifanti, NA Koutlianos, ...",
+    "publisher": "European Journal of Sport Science, 1-9",
+    "": ", 2021",
+    "citations": 3,
+    "year": 2021,
+    "type": "articles"
+  },
+  {
+    "title": "Early left ventricular diastolic dysfunction, reduced baroreflex sensitivity, and cardiac autonomic imbalance in anabolic–androgenic steroid users",
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=_SH8Z5cAAAAJ&cstart=20&pagesize=80&citation_for_view=_SH8Z5cAAAAJ:SpbeaW3--B0C",
+    "names": "EJ Kouidi, A Kaltsatou, MA Anifanti, AP Deligiannis",
+    "publisher": "International Journal of Environmental Research and Public Health 18 (13), 6974",
+    "": ", 2021",
+    "citations": 2,
+    "year": 2021,
+    "type": "articles"
+  },
+  {
+    "title": "Arterial function after a 246 km ultra-marathon running race",
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=_SH8Z5cAAAAJ&cstart=100&pagesize=100&citation_for_view=_SH8Z5cAAAAJ:M7yex6snE4oC",
+    "names": "N Koutlianos, P Sotiriou, G Christou, E Pagourelias, M Anifanti, K Christou, ...",
+    "publisher": "International Journal of Sports Medicine 42 (13), 1167-1173",
+    "": ", 2021",
+    "citations": 1,
+    "year": 2021,
+    "type": "articles"
+  },
+  {
+    "title": "Sudden cardiac death in sports: could we save Pheidippides?",
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=_SH8Z5cAAAAJ&cstart=100&pagesize=100&citation_for_view=_SH8Z5cAAAAJ:b1wdh0AR-JQC",
+    "names": "A Deligiannis, E Kouidi",
+    "publisher": "Acta Cardiologica 76 (9), 945-959",
+    "": ", 2021",
+    "citations": 1,
+    "year": 2021,
+    "type": "articles"
+  },
+  {
+    "title": "Long-Term Effect of an Exercise Training Program on Physical Functioning and Quality of Life in Pulmonary Hypertension: A Randomized Controlled Trial",
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=_SH8Z5cAAAAJ&cstart=100&pagesize=100&citation_for_view=_SH8Z5cAAAAJ:k8Z6L05lTy4C",
+    "names": "O Kagioglou, SA Mouratoglou, G Giannakoulas, D Kapoukranidou, ...",
+    "publisher": "BioMed research international 2021",
+    "": ", 2021",
+    "citations": 1,
+    "year": 2021,
+    "type": "articles"
+  },
+  {
+    "title": "Exploring the Anthropometric, Cardiorespiratory, and Haematological Determinants of Marathon Performance",
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=_SH8Z5cAAAAJ&cstart=100&pagesize=100&citation_for_view=_SH8Z5cAAAAJ:PoWvk5oyLR8C",
+    "names": "GA Christou, ED Pagourelias, AP Deligiannis, EJ Kouidi",
+    "publisher": "Frontiers in Physiology, 1442",
+    "": ", 2021",
+    "citations": 1,
+    "year": 2021,
+    "type": "articles"
+  },
+  {
+    "title": "Identification of Good Practices in Long-Term Exercise-Based Rehabilitation Programs in Stroke Patients",
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=_SH8Z5cAAAAJ&cstart=100&pagesize=100&citation_for_view=_SH8Z5cAAAAJ:Dip1O2bNi0gC",
+    "names": "D Mameletzi, M Anifanti, K Baotić, A Bernetti, H Budinčević, PČ Žuna, ...",
+    "publisher": "BioMed research international 2021",
+    "": ", 2021",
+    "citations": "",
+    "year": 2021,
+    "type": "articles"
+  },
+  {
+    "title": "GOODRENAL: HOLISTIC PATIENT CARE INTRADIALYSIS PROGRAM IN HEMODIALYSIS THROUGH A VIRTUAL HEALTH PLATFORM",
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=_SH8Z5cAAAAJ&cstart=100&pagesize=100&citation_for_view=_SH8Z5cAAAAJ:xtoqd-5pKcoC",
+    "names": "E Segura-Orti, N Clyne, A Garcia-Testal, E Kouidi, A Van Craenenbroeck, ...",
+    "publisher": "NEPHROLOGY DIALYSIS TRANSPLANTATION 36, 364-364",
+    "": ", 2021",
+    "citations": "",
+    "year": 2021,
+    "type": "articles"
+  },
+  {
+    "title": "Exploring the determinants of the cardiac changes after ultra-long duration exercise: The echocardiographic Spartathlon study",
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=_SH8Z5cAAAAJ&cstart=20&pagesize=80&citation_for_view=_SH8Z5cAAAAJ:ipzZ9siozwsC",
+    "names": "GA Christou, ED Pagourelias, MA Anifanti, PG Sotiriou, NA Koutlianos, ...",
+    "publisher": "European Journal of Preventive Cardiology 27 (14), 1467-1477",
+    "": ", 2020",
+    "citations": 12,
     "year": 2020,
-    "publisher": "Eur J Prev Cardiol 2020; 27(14): 1467-1477.",
-    "link": ""
+    "type": "articles"
   },
   {
-    "title": "Exploring the impact of sleep and stress on daily physical activity of cardiac patients: a preliminary study",
-    "names": "Livitckaia K, Kouidi E, Mavromoustakos Blom P, Maglaveras N, van Gils M, Chouvarda I.",
-    "year": 2019,
-    "publisher": "Hippokratia, 23(1):15-20.",
-    "link": ""
+    "title": "The effects of an integrative training program on elite young soccer players' physical performance.",
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=_SH8Z5cAAAAJ&cstart=100&pagesize=100&citation_for_view=_SH8Z5cAAAAJ:URolC5Kub84C",
+    "names": "C Karydopoulos, D Kapralos, E Kouidi, Y Michailidis, T Metaxas",
+    "publisher": "The Journal of Sports Medicine and Physical Fitness",
+    "": ", 2020",
+    "citations": 1,
+    "year": 2020,
+    "type": "articles"
   },
   {
-    "title": "Cardiac rehabilitation availability and delivery in Europe: How does it differ by region and compare with other high-income countries?: Endorsed by the European Association of Preventive Cardiology",
-    "names": "Abreu A, Pesah E, Supervia M, Turk-Adawi K, BjarnasonWehrens B, Lopez-Jimenez F, Ambrosetti M, Andersen K, Giga V, Vulic D, Vataman E, Gaita D, Cliff J, Kouidi E, Yagci I, Simon A, Hautala A, Tamuleviciute-Prasciene E, Kemps H, Eysymontt Z, Farsky S, Hayward J, Prescott E, Dawkes S, Pavy B, Kiessling A, Sovova E, Grace SL",
-    "year": 2019,
-    "publisher": "Eur J Prev Cardiol, 26(11):1131-1146",
-    "link": ""
+    "title": "SWEATY HEARTS-A collaborative partnership to develop, implement and evaluate a model of long-term physical activity and behavioral change in CHD European patients",
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=_SH8Z5cAAAAJ&cstart=100&pagesize=100&citation_for_view=_SH8Z5cAAAAJ:KUbvn5osdkgC",
+    "names": "B Mayr, B Reich, A Egger, S Droese, M Scherrenberg, A Deligiannis, ...",
+    "publisher": "WIENER KLINISCHE WOCHENSCHRIFT 132 (SUPPL 5), S230-S230",
+    "": ", 2020",
+    "citations": "",
+    "year": 2020,
+    "type": "articles"
   },
   {
-    "title": "Attitudes of hemodialysis patients, medical and nursing staff towards patients' physical activity",
-    "names": "Michou V, Kouidi E, Liakopoulos V, Dounousi E, Deligiannis A",
+    "title": "Cardiac rehabilitation availability and density around the globe",
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=_SH8Z5cAAAAJ&cstart=20&pagesize=80&citation_for_view=_SH8Z5cAAAAJ:fEOibwPWpKIC",
+    "names": "K Turk-Adawi, M Supervia, F Lopez-Jimenez, E Pesah, R Ding, RR Britto, ...",
+    "publisher": "EClinicalMedicine 13, 31-45",
+    "": ", 2019",
+    "citations": 93,
     "year": 2019,
-    "publisher": "Int Urol Nephrol, 51(7):1249-1260",
-    "link": ""
+    "type": "articles"
+  },
+  {
+    "title": "Nature of cardiac rehabilitation around the globe",
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=_SH8Z5cAAAAJ&cstart=20&pagesize=80&citation_for_view=_SH8Z5cAAAAJ:-_dYPAW6P2MC",
+    "names": "M Supervia, K Turk-Adawi, F Lopez-Jimenez, E Pesah, R Ding, RR Britto, ...",
+    "publisher": "EClinicalMedicine 13, 46-56",
+    "": ", 2019",
+    "citations": 82,
+    "year": 2019,
+    "type": "articles"
+  },
+  {
+    "title": "Cardiac rehabilitation availability and delivery in Europe: How does it differ by region and compare with other high-income countries? Endorsed by the European Association of …",
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=_SH8Z5cAAAAJ&cstart=20&pagesize=80&citation_for_view=_SH8Z5cAAAAJ:7T2F9Uy0os0C",
+    "names": "A Abreu, E Pesah, M Supervia, K Turk-Adawi, B Bjarnason-Wehrens, ...",
+    "publisher": "European journal of preventive cardiology 26 (11), 1131-1146",
+    "": ", 2019",
+    "citations": 40,
+    "year": 2019,
+    "type": "articles"
+  },
+  {
+    "title": "Attitudes of hemodialysis patients, medical and nursing staff towards patients’ physical activity",
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=_SH8Z5cAAAAJ&cstart=20&pagesize=80&citation_for_view=_SH8Z5cAAAAJ:2KloaMYe4IUC",
+    "names": "V Michou, E Kouidi, V Liakopoulos, E Dounousi, A Deligiannis",
+    "publisher": "International Urology and Nephrology 51 (7), 1249-1260",
+    "": ", 2019",
+    "citations": 17,
+    "year": 2019,
+    "type": "articles"
+  },
+  {
+    "title": "“OPTImAL”: an ontology for patient adherence modeling in physical activity domain",
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=_SH8Z5cAAAAJ&cstart=20&pagesize=80&citation_for_view=_SH8Z5cAAAAJ:ZfRJV9d4-WMC",
+    "names": "K Livitckaia, V Koutkias, E Kouidi, M Van Gils, N Maglaveras, I Chouvarda",
+    "publisher": "BMC medical informatics and decision making 19 (1), 1-15",
+    "": ", 2019",
+    "citations": 4,
+    "year": 2019,
+    "type": "articles"
+  },
+  {
+    "title": "Arterial adaptations in athletes of dynamic and static sports disciplines–a pilot study",
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=_SH8Z5cAAAAJ&cstart=20&pagesize=80&citation_for_view=_SH8Z5cAAAAJ:kzcrU_BdoSEC",
+    "names": "P Sotiriou, E Kouidi, A Karagiannis, N Koutlianos, P Geleris, V Vassilikos, ...",
+    "publisher": "Clinical Physiology and Functional Imaging 39 (3), 183-191",
+    "": ", 2019",
+    "citations": 4,
+    "year": 2019,
+    "type": "articles"
   },
   {
     "title": "Cardiac autonomic function during intradialytic exercise training",
-    "names": "Kaltsatou A, Hadjigeorgiou GM, Grigoriou SS, Karatzaferi C, Giannaki CD, Lavdas E, Fotiou D, Kouidi E, Patramani G, Vogiatzi C, Pappas A, Stefanidis I, Sakkas GK.",
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=_SH8Z5cAAAAJ&cstart=20&pagesize=80&citation_for_view=_SH8Z5cAAAAJ:j8SEvjWlNXcC",
+    "names": "A Kaltsatou, GM Hadjigeorgiou, SS Grigoriou, C Karatzaferi, CD Giannaki, ...",
+    "publisher": "Postgraduate Medicine 131 (7), 539-545",
+    "": ", 2019",
+    "citations": 3,
     "year": 2019,
-    "publisher": "Postgrad Med, 131(7):539-545",
-    "link": ""
+    "type": "articles"
   },
   {
-    "title": "Nature of Cardiac Rehabilitation around the globe",
-    "names": "Supervia M, Turk-Adawi K, Lopez-Jimenez F, Pesah E, Ding R, Britto RR, Bjarnason-Wehrens B, Derman W, Abreu A, Babu AS, Santos CA, Jong SK, Cuenza L, Yeo TJ, Scantlebury D, Andersen K, Gonzalez G, Giga V, Vulic D, Vataman E, Cliff J, Kouidi E, Yagci I, et al",
+    "title": "Combination of novel and traditional cardiorespiratory indices for the evaluation of adolescent volleyball players",
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=_SH8Z5cAAAAJ&cstart=100&pagesize=100&citation_for_view=_SH8Z5cAAAAJ:vDijr-p_gm4C",
+    "names": "K Charitonidis, N Koutlianos, K Anagnostaras, M Anifanti, E Kouidi, ...",
+    "publisher": "Hippokratia 23 (2), 70",
+    "": ", 2019",
+    "citations": 1,
     "year": 2019,
-    "publisher": "EClinicalMedicine, 13: 46-56",
-    "link": ""
+    "type": "articles"
   },
   {
-    "title": "Cardiac Rehabilitation availability and density around the globe",
-    "names": "Turk-Adawi K, Supervia M, Lopez-Jimenez F, Pesah E, Ding R, Britto R, Bjarnason-Wehrens B, Derman W, Abreu A, Babu A, Anchique Santos C, Cuenza L, Joo Yeo T, et al",
+    "title": "Exploring the impact of sleep and stress on daily physical activity of cardiac patients: a preliminary study",
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=_SH8Z5cAAAAJ&cstart=100&pagesize=100&citation_for_view=_SH8Z5cAAAAJ:foquWX3nUaYC",
+    "names": "K Livitckaia, E Kouidi, PM Blom, N Maglaveras, M van Gils, I Chouvarda",
+    "publisher": "Hippokratia 23 (1), 15",
+    "": ", 2019",
+    "citations": 1,
     "year": 2019,
-    "publisher": "EClinicalMedicine, 13: 31-45",
-    "link": ""
+    "type": "articles"
   },
   {
-    "title": "OPTImAL\": An Ontology for Patient Adherence Modeling in Physical Activity Domain",
-    "names": "Livitckaia K, Koutkias V, Kouidi E, van Gils M, Maglaveras N, Chouvarda I.",
-    "year": 2019,
-    "publisher": "BMC Med Inform Decis Mak, 19(1):92. doi: 10.1186/s12911-019-0809-9.",
-    "link": ""
-  },
-  {
-    "title": "Relationships between abdominal aortic calcification, glomerular filtration rate, and cardiovascular risk factors in patients with non-dialysis dependent chronic kidney disease.",
-    "names": "Zhou Y, Hellberg M, Kouidi E, Deligiannis A, Höglund P, Clyne N.",
+    "title": "Exercise prescription in patients with different combinations of cardiovascular disease risk factors: a consensus statement from the EXPERT Working Group",
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=_SH8Z5cAAAAJ&citation_for_view=_SH8Z5cAAAAJ:VL0QpB8kHFEC",
+    "names": "D Hansen, J Niebauer, V Cornelissen, O Barna, D Neunhäuserer, ...",
+    "publisher": "Sports medicine 48 (8), 1781-1797",
+    "": ", 2018",
+    "citations": 115,
     "year": 2018,
-    "publisher": "Clin Nephrol, 90(6):380-389.",
-    "link": ""
+    "type": "articles"
   },
   {
-    "title": "Computerized decision support for beneficial home-based exercise rehabilitation in patients with cardiovascular disease.",
-    "names": "Triantafyllidis A, Filos D, Buys R, Claes J, Cornelissen V, Kouidi E, Chatzitofis A, Zarpalas D, Daras P, Walsh D, Woods C, Moran K, Maglaveras N, Chouvarda I.",
+    "title": "Computerized decision support for beneficial home-based exercise rehabilitation in patients with cardiovascular disease",
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=_SH8Z5cAAAAJ&cstart=20&pagesize=80&citation_for_view=_SH8Z5cAAAAJ:ye4kPcJQO24C",
+    "names": "A Triantafyllidis, D Filos, R Buys, J Claes, V Cornelissen, E Kouidi, ...",
+    "publisher": "Computer Methods and Programs in Biomedicine 162, 1-10",
+    "": ", 2018",
+    "citations": 16,
     "year": 2018,
-    "publisher": "Comput Methods Programs Biomed, 162:1-10",
-    "link": ""
+    "type": "articles"
   },
   {
-    "title": "Computerised Decision Support in Physical Activity Interventions: A Systematic Literature Review",
-    "names": "Triantafyllidis A, Filos D, Claes J, Buys R, Cornelissen V, Kouidi E, Chouvarda I, Maglaveras N",
+    "title": "Computerised decision support in physical activity interventions: a systematic literature review",
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=_SH8Z5cAAAAJ&cstart=20&pagesize=80&citation_for_view=_SH8Z5cAAAAJ:SdhP9T11ey4C",
+    "names": "A Triantafyllidis, D Filos, J Claes, R Buys, V Cornelissen, E Kouidi, ...",
+    "publisher": "International Journal of Medical Informatics 111, 7-16",
+    "": ", 2018",
+    "citations": 12,
     "year": 2018,
-    "publisher": "Int J Med Inform  111(3): 7-16",
-    "link": ""
+    "type": "articles"
   },
   {
-    "title": "Exercise Prescription in Patients with Different Combinations of Cardiovascular Disease Risk Factors: A Consensus Statement from the EXPERT Working Group",
-    "names": "Hansen D, Niebauer J, Cornelissen V, Barna O, Neunhäuserer D, Stettler C, Tonoli C, Greco E, Fagard R, Coninx K, Vanhees L, Piepoli MF, Pedretti R, Ruiz GR, Corrà U, Schmid JP, Davos CH, Edelmann F, Abreu A, Rauch B, Ambrosetti M, Braga SS, Beckers P, Bussotti M, Faggiano P, Garcia-Porrero E, Kouidi E, Lamotte M, Reibis R, Spruit MA, Takken T, Vigorito C, Völler H, Doherty P, Dendale P",
+    "title": "Relationships between abdominal aortic calcification, glomerular filtration rate, and cardiovascular risk factors in patients with non-dialysis dependent chronic kidney disease",
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=_SH8Z5cAAAAJ&cstart=20&pagesize=80&citation_for_view=_SH8Z5cAAAAJ:Fu2w8maKXqMC",
+    "names": "Y Zhou, M Hellberg, E Kouidi, A Deligiannis, P Höglund, N Clyne",
+    "publisher": "Clinical Nephrology 90 (6), 380",
+    "": ", 2018",
+    "citations": 9,
     "year": 2018,
-    "publisher": "Sports Med  48(8):1781-1797",
-    "link": ""
+    "type": "articles"
   },
   {
-    "title": "Impact of traditional Greek dancing on jumping ability, muscular strength and lower limb endurance in cardiac rehabilitation programmes.",
-    "names": "Vordos Z., Kouidi E., Mavrovouniotis F., Metaxas T., Dimitros E., Kaltsatou A., Deligiannis A.",
+    "title": "2233 Simultaneous 4-chamber longitudinal strain assessment before and after a 246 km ultra-marathon race: focus on inter-chamber relationships",
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=_SH8Z5cAAAAJ&cstart=100&pagesize=100&citation_for_view=_SH8Z5cAAAAJ:W5xh706n7nkC",
+    "names": "E Pagourelias, G Christou, M Anifanti, P Sotiriou, K Christou, N Koutlianos, ...",
+    "publisher": "European Heart Journal 39 (suppl_1), ehy565. 2233",
+    "": ", 2018",
+    "citations": "",
+    "year": 2018,
+    "type": "articles"
+  },
+  {
+    "title": "The European Association of Preventive Cardiology Exercise Prescription in Everyday Practice and Rehabilitative Training (EXPERT) tool: A digital training and decision support …",
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=_SH8Z5cAAAAJ&citation_for_view=_SH8Z5cAAAAJ:olpn-zPbct0C",
+    "names": "D Hansen, P Dendale, K Coninx, L Vanhees, MF Piepoli, J Niebauer, ...",
+    "publisher": "European journal of preventive cardiology 24 (10), 1017-1031",
+    "": ", 2017",
+    "citations": 133,
     "year": 2017,
-    "publisher": "Eur J Cardiovasc Nurs, 16(2):150-156.",
-    "link": ""
+    "type": "articles"
   },
   {
-    "title": "Exercise-based cardiac rehabilitation in twelve European countries: Results of the European Cardiac Rehabilitation Registry",
-    "names": "Benzer W, Rauch B, Schmid JP, Zwisler AD, Dendale P, Davos CH, Kouidi E, Simon A, Abreu A, Pogosova N, Gaita D, Miletic B, Bönner G, Ouarrak T, McGee H; EuroCaReD study group",
+    "title": "Exercise-based cardiac rehabilitation in twelve European countries results of the European cardiac rehabilitation registry",
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=_SH8Z5cAAAAJ&cstart=20&pagesize=80&citation_for_view=_SH8Z5cAAAAJ:AXPGKjj_ei8C",
+    "names": "W Benzer, B Rauch, JP Schmid, AD Zwisler, P Dendale, CH Davos, ...",
+    "publisher": "International journal of cardiology 228, 58-67",
+    "": ", 2017",
+    "citations": 77,
     "year": 2017,
-    "publisher": "Ιnt J Cardiol  228: 58- 67",
-    "link": ""
+    "type": "articles"
   },
   {
-    "title": "The European Association of Preventive Cardiology Exercise Prescription in Everyday Practice and Rehabilitative Training (EXPERT) tool: A digital training anddecision support system for optimized exercise prescription in cardiovascular disease. Concept, definitions and construction methodology",
-    "names": "Hansen D, Dendale P, Coninx K, Vanhees L, Piepoli MF, Niebauer J, Cornelissen V, Pedretti R, Geurts E, Ruiz GR, Corrà U, Schmid JP, Greco E, Davos CH, Edelmann F, Abreu A, Rauch B, Ambrosetti M, Braga SS, Barna O, Beckers P, Bussotti M, Fagard R, Faggiano P, Garcia-Porrero E, Kouidi E, Lamotte M, Neunhäuserer D, Reibis R, Spruit MA, Stettler C, Takken T, Tonoli C, Vigorito C, Völler H, Doherty P",
+    "title": "Impact of traditional Greek dancing on jumping ability, muscular strength and lower limb endurance in cardiac rehabilitation programmes",
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=_SH8Z5cAAAAJ&cstart=20&pagesize=80&citation_for_view=_SH8Z5cAAAAJ:hkOj_22Ku90C",
+    "names": "Z Vordos, E Kouidi, F Mavrovouniotis, T Metaxas, E Dimitros, A Kaltsatou, ...",
+    "publisher": "European Journal of Cardiovascular Nursing 16 (2), 150-156",
+    "": ", 2017",
+    "citations": 15,
     "year": 2017,
-    "publisher": "Eur J Prev Cardiol  24(10):1017-1031",
-    "link": ""
+    "type": "articles"
   },
   {
-    "title": "Relationship between declining GFR and measures of cardiac and vascular autonomic neuropathy.",
-    "names": "Clyne N., Hellberg M., Kouidi E., Deligiannis A.",
+    "title": "Diagnosis and treatment of dyslipidaemias in athletes",
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=_SH8Z5cAAAAJ&cstart=20&pagesize=80&citation_for_view=_SH8Z5cAAAAJ:XiVPGOgt02cC",
+    "names": "G A Christou, E J Kouidi, A P Deligiannis, D N Kiortsis",
+    "publisher": "Current Vascular Pharmacology 15 (3), 238-247",
+    "": ", 2017",
+    "citations": 11,
+    "year": 2017,
+    "type": "articles"
+  },
+  {
+    "title": "Adherence to physical activity in patients with heart disease: types, settings and evaluation instruments",
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=_SH8Z5cAAAAJ&cstart=20&pagesize=80&citation_for_view=_SH8Z5cAAAAJ:ruyezt5ZtCIC",
+    "names": "K Livitckaia, V Koutkias, N Maglaveras, E Kouidi, M Gils, I Chouvarda",
+    "publisher": "International Conference on Biomedical and Health Informatics, 255-259",
+    "": ", 2017",
+    "citations": 4,
+    "year": 2017,
+    "type": "articles"
+  },
+  {
+    "title": "THE EFFECTS OF INTRADIALYTIC EXERCISE PLUS MUSIC ON ANXIETY",
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=_SH8Z5cAAAAJ&cstart=100&pagesize=100&citation_for_view=_SH8Z5cAAAAJ:JoZmwDi-zQgC",
+    "names": "S Vrakas, D Mameletzi, T Samaras, V Liakopoulos, E Kouidi, ...",
+    "publisher": "Nephrology Dialysis Transplantation 32",
+    "": ", 2017",
+    "citations": 1,
+    "year": 2017,
+    "type": "articles"
+  },
+  {
+    "title": "Corrigendum to\" Exercise-based cardiac rehabilitation in twelve European countries: Results of the European Cardiac Rehabilitation Registry\"[Int. J. Cardiol. 228 (2017) 58-67]",
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=_SH8Z5cAAAAJ&cstart=100&pagesize=100&citation_for_view=_SH8Z5cAAAAJ:LjlpjdlvIbIC",
+    "names": "W Benzer, B Rauch, JP Schmid, AD Zwisler, P Dendale, CH Davos, ...",
+    "publisher": "International journal of cardiology 242, 50",
+    "": ", 2017",
+    "citations": "",
+    "year": 2017,
+    "type": "articles"
+  },
+  {
+    "title": "WS08. 4 Is there cardiac autonomic dysfunction among patients with cystic fibrosis?",
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=_SH8Z5cAAAAJ&cstart=100&pagesize=100&citation_for_view=_SH8Z5cAAAAJ:eMMeJKvmdy0C",
+    "names": "E Hatziagorou, S Giannakoulakos, E Kouidi, A Kampouras, M Anifanti, ...",
+    "publisher": "Journal of Cystic Fibrosis 1 (16), S14-S15",
+    "": ", 2017",
+    "citations": "",
+    "year": 2017,
+    "type": "articles"
+  },
+  {
+    "title": "Relationship between declining glomerular filtration rate and measures of cardiac and vascular autonomic neuropathy",
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=_SH8Z5cAAAAJ&cstart=20&pagesize=80&citation_for_view=_SH8Z5cAAAAJ:dshw04ExmUIC",
+    "names": "N Clyne, M Hellberg, E Kouidi, A Deligiannis, P Höglund",
+    "publisher": "Nephrology 21 (12), 1047-1055",
+    "": ", 2016",
+    "citations": 32,
     "year": 2016,
-    "publisher": "Nephrology, 21(12):1047-1055.",
-    "link": ""
+    "type": "articles"
   },
   {
-    "title": "Effects of exercise training with traditional dancing on functional capacity and quality of life in patients with schizophrenia: a randomised controlled trial.",
-    "names": "Kaltsatou A., Kouidi E., Fountoulakis K., Sipka C., Theochari V., Kandilis D., Deligiannis A.",
+    "title": "The effects of aquatic exercise on functional capacity and health-related quality of life in hemodialysis patients",
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=_SH8Z5cAAAAJ&cstart=20&pagesize=80&citation_for_view=_SH8Z5cAAAAJ:5Ul4iDaHHb8C",
+    "names": "S Anastasia, K Evangelia, F Konstantinos, A Serafeim, D Asterios",
+    "publisher": "J Clin Exp Nephrol 1 (15), 1-6",
+    "": ", 2016",
+    "citations": 13,
+    "year": 2016,
+    "type": "articles"
+  },
+  {
+    "title": "A novel strategy for evaluating tilt test in athletes with syncope",
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=_SH8Z5cAAAAJ&cstart=20&pagesize=80&citation_for_view=_SH8Z5cAAAAJ:p2g8aNsByqUC",
+    "names": "GA Christou, EJ Kouidi, MA Anifanti, PG Sotiriou, AP Deligiannis",
+    "publisher": "European Journal of Preventive Cardiology 23 (9), 1003-1010",
+    "": ", 2016",
+    "citations": 8,
+    "year": 2016,
+    "type": "articles"
+  },
+  {
+    "title": "Pathophysiological mechanisms of noncardiac syncope in athletes",
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=_SH8Z5cAAAAJ&cstart=20&pagesize=80&citation_for_view=_SH8Z5cAAAAJ:OU6Ihb5iCvQC",
+    "names": "GA Christou, EJ Kouidi, MA Anifanti, PG Sotiriou, NA Koutlianos, ...",
+    "publisher": "International Journal of Cardiology 224, 20-26",
+    "": ", 2016",
+    "citations": 5,
+    "year": 2016,
+    "type": "articles"
+  },
+  {
+    "title": "The impact of inflammation and autonomic nervous system activity on cognitive impairment during a hemodialysis session",
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=_SH8Z5cAAAAJ&cstart=20&pagesize=80&citation_for_view=_SH8Z5cAAAAJ:9Nmd_mFXekcC",
+    "names": "A Kaltsatou, E Kouidi, VK Kimiskidis, V Liakopoulos, V Michou",
+    "publisher": "J Clin Exp Nephrol 1, 14-22",
+    "": ", 2016",
+    "citations": 2,
+    "year": 2016,
+    "type": "articles"
+  },
+  {
+    "title": "Anti-inflammatory effects of exercise on arteries: mechanisms of protection against atherosclerosis and its complications",
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=_SH8Z5cAAAAJ&cstart=100&pagesize=100&citation_for_view=_SH8Z5cAAAAJ:VOx2b1Wkg3QC",
+    "names": "P Sotiriou, M Anifanti, E Georgianou, E Kouidi, A Karagiannis",
+    "publisher": "Hellenic Journal οf Atherosclerosis 5 (2)",
+    "": ", 2016",
+    "citations": "",
+    "year": 2016,
+    "type": "articles"
+  },
+  {
+    "title": "WS09. 2 Physical activity and quality of life among patients with cystic fibrosis",
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=_SH8Z5cAAAAJ&cstart=100&pagesize=100&citation_for_view=_SH8Z5cAAAAJ:tkaPQYYpVKoC",
+    "names": "E Hatziagorou, S Giannakoulakos, A Kampouras, L Nousia, D Pappa, ...",
+    "publisher": "Journal of Cystic Fibrosis 1 (15), S14-S15",
+    "": ", 2016",
+    "citations": "",
+    "year": 2016,
+    "type": "articles"
+  },
+  {
+    "title": "Effect of moderate aerobic exercise training on endothelial function and arterial stiffness in CKD stages 3-4: a randomized controlled trial",
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=_SH8Z5cAAAAJ&cstart=20&pagesize=80&citation_for_view=_SH8Z5cAAAAJ:NhqRSupF_l8C",
+    "names": "AH Van Craenenbroeck, EM Van Craenenbroeck, K Van Ackeren, ...",
+    "publisher": "American Journal of Kidney Diseases 66 (2), 285-296",
+    "": ", 2015",
+    "citations": 86,
     "year": 2015,
-    "publisher": "Clin Rehabil,Clin Rehabil, 29 (9):882-91.",
-    "link": ""
+    "type": "articles"
   },
   {
-    "title": "Effects of exercise training with traditional dancing on functional capacity and quality of life in patients with schizophrenia: a randomized controlled study.",
-    "names": "Kaltsatou A., Kouidi E., Fountoulakis K., Sipka C., Theochari V., Kandylis D., Deligiannis A.",
+    "title": "Effects of exercise training with traditional dancing on functional capacity and quality of life in patients with schizophrenia: a randomized controlled study",
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=_SH8Z5cAAAAJ&cstart=20&pagesize=80&citation_for_view=_SH8Z5cAAAAJ:HE397vMXCloC",
+    "names": "A Kaltsatou, E Kouidi, K Fountoulakis, C Sipka, V Theochari, D Kandylis, ...",
+    "publisher": "Clinical rehabilitation 29 (9), 882-891",
+    "": ", 2015",
+    "citations": 40,
     "year": 2015,
-    "publisher": "Clin Rehabil, 29(9):882-91.",
-    "link": ""
+    "type": "articles"
   },
   {
-    "title": "Effect of Moderate Aerobic Exercise Training on Endothelial Function and Arterial Stiffness in CKD Stages 3-4: A Randomized Controlled Trial.",
-    "names": "Van Craenenbroeck AH., Van Craenenbroeck EM., Van Ackeren K., Vrints CJ., Conraads VM., Verpooten GA., Kouidi E., Couttenye MM.",
+    "title": "EFFECTS OF MUSIC AND EXERCISE TRAINING DURING HEMODIALYSIS ON THE CARDIAC AUTONOMIC NERVOUS SYSTEM ACTIVITY",
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=_SH8Z5cAAAAJ&cstart=100&pagesize=100&citation_for_view=_SH8Z5cAAAAJ:geHnlv5EZngC",
+    "names": "M Mitsiou, E Kouidi, V Liakopoulos, A Deligiannis",
+    "publisher": "Nephrology Dialysis Transplantation 30",
+    "": ", 2015",
+    "citations": 1,
     "year": 2015,
-    "publisher": "Am J Kidney Dis, 66(2):285-96.",
-    "link": ""
+    "type": "articles"
   },
   {
-    "title": "Functional and psychosocial effects of either a traditional dancing or a formal exercising training program in patients with chronic heart failure: a comparative randomized controlled study.",
-    "names": "Kaltsatou AC., Kouidi EI., Anifanti MA., Douka SI., Deligiannis AP.",
+    "title": "Carotid intima-media thickness and arterial functional properties in young high level and recreational long distance runners and weight lifters-A pilot study",
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=_SH8Z5cAAAAJ&cstart=100&pagesize=100&citation_for_view=_SH8Z5cAAAAJ:WbkHhVStYXYC",
+    "names": "P Sotiriou, E Kouidi, A Karagiannis, N Koutlianos, P Geleris, V Vassilikos, ...",
+    "publisher": "EUROPEAN HEART JOURNAL 36, 468-468",
+    "": ", 2015",
+    "citations": "",
+    "year": 2015,
+    "type": "articles"
+  },
+  {
+    "title": "Functional and psychosocial effects of either a traditional dancing or a formal exercising training program in patients with chronic heart failure: a comparative randomized …",
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=_SH8Z5cAAAAJ&cstart=20&pagesize=80&citation_for_view=_SH8Z5cAAAAJ:N5tVd3kTz84C",
+    "names": "ACH Kaltsatou, EI Kouidi, MA Anifanti, SI Douka, AP Deligiannis",
+    "publisher": "Clinical Rehabilitation 28 (2), 128-138",
+    "": ", 2014",
+    "citations": 74,
     "year": 2014,
-    "publisher": "Clin Rehabil, 28(2):128-38.",
-    "link": ""
+    "type": "articles"
   },
   {
-    "title": "Vascular effects of exercise training in CKD: current evidence and pathophysiological mechanisms.",
-    "names": "Van Craenenbroeck AH., Van Craenenbroeck EM., Kouidi E., Vrints CJ., Couttenye MM., Conraads VM.",
+    "title": "Vascular effects of exercise training in CKD: current evidence and pathophysiological mechanisms",
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=_SH8Z5cAAAAJ&cstart=20&pagesize=80&citation_for_view=_SH8Z5cAAAAJ:a0OBvERweLwC",
+    "names": "AH Van Craenenbroeck, EM Van Craenenbroeck, E Kouidi, CJ Vrints, ...",
+    "publisher": "Clinical Journal of the American Society of Nephrology 9 (7), 1305-1318",
+    "": ", 2014",
+    "citations": 45,
     "year": 2014,
-    "publisher": "Clin J Am Soc Nephrol, 9(7):1305-18.",
-    "link": ""
+    "type": "articles"
   },
   {
-    "title": "Relationship between exercise testing recovery and psychological and quality of life status in hemodialysis patients.",
-    "names": "A. Samara, E. Kouidi, S. Ouzouni, S. Vasileiou, A. Sioulis, A. Deligiannis.",
+    "title": "Eighteen years’ experience applying old and current strategies in the pre-participation cardiovascular screening of athletes",
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=_SH8Z5cAAAAJ&cstart=20&pagesize=80&citation_for_view=_SH8Z5cAAAAJ:nb7KW1ujOQ8C",
+    "names": "AP Deligiannis, EJ Kouidi, NA Koutlianos, V Karagiannis, MA Anifanti, ...",
+    "publisher": "Hellenic J Cardiol 55 (1), 32",
+    "": ", 2014",
+    "citations": 14,
+    "year": 2014,
+    "type": "articles"
+  },
+  {
+    "title": "Right atrial and ventricular adaptations to training in male Caucasian athletes: an echocardiographic study",
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=_SH8Z5cAAAAJ&cstart=20&pagesize=80&citation_for_view=_SH8Z5cAAAAJ:zA6iFVUQeVQC",
+    "names": "ED Pagourelias, E Kouidi, GK Efthimiadis, A Deligiannis, P Geleris, ...",
+    "publisher": "Journal of the American Society of Echocardiography 26 (11), 1344-1352",
+    "": ", 2013",
+    "citations": 99,
     "year": 2013,
-    "publisher": "Journal of Nephrology 26(3):495-501.",
-    "link": ""
+    "type": "articles"
   },
   {
-    "title": "Importance of characteristics and modalities of physical activity and exercise in defining the benefits to cardiovascular health within the general population: recommendations from the EACPR (Part I).",
-    "names": "L. Vanhees, J De Sutter, N. Geladas, F. Doyle, V. Cornelissen, E. Kouidi, D. Dugmore, D. Vanuzzo, M. Börjesson, P. Doherty.",
+    "title": "Indirect estimation of VO2max in athletes by ACSM’s equation: valid or not?",
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=_SH8Z5cAAAAJ&cstart=20&pagesize=80&citation_for_view=_SH8Z5cAAAAJ:PR6Y55bgFSsC",
+    "names": "N Koutlianos, E Dimitros, T Metaxas, M Cansiz, AS Deligiannis, E Kouidi",
+    "publisher": "Hippokratia 17 (2), 136",
+    "": ", 2013",
+    "citations": 81,
+    "year": 2013,
+    "type": "articles"
+  },
+  {
+    "title": "A randomized controlled trial of exercise training on cardiovascular and autonomic function among renal transplant recipients",
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=_SH8Z5cAAAAJ&cstart=20&pagesize=80&citation_for_view=_SH8Z5cAAAAJ:fPk4N6BV_jEC",
+    "names": "E Kouidi, G Vergoulas, M Anifanti, A Deligiannis",
+    "publisher": "Nephrology Dialysis Transplantation 28 (5), 1294-1305",
+    "": ", 2013",
+    "citations": 69,
+    "year": 2013,
+    "type": "articles"
+  },
+  {
+    "title": "Linear and non-linear analysis of heart rate variability in master athletes and healthy middle-aged non-athletes",
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=_SH8Z5cAAAAJ&cstart=20&pagesize=80&citation_for_view=_SH8Z5cAAAAJ:b0M2c_1WBrUC",
+    "names": "P Sotiriou, E Kouidi, T Samaras, A Deligiannis",
+    "publisher": "Medical engineering & physics 35 (11), 1676-1681",
+    "": ", 2013",
+    "citations": 34,
+    "year": 2013,
+    "type": "articles"
+  },
+  {
+    "title": "Efficacy of various “classic” echocardiographic and laboratory indices in distinguishing the “gray zone” between athlete's heart and hypertrophic cardiomyopathy: a pilot study",
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=_SH8Z5cAAAAJ&cstart=20&pagesize=80&citation_for_view=_SH8Z5cAAAAJ:pyW8ca7W8N0C",
+    "names": "ED Pagourelias, GK Efthimiadis, E Kouidi, P Zorou, G Giannoglou, ...",
+    "publisher": "Echocardiography 30 (2), 131-139",
+    "": ", 2013",
+    "citations": 20,
+    "year": 2013,
+    "type": "articles"
+  },
+  {
+    "title": "FUNCTIONAL AND PSYCHOSOCIAL EFFECTS OF EXERCISE TRAINING WITH TRADITIONAL DANCING IN PATIENTS WITH CHRONIC HEART FAILURE",
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=_SH8Z5cAAAAJ&cstart=20&pagesize=80&citation_for_view=_SH8Z5cAAAAJ:JQOojiI6XY0C",
+    "names": "A Kaltsatou, E Kouidi, M Anifanti, S Douka, A Deligiannis",
+    "publisher": "",
+    "": "",
+    "citations": 2,
+    "year": 2013,
+    "type": "articles"
+  },
+  {
+    "title": "Importance of characteristics and modalities of physical activity and exercise in the management of cardiovascular health in individuals with cardiovascular risk factors …",
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=_SH8Z5cAAAAJ&citation_for_view=_SH8Z5cAAAAJ:J-pR_7NvFogC",
+    "names": "L Vanhees, N Geladas, D Hansen, E Kouidi, J Niebauer, Ž Reiner, ...",
+    "publisher": "European journal of preventive cardiology 19 (5), 1005-1033",
+    "": ", 2012",
+    "citations": 517,
     "year": 2012,
-    "publisher": "Eur J Prev Cardiol, 19 (4): 670-686.",
-    "link": ""
+    "type": "articles"
   },
   {
-    "title": "Importance of characteristics and modalities of physical activity and exercise in the management of cardiovascular health in individuals with cardiovascular risk factors: recommendations from the EACPR (Part II).",
-    "names": "L. Vanhees, N. Geladas, D. Hansen, E. Kouidi, J. Niebauer, Z. Reiner, V. Cornelissen, S. Adamopoulos, E. Prescott, M. Börjesson.",
+    "title": "Importance of characteristics and modalities of physical activity and exercise in defining the benefits to cardiovascular health within the general population: recommendations …",
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=_SH8Z5cAAAAJ&citation_for_view=_SH8Z5cAAAAJ:2P1L_qKh6hAC",
+    "names": "L Vanhees, J De Sutter, N Geladas, F Doyle, E Prescott, V Cornelissen, ...",
+    "publisher": "European journal of preventive cardiology 19 (4), 670-686",
+    "": ", 2012",
+    "citations": 156,
     "year": 2012,
-    "publisher": "Eur J Prev Cardiol, 19 (5): 1005-1033.",
-    "link": ""
+    "type": "articles"
   },
   {
-    "title": "Implementation of Internet educational environments for swimming training in patients with chronic diseases.",
-    "names": "P. Deligiannis, D. Mameletzi, N. Koutlianos, S. Alexiou, A. Samara.",
+    "title": "Cardiovascular adverse effects of doping in sports",
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=_SH8Z5cAAAAJ&cstart=20&pagesize=80&citation_for_view=_SH8Z5cAAAAJ:dQ2og3OwTAUC",
+    "names": "AP Deligiannis, EI Kouidi",
+    "publisher": "Hellenic J Cardiol 53 (6), 447-457",
+    "": ", 2012",
+    "citations": 40,
     "year": 2012,
-    "publisher": "Journal Sport- und Präventivmedizin, 1:16-19.",
-    "link": ""
+    "type": "articles"
   },
   {
-    "title": "A randomized controlled trial of exercise training on cardiovascular and autonomic function among renal transplant recipients.",
-    "names": "E. Kouidi, G. Vergoulas, M. Anifanti, A. Deligiannis.",
+    "title": "Heart rate variability in free diving athletes",
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=_SH8Z5cAAAAJ&cstart=20&pagesize=80&citation_for_view=_SH8Z5cAAAAJ:Mojj43d5GZwC",
+    "names": "V Christoforidi, N Koutlianos, P Deligiannis, E Kouidi, A Deligiannis",
+    "publisher": "Clinical physiology and functional imaging 32 (2), 162-166",
+    "": ", 2012",
+    "citations": 33,
     "year": 2012,
-    "publisher": "Nephrol Dial Transplant 26(3):495-501.",
-    "link": ""
+    "type": "articles"
   },
   {
-    "title": "Physical and psychological benefits of a 24-week traditional dance program in breast cancer survivors.",
-    "names": "Kaltsatou A., Mameletzi D., Douka S.",
+    "title": "Improving the diagnosis of mild hypertrophic cardiomyopathy with mapreduce",
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=_SH8Z5cAAAAJ&cstart=20&pagesize=80&citation_for_view=_SH8Z5cAAAAJ:_xSYboBqXhAC",
+    "names": "P Deligiannis, HW Loidl, E Kouidi",
+    "publisher": "Proceedings of third international workshop on MapReduce and its …",
+    "": ", 2012",
+    "citations": 14,
+    "year": 2012,
+    "type": "articles"
+  },
+  {
+    "title": "Relationship between exercise test recovery indices and psychological and quality-of-life status in hemodialysis patients: a pilot study.",
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=_SH8Z5cAAAAJ&cstart=20&pagesize=80&citation_for_view=_SH8Z5cAAAAJ:KxtntwgDAa4C",
+    "names": "AP Samara, E Kouidi, S Ouzouni, S Vasileiou, A Sioulis, A Deligiannis",
+    "publisher": "Journal of Nephrology 26 (3), 495-501",
+    "": ", 2012",
+    "citations": 10,
+    "year": 2012,
+    "type": "articles"
+  },
+  {
+    "title": "Development of the global disability scale (Glo. Di. S): preliminary results",
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=_SH8Z5cAAAAJ&cstart=20&pagesize=80&citation_for_view=_SH8Z5cAAAAJ:xtRiw3GOFMkC",
+    "names": "KN Fountoulakis, E Lekka, E Kouidi, I Chouvarda, A Deligiannis, ...",
+    "publisher": "Annals of general psychiatry 11 (1), 1-7",
+    "": ", 2012",
+    "citations": 9,
+    "year": 2012,
+    "type": "articles"
+  },
+  {
+    "title": "Comparative study of ECG and echocardiographic parameters indicative of cardiac hypertrophy in athletes",
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=_SH8Z5cAAAAJ&cstart=20&pagesize=80&citation_for_view=_SH8Z5cAAAAJ:uLbwQdceFCQC",
+    "names": "E Dimitros, N Koutlianos, M Anifanti, E Pagourelias, E Kouidi, ...",
+    "publisher": "Sport Sciences for Health 8 (2), 101-107",
+    "": ", 2012",
+    "citations": 2,
+    "year": 2012,
+    "type": "articles"
+  },
+  {
+    "title": "Oral Abstract Session: Rehabilitation and implementation Saturday, 05 May 2012, 10: 30–11: 30 Location: Liffey Hall 2",
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=_SH8Z5cAAAAJ&cstart=100&pagesize=100&citation_for_view=_SH8Z5cAAAAJ:EYYDruWGBe4C",
+    "names": "E Koudi, P Dendale, JP Schmid, EG Porrero, CH Davos, H Mc Gee10",
+    "publisher": "Rehabilitation 10",
+    "": ", 2012",
+    "citations": "",
+    "year": 2012,
+    "type": "articles"
+  },
+  {
+    "title": "structured exercising during dialysis (hD)–experiences in europe",
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=_SH8Z5cAAAAJ&cstart=100&pagesize=100&citation_for_view=_SH8Z5cAAAAJ:tOudhMTPpwUC",
+    "names": "R Krause, I Fuhrmann, E Kouidi, P Koufaki, T Mercer, A Daul, ...",
+    "publisher": "Deutsche Zeitschrift für sportmeDiZin 63 (7-8)",
+    "": ", 2012",
+    "citations": "",
+    "year": 2012,
+    "type": "articles"
+  },
+  {
+    "title": "Cardiovascular evaluation of middle-aged/senior individuals engaged in leisure-time sport activities: position stand from the sections of exercise physiology and sports …",
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=_SH8Z5cAAAAJ&citation_for_view=_SH8Z5cAAAAJ:ns9cj8rnVeAC",
+    "names": "M Borjesson, A Urhausen, E Kouidi, D Dugmore, S Sharma, M Halle, ...",
+    "publisher": "European Journal of Cardiovascular Prevention & Rehabilitation 18 (3), 446-458",
+    "": ", 2011",
+    "citations": 300,
     "year": 2011,
-    "publisher": "Journal of Bodywork & Movement Therapies, 15(2):162-7.",
-    "link": ""
+    "type": "articles"
   },
   {
-    "title": "Effects of long-term exercise training on cardiac baroreflex sensitivity in patients with coronary artery disease.",
-    "names": "D. Mameletzi, E. Kouidi, N. Koutlianos, A. Deligiannis.",
+    "title": "The use of pupillometry in the assessment of cardiac autonomic function in elite different type trained athletes",
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=_SH8Z5cAAAAJ&cstart=20&pagesize=80&citation_for_view=_SH8Z5cAAAAJ:WA5NYHcadZ8C",
+    "names": "A Kaltsatou, E Kouidi, D Fotiou, P Deligiannis",
+    "publisher": "European journal of applied physiology 111 (9), 2079-2087",
+    "": ", 2011",
+    "citations": 46,
     "year": 2011,
-    "publisher": "Clin Rehabil, 25(3):217-27.",
-    "link": ""
+    "type": "articles"
   },
   {
-    "title": "Depression, heart rate variability and exercise training in dialysis patients.",
-    "names": "Kouidi E, Karagiannis V., Grekas D., Iakovides A., Kaprinis G., Tourkantonis A., Deligiannis AP.",
+    "title": "Chronotropic incompetence and its relation to exercise intolerance in hypertrophic cardiomyopathy",
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=_SH8Z5cAAAAJ&cstart=20&pagesize=80&citation_for_view=_SH8Z5cAAAAJ:yD5IFk8b50cC",
+    "names": "GK Efthimiadis, G Giannakoulas, DG Parcharidou, ED Pagourelias, ...",
+    "publisher": "International journal of cardiology 153 (2), 179-184",
+    "": ", 2011",
+    "citations": 45,
+    "year": 2011,
+    "type": "articles"
+  },
+  {
+    "title": "Effects of long-term exercise training on cardiac baroreflex sensitivity in patients with coronary artery disease: a randomized controlled trial",
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=_SH8Z5cAAAAJ&cstart=20&pagesize=80&citation_for_view=_SH8Z5cAAAAJ:D03iK_w7-QYC",
+    "names": "D Mameletzi, E Kouidi, N Koutlianos, A Deligiannis",
+    "publisher": "Clinical rehabilitation 25 (3), 217-227",
+    "": ", 2011",
+    "citations": 23,
+    "year": 2011,
+    "type": "articles"
+  },
+  {
+    "title": "Trends in e-health monitoring implementation in sports",
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=_SH8Z5cAAAAJ&cstart=20&pagesize=80&citation_for_view=_SH8Z5cAAAAJ:1sJd4Hv_s6UC",
+    "names": "P Deligiannis, AS Deligiannis, E Kouidi",
+    "publisher": "Sport-und Präventivmedizin 41 (2), 34-37",
+    "": ", 2011",
+    "citations": 5,
+    "year": 2011,
+    "type": "articles"
+  },
+  {
+    "title": "Athlete's Heart or Hypertrophic Cardiomyopathy",
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=_SH8Z5cAAAAJ&cstart=20&pagesize=80&citation_for_view=_SH8Z5cAAAAJ:abG-DnoFyZgC",
+    "names": "ED Pagourelias, E Kouidi, N Fragakis, V Athyros, P Gkeleris, ...",
+    "publisher": "The American journal of cardiology 108 (IKEEART-2017-042), 1841-1842",
+    "": ", 2011",
+    "citations": 5,
+    "year": 2011,
+    "type": "articles"
+  },
+  {
+    "title": "The role of physical activity on cardiometabolic risk in adult greek women",
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=_SH8Z5cAAAAJ&cstart=100&pagesize=100&citation_for_view=_SH8Z5cAAAAJ:tYavs44e6CUC",
+    "names": "EE Papadopoulou, K Kontopoulou, E Kouidi, D Psirropoulos, ...",
+    "publisher": "British Journal of Sports Medicine 45 (2), e3-e3",
+    "": ", 2011",
+    "citations": "",
+    "year": 2011,
+    "type": "articles"
+  },
+  {
+    "title": "Depression, heart rate variability, and exercise training in dialysis patients",
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=_SH8Z5cAAAAJ&citation_for_view=_SH8Z5cAAAAJ:ldfaerwXgEUC",
+    "names": "E Kouidi, V Karagiannis, D Grekas, A Iakovides, G Kaprinis, ...",
+    "publisher": "European Journal of Preventive Cardiology 17 (2), 160-167",
+    "": ", 2010",
+    "citations": 168,
     "year": 2010,
-    "publisher": "European Journal of Cardiovascular Prevention and Rehabilitation",
-    "link": ""
+    "type": "articles"
   },
   {
-    "title": "Effects of exercise training on heart rate variability indices in individuals with Down Syndrome.",
-    "names": "Giagkoudaki F., Dimitros E., Kouidi E., Deligiannis A.",
+    "title": "Current best evidence recommendations on measurement and interpretation of physical function in patients with chronic kidney disease",
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=_SH8Z5cAAAAJ&cstart=20&pagesize=80&citation_for_view=_SH8Z5cAAAAJ:SeFeTyx0c_EC",
+    "names": "P Koufaki, E Kouidi",
+    "publisher": "Sports medicine 40 (12), 1055-1074",
+    "": ", 2010",
+    "citations": 76,
     "year": 2010,
-    "publisher": "Journal of Sport Rehabilitation",
-    "link": ""
+    "type": "articles"
   },
   {
-    "title": "Obesity and smoking in patients with schizophrenia and normal controls: A case-control study.",
-    "names": "Fountoulakis KN., Siamouli M., Panagiotidis P., Magiria S., Kantartzis S., Papastergiou N., Shoretsanitis G., Pantoula E., Moutou K., Kouidi E., Deres S.",
+    "title": "Effects of exercise training on heart-rate-variability indices in individuals with Down syndrome",
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=_SH8Z5cAAAAJ&cstart=20&pagesize=80&citation_for_view=_SH8Z5cAAAAJ:ZuybSZzF8UAC",
+    "names": "F Giagkoudaki, E Dimitros, E Kouidi, A Deligiannis",
+    "publisher": "Journal of sport rehabilitation 19 (2), 173-183",
+    "": ", 2010",
+    "citations": 40,
     "year": 2010,
-    "publisher": "Psychiatry Res",
-    "link": ""
+    "type": "articles"
   },
   {
-    "title": "Measurement and Evaluation of Physical Functioning in People with Chronic Kidney Disease (CKD).",
-    "names": "Koufaki P., Kouidi E.",
+    "title": "Obesity and smoking in patients with schizophrenia and normal controls: a case-control study",
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=_SH8Z5cAAAAJ&cstart=20&pagesize=80&citation_for_view=_SH8Z5cAAAAJ:rO6llkc54NcC",
+    "names": "KN Fountoulakis, M Siamouli, P Panagiotidis, S Magiria, S Kantartzis, ...",
+    "publisher": "Psychiatry research 176 (1), 13-16",
+    "": ", 2010",
+    "citations": 40,
     "year": 2010,
-    "publisher": "Sports Medicine",
-    "link": ""
+    "type": "articles"
   },
   {
-    "title": "Depression, heart rate variability and exercise training in dialysis patients.",
-    "names": "Kouidi E., Karagiannis V., Grekas D., Iakovides A., Kaprinis G., Tourkantonis A., Deligiannis AP.",
+    "title": "Brain natriuretic peptide and the athlete’s heart: a pilot study",
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=_SH8Z5cAAAAJ&cstart=20&pagesize=80&citation_for_view=_SH8Z5cAAAAJ:u_35RYKgDlwC",
+    "names": "ED Pagourelias, G Giannoglou, E Kouidi, GK Efthimiadis, P Zorou, ...",
+    "publisher": "International journal of clinical practice 64 (4), 511-517",
+    "": ", 2010",
+    "citations": 23,
     "year": 2010,
-    "publisher": "European Journal of Cardiovascular Prevention and Rehabilitation, 17(2):160-7.",
-    "link": ""
+    "type": "articles"
   },
   {
-    "title": "Effects of exercise training on heart rate variability indices in individuals with Down Syndrome.",
-    "names": "Giagkoudaki F., Dimitros E., Kouidi E., Deligiannis A.",
+    "title": "Recommendations for the cardiovascular screening of athletes",
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=_SH8Z5cAAAAJ&cstart=20&pagesize=80&citation_for_view=_SH8Z5cAAAAJ:f2IySw72cVMC",
+    "names": "A Deligiannis, A Anastasakis, L Antoniades, G Bobotis, P Geleris, ...",
+    "publisher": "Hellenic J Cardiol 51 (6), 530-7",
+    "": ", 2010",
+    "citations": 13,
     "year": 2010,
-    "publisher": "Journal of Sport Rehabilitation, 19(2):173-83.",
-    "link": ""
+    "type": "articles"
   },
   {
-    "title": "Obesity and smoking in patients with schizophrenia and normal controls: A case-control study.",
-    "names": "Fountoulakis KN., Siamouli M., Panagiotidis P., Magiria S., Kantartzis S., Papastergiou N., Shoretsanitis G., Pantoula E., Moutou K., Kouidi E., Deres S.",
+    "title": "Assessment of cardiac autonomic function in dynamic athletes by pupillometry",
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=_SH8Z5cAAAAJ&cstart=20&pagesize=80&citation_for_view=_SH8Z5cAAAAJ:t6usbXjVLHcC",
+    "names": "A Kaltsatou, E Kouidi, C Lithari, N Koutlianos, F Fotiou, A Deligiannis",
+    "publisher": "International Journal of Psychophysiology 3 (77), 283-284",
+    "": ", 2010",
+    "citations": 5,
     "year": 2010,
-    "publisher": "Psychiatry Res, 176(1):13-6.",
-    "link": ""
+    "type": "articles"
   },
   {
-    "title": "Measurement and evaluation of physical functioning in people with chronic kidney disease (CKD).",
-    "names": "Koufaki P., Kouidi E.",
+    "title": "Brain natriuretic peptide and the athletes heart",
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=_SH8Z5cAAAAJ&cstart=100&pagesize=100&citation_for_view=_SH8Z5cAAAAJ:uWiczbcajpAC",
+    "names": "ED Pagourelias, E Kouidi, P Zorou, DP Mikhailidis, G Efthymiadis, ...",
+    "publisher": "International Journal of Clinical Practice",
+    "": ", 2010",
+    "citations": "",
     "year": 2010,
-    "publisher": "Sports Medicine, 40(12):1055-74.",
-    "link": ""
+    "type": "articles"
   },
   {
-    "title": "Assessment of cardiac autonomic function in dynamic athletes by pupillometry.",
-    "names": "Kaltsatou A., Kouidi E., Lithari C., Koutlianos N., Fotiou F., Deligiannis A.",
-    "year": 2010,
-    "publisher": "International Journal of Psychophysiology, 77(3), 283-284.",
-    "link": ""
-  },
-  {
-    "title": "Η επίδραση των προγραμμάτων επαναδραστηριοποίησης στην καθημερινή φυσική δραστηριότητα ασθενών με καρδιαγγειακά νοσήματα.",
-    "names": "Πτσή Ε., Κουτλιάνος Ν., Κουιδή Ε.",
-    "year": 2010,
-    "publisher": "Ελληνική Ιατρική, 76(4): 242-250.",
-    "link": ""
-  },
-  {
-    "title": "Standards for the use of cardiopulmonary exercise testing for the functional evaluation of cardiac patients: a report from the Exercise Physiology Section of the European Association for Cardiovascular Prevention and Rehabilitation.",
-    "names": "Mezzani A., Agostoni P., Cohen-Solal A., Corrà U., Jegier A., Kouidi E., Mazic S., Meurin P., Piepoli M, Simon A., Laethem CV., Vanhees L.",
+    "title": "Standards for the use of cardiopulmonary exercise testing for the functional evaluation of cardiac patients: a report from the Exercise Physiology Section of the European …",
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=_SH8Z5cAAAAJ&citation_for_view=_SH8Z5cAAAAJ:GnPB-g6toBAC",
+    "names": "A Mezzani, P Agostoni, A Cohen-Solal, U Corra, A Jegier, E Kouidi, ...",
+    "publisher": "European Journal of Preventive Cardiology 16 (3), 249-267",
+    "": ", 2009",
+    "citations": 459,
     "year": 2009,
-    "publisher": "Eur J Cardiovasc Prev Rehabil 16:249-67.",
-    "link": ""
+    "type": "articles"
   },
   {
-    "title": "Effects of intradialytic exercise training on health-related quality of life indices in haemodialysis patients.",
-    "names": "Ouzouni S., Kouidi E., Sioulis A., Grekas D., Deligiannis A.",
+    "title": "Effects of intradialytic exercise training on health-related quality of life indices in haemodialysis patients",
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=_SH8Z5cAAAAJ&citation_for_view=_SH8Z5cAAAAJ:NaGl4SEjCO4C",
+    "names": "S Ouzouni, E Kouidi, A Sioulis, D Grekas, A Deligiannis",
+    "publisher": "Clinical rehabilitation 23 (1), 53-63",
+    "": ", 2009",
+    "citations": 327,
     "year": 2009,
-    "publisher": "Clin Rehabil 23:53-63.",
-    "link": ""
+    "type": "articles"
   },
   {
-    "title": "Effects of exercise training on noninvasive cardiac measures in patients undergoing long-term hemodialysis: a randomized controlled trial.",
-    "names": "Kouidi EJ., Grekas DM., Deligiannis AP.",
+    "title": "Effects of exercise training on noninvasive cardiac measures in patients undergoing long-term hemodialysis: a randomized controlled trial",
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=_SH8Z5cAAAAJ&citation_for_view=_SH8Z5cAAAAJ:M05iB0D1s5AC",
+    "names": "EJ Kouidi, DM Grekas, AP Deligiannis",
+    "publisher": "American Journal of Kidney Diseases 54 (3), 511-521",
+    "": ", 2009",
+    "citations": 140,
     "year": 2009,
-    "publisher": "Am J Kidney Dis 54: 511-21.",
-    "link": ""
+    "type": "articles"
   },
   {
-    "title": "Effect of resistance exercise during hemodialysis on physical function and quality of life: randomized controlled trial.",
-    "names": "Segura-Ortí E., Kouidi E., Lisón JF.",
+    "title": "Effect of resistance exercise during hemodialysis on physical function and quality of life: randomized controlled trial",
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=_SH8Z5cAAAAJ&citation_for_view=_SH8Z5cAAAAJ:g5m5HwL7SMYC",
+    "names": "E Segura-Ortí, E Kouidi, JF Lisón",
+    "publisher": "Clinical nephrology 71 (5), 527",
+    "": ", 2009",
+    "citations": 137,
     "year": 2009,
-    "publisher": "Clin Nephrol 71:527-37.",
-    "link": ""
+    "type": "articles"
   },
   {
-    "title": "Physical training in patients on hemodialysis has a beneficial effect on the levels of eicosanoid hormone-like substances.",
-    "names": "Karamouzis I., Grekas D., Karamouzis M., Kallaras K., Stergiou-Michailidou V., Kouidi E., Deligiannis A., Vavatsi-Christaki N.",
+    "title": "Physical training in patients on hemodialysis has a beneficial effect on the levels of eicosanoid hormone-like substances",
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=_SH8Z5cAAAAJ&cstart=20&pagesize=80&citation_for_view=_SH8Z5cAAAAJ:EUQCXRtRnyEC",
+    "names": "I Karamouzis, D Grekas, M Karamouzis, K Kallaras, ...",
+    "publisher": "Hormones 8 (2), 129-137",
+    "": ", 2009",
+    "citations": 14,
     "year": 2009,
-    "publisher": "Hormones 8:129-37.",
-    "link": ""
+    "type": "articles"
   },
   {
-    "title": "Καρδιαγγειακό σύστημα και άσκηση σε άτομα με παραπληγία.",
-    "names": "Στεφάνου Δ., Κουτλιάνος Ν.",
+    "title": "European Journal of Cardiovascular Prevention",
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=_SH8Z5cAAAAJ&cstart=100&pagesize=100&citation_for_view=_SH8Z5cAAAAJ:XiSMed-E-HIC",
+    "names": "I Njølstad, R Oganov, T Thomsen, A Tverdal, H Wedel, L Wilhelmsen, ...",
+    "publisher": "European Journal of Cardiovascular Prevention and Rehabilitation 16, 541-549",
+    "": ", 2009",
+    "citations": "",
     "year": 2009,
-    "publisher": "Καρδιολογία, 1: 51-64.",
-    "link": ""
-  },
-  {
-    "title": "Η επίδραση της μακροχρόνιας άσκησης στη λειτουργική ικανότητα και την ποιότητα ζωής ατόμων με σχιζοφρένεια.",
-    "names": "Μαμελετζή Δ., Θεοχάρη Β., Κουϊδή Ε., Κανδύλης Δ., Σίπκα Χ., Καλτσάτου Α., Καπρίνης Γ., Δεληγιάννης Α.",
-    "year": 2009,
-    "publisher": "Ελληνική Ιατρική, 75(1): 74-83.",
-    "link": ""
-  },
-  {
-    "title": "Στάση ασθενών με χρόνιες παθήσεις για τα προγράμματα φυσικής επαναδραστηριοποίησης στη Βόρεια Ελλάδα.",
-    "names": "Κουτλιάνος Ν., Γκουντούλα Ε., Ανυφαντή Μ., Καλτσάτου Α., Κουϊδή Ε., Δεληγιάννης Α.",
-    "year": 2009,
-    "publisher": "Καρδιολογία, 1: 78-88.",
-    "link": ""
-  },
-  {
-    "title": "Η επίδραση της άσκησης στη δράση του αυτόνομου νευρικού συστήματος στην καρδιά.",
-    "names": "Σωτηρίου Π., Κουιδή Ε.",
-    "year": 2009,
-    "publisher": "Καρδιολογία, 2-3 : 125-131.",
-    "link": ""
-  },
-  {
-    "title": "Heart rate variability modifications following exercise training in type 2 diabetic patients with definite cardiac autonomic neuropathy.",
-    "names": "Pagkalos M., Koutlianos N., Kouidi E., Pagkalos E., Mandroukas K., Deligiannis A.",
-    "year": 2008,
-    "publisher": "Br J Sports Med 42:47-54.",
-    "link": ""
+    "type": "articles"
   },
   {
     "title": "Effects of exercise training during hemodialysis on cardiac baroreflex sensitivity.",
-    "names": "Petraki M., Kouidi E., Grekas D., Deligiannis A.",
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=_SH8Z5cAAAAJ&cstart=20&pagesize=80&citation_for_view=_SH8Z5cAAAAJ:q3oQSFYPqjQC",
+    "names": "M Petraki, E Kouidi, D Grekas, A Deligiannis",
+    "publisher": "Clinical nephrology 70 (3), 210-219",
+    "": ", 2008",
+    "citations": 62,
     "year": 2008,
-    "publisher": "Clin Nephrol 70: 210-9.",
-    "link": ""
+    "type": "articles"
   },
   {
-    "title": "Η επίδραση της συστηματικής άσκησης στην ψυχοκοινωνική κατάσταση καρδιοπαθών.",
-    "names": "Κουκουβού Γ., Κουϊδή Ε., Ανυφαντή Μ., Μαμελετζή Δ., Δεληγιάννης Α.",
+    "title": "Transtelephonic electrocardiographic transmission in the preparticipation screening of athletes",
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=_SH8Z5cAAAAJ&cstart=20&pagesize=80&citation_for_view=_SH8Z5cAAAAJ:4OULZ7Gr8RgC",
+    "names": "T Samaras, S Karavasiliadou, E Kouidi, JN Sahalos, A Deligiannis",
+    "publisher": "International journal of telemedicine and applications 2008",
+    "": ", 2008",
+    "citations": 21,
     "year": 2008,
-    "publisher": "Καρδιολογία, 11 (1-3): 60-68.",
-    "link": ""
+    "type": "articles"
   },
   {
-    "title": "Θεραπευτική κολύμβηση σε ασθενείς με χρόνιες παθήσεις.",
-    "names": "Μαμελετζή Δ., Κουϊδή Ε.",
+    "title": "Effects of androgenic anabolic steroids use on left ventricular anatomy and function in strength-trained athletes",
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=_SH8Z5cAAAAJ&cstart=20&pagesize=80&citation_for_view=_SH8Z5cAAAAJ:uWQEDVKXjbEC",
+    "names": "E Kouidi, M Anifanti, A Kaltsatou, A Deligiannis",
+    "publisher": "EUROPEAN HEART JOURNAL 29, 532-532",
+    "": ", 2008",
+    "citations": 2,
     "year": 2008,
-    "publisher": "Ελληνική Ιατρική, 74(4): 273-285.",
-    "link": ""
+    "type": "articles"
   },
   {
-    "title": "Heart rate variability modifications following exercise training in type 2 diabetic patients with definite cardiac autonomic neuropathy.",
-    "names": "Pagkalos M., Koutlianos N., Kouidi E., Pagkalos E., Mandroukas K., Deligiannis A.",
-    "year": 2007,
-    "publisher": "Br J Sports Med.",
-    "link": ""
+    "title": "Comparison of body fat in patients with schizophrenia and normal controls",
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=_SH8Z5cAAAAJ&cstart=100&pagesize=100&citation_for_view=_SH8Z5cAAAAJ:bnK-pcrLprsC",
+    "names": "K Fountoulakis, M Siamouli, P Panagiotidis, S Magiria, S Sokolaki, ...",
+    "publisher": "Annals of General Psychiatry 7 (1), 1-1",
+    "": ", 2008",
+    "citations": 1,
+    "year": 2008,
+    "type": "articles"
   },
   {
-    "title": "Επίδραση της Χρονίας Νεφρικής Νόσου στη δυσλειτουργία των σκελετικών μυών. Η άσκηση βοηθάει",
-    "names": "Κουϊδή E.",
-    "year": 2007,
-    "publisher": "9ος κύκλος Αλκυονίδες ημέρες Νεφρολογίας, Τόμος Β, σελ: 519-525.",
-    "link": ""
-  },
-  {
-    "title": "Χρόνια καρδιακή ανεπάρκεια: Η σημασία της άσκησης.",
-    "names": "Δεληγιάννης Α.",
-    "year": 2007,
-    "publisher": "Καρδιολογία, 1.",
-    "link": ""
-  },
-  {
-    "title": "Χρόνιες καρδιακές παθήσεις και κολύμβηση.",
-    "names": "Μαμελετζή Δ., Δεληγιάννης Α.",
-    "year": 2007,
-    "publisher": "Καρδιολογία, 2: 102-107.",
-    "link": ""
-  },
-  {
-    "title": "Transtelephonic electrocardiographic monitoring of an outpatient cardiac rehabilitation programme.",
-    "names": "Kouidi E., Farmakiotis Α., Kouidis Ν., Deligiannis A.",
+    "title": "ESC study group of sports cardiology position paper on adverse cardiovascular effects of doping in athletes",
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=_SH8Z5cAAAAJ&citation_for_view=_SH8Z5cAAAAJ:35N4QoGY0k4C",
+    "names": "A Deligiannis, H Björnstad, F Carre, H Heidbüchel, E Kouidi, ...",
+    "publisher": "European Journal of Preventive Cardiology 13 (5), 687-694",
+    "": ", 2006",
+    "citations": 141,
     "year": 2006,
-    "publisher": "Clin Rehabil 20(12):1100-1104.",
-    "link": ""
+    "type": "articles"
   },
   {
-    "title": "Effects of physical training on plasma levels of thromboxane (TXB2) in patients on hemodialysis.",
-    "names": "Karamouzis I., Sioulis A., Karamouzis M., Triantos A., Kouidi E., Deligiannis A., Dimitriadou A., Grekas D.",
+    "title": "Transtelephonic electrocardiographic monitoring of an outpatient cardiac rehabilitation programme",
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=_SH8Z5cAAAAJ&cstart=20&pagesize=80&citation_for_view=_SH8Z5cAAAAJ:ZHo1McVdvXMC",
+    "names": "E Kouidi, A Farmakiotis, N Kouidis, A Deligiannis",
+    "publisher": "Clinical rehabilitation 20 (12), 1100-1104",
+    "": ", 2006",
+    "citations": 56,
     "year": 2006,
-    "publisher": "Aristotle University Medical Journal 33(1): 113-115.",
-    "link": ""
+    "type": "articles"
   },
   {
-    "title": "Effects of physical training on lipid peroxidation in patients on hemodialysis.",
-    "names": "Karamouzis I., Sioulis A., Karamouzis M., Kouidi E., Triantos A., Deligiannis A., Dimitriadou A., Grekas D.",
+    "title": "Effects of physical training on plasma levels of thromboxane (TXB2) in patients on hemodialysis",
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=_SH8Z5cAAAAJ&cstart=20&pagesize=80&citation_for_view=_SH8Z5cAAAAJ:tzM49s52ZIMC",
+    "names": "I Karamouzis, A Sioulis, M Karamouzis, A Triantos, E Kouidi, ...",
+    "publisher": "Aristotle University Medical Journal 33 (1), 114-117",
+    "": ", 2006",
+    "citations": 3,
     "year": 2006,
-    "publisher": "Review of clinical pharmacology and pharmacokinetics, International edition; 20: 198-200.",
-    "link": ""
+    "type": "articles"
   },
   {
-    "title": "The immune response in hemodialysis patients following physical training.",
-    "names": "Daniilidis M., Kouidi E., Giagoudaki F., Fleva A., Nikolaides P., Vasilaki A., Deligiannis A., Tourkantonis A.",
+    "title": "The effects of exercise training on non-invasive variables for cardiac risk stratification in hemodialysis patients",
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=_SH8Z5cAAAAJ&cstart=100&pagesize=100&citation_for_view=_SH8Z5cAAAAJ:K3LRdlH-MEoC",
+    "names": "E Kouidi, A Sioulis, G Koukouvou, E Konstantinidou, D Grekas, ...",
+    "publisher": "Nephrology Dialysis Transplantation 21, 238-238",
+    "": ", 2006",
+    "citations": 1,
+    "year": 2006,
+    "type": "articles"
+  },
+  {
+    "title": "Comparative study of field and laboratory tests for the evaluation of aerobic capacity in soccer players",
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=_SH8Z5cAAAAJ&citation_for_view=_SH8Z5cAAAAJ:lSLTfruPkqcC",
+    "names": "TI Metaxas, NA Koutlianos, EJ Kouidi, AP Deligiannis",
+    "publisher": "The Journal of Strength & Conditioning Research 19 (1), 79-84",
+    "": ", 2005",
+    "citations": 177,
+    "year": 2005,
+    "type": "articles"
+  },
+  {
+    "title": "Cardiac function after exhaustive open-sea swimming",
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=_SH8Z5cAAAAJ&cstart=20&pagesize=80&citation_for_view=_SH8Z5cAAAAJ:CHSYGLWDkRkC",
+    "names": "S Alexiou, E Kouidi, A Fahadidou-Tsiligiroglou, M Karamouzis, ...",
+    "publisher": "Journal of sports medicine and physical fitness 45 (1), 98",
+    "": ", 2005",
+    "citations": 10,
+    "year": 2005,
+    "type": "articles"
+  },
+  {
+    "title": "Psychosocial effects of exercise training during dialysis in uraemic patients under epoietin therapy",
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=_SH8Z5cAAAAJ&cstart=20&pagesize=80&citation_for_view=_SH8Z5cAAAAJ:u9iWguZQMMsC",
+    "names": "EJ Kouidi, DM Grekas, SG Ouzouni, AI Iacovides, AP Deligiannis",
+    "publisher": "Nephrology Dialysis Transplantation 20, V314-V314",
+    "": ", 2005",
+    "citations": 2,
+    "year": 2005,
+    "type": "articles"
+  },
+  {
+    "title": "Prevalence of mild pulmonic and tricuspid valvular regurgitation in young athletes",
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=_SH8Z5cAAAAJ&cstart=100&pagesize=100&citation_for_view=_SH8Z5cAAAAJ:fQNAKQ3IYiAC",
+    "names": "K Tsorbatzoglou, N Koutlianos, E Kouidi, A Sarnara, A Deligiannis",
+    "publisher": "EUROPEAN HEART JOURNAL 26, 167-167",
+    "": ", 2005",
+    "citations": "",
+    "year": 2005,
+    "type": "articles"
+  },
+  {
+    "title": "outcomes of long-term exercise training in",
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=_SH8Z5cAAAAJ&citation_for_view=_SH8Z5cAAAAJ:RYcK_YlVTxYC",
+    "names": "E Kouidi, D Grekas, A Deligiannis, A Tourkantonisº",
+    "publisher": "Clinical nephrology 61 (1), S31-S38",
+    "": ", 2004",
+    "citations": 195,
     "year": 2004,
-    "publisher": "J Sport Sci Health 1: 11-16.",
-    "link": ""
+    "type": "articles"
+  },
+  {
+    "title": "Quality of life, psychological and physiological changes following exercise training in patients with chronic heart failure",
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=_SH8Z5cAAAAJ&citation_for_view=_SH8Z5cAAAAJ:vV6vV6tmYwMC",
+    "names": "G Koukouvou, E Kouidi, A Iacovides, E Konstantinidou, G Kaprinis, ...",
+    "publisher": "Journal of rehabilitation medicine 36 (1), 36-41",
+    "": ", 2004",
+    "citations": 149,
+    "year": 2004,
+    "type": "articles"
   },
   {
     "title": "Health-related quality of life in end-stage renal disease patients: the effects of renal rehabilitation.",
-    "names": "Kouidi E.",
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=_SH8Z5cAAAAJ&cstart=20&pagesize=80&citation_for_view=_SH8Z5cAAAAJ:HbR8gkJAVGIC",
+    "names": "E Kouidi",
+    "publisher": "Clinical nephrology 61, S60-71",
+    "": ", 2004",
+    "citations": 91,
     "year": 2004,
-    "publisher": "Clin Nephrol 61 Suppl 1:S60-71.",
-    "link": ""
+    "type": "articles"
   },
   {
-    "title": "Υποστροφή των καρδιοαναπνευστικών προσαρμογών μετά από τη διακοπή της γύμνασης σε ασθενείς με χρόνια καρδιακή ανεπάρκεια.",
-    "names": "Πετράκη Μ., Κουιδή Ε., Κωνσταντινίδου Ε., Κουκουβού Γ., Αμπατζίδης Γ., Δεληγιάννης Α.",
+    "title": "Seasonal variation of aerobic capacity in elite soccer, basketball and volleyball players",
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=_SH8Z5cAAAAJ&cstart=20&pagesize=80&citation_for_view=_SH8Z5cAAAAJ:MLfJN-KU85MC",
+    "names": "K Haritonidis, N Koutlianos, E Kouidi, M Haritonidou, A Deligiannis",
+    "publisher": "Journal of Human Movement Studies 46 (4), 289-302",
+    "": ", 2004",
+    "citations": 26,
     "year": 2004,
-    "publisher": "Γαληνός, 46(3): 303-316.",
-    "link": ""
+    "type": "articles"
   },
   {
-    "title": "Outcomes of long-term exercise training in dialysis patients: comparison of two training programs.",
-    "names": "Kouidi E., Grekas D., Deligiannis A., Tourkantonis A.",
+    "title": "Non-invasive cardiac electrophysiological indices in soccer players with mitral valve prolapse",
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=_SH8Z5cAAAAJ&cstart=20&pagesize=80&citation_for_view=_SH8Z5cAAAAJ:dfsIfKJdRG4C",
+    "names": "NA Koutlianos, EJ Kouidi, TI Metaxas, AP Deligiannis",
+    "publisher": "European Journal of Preventive Cardiology 11 (5), 435-441",
+    "": ", 2004",
+    "citations": 24,
     "year": 2004,
-    "publisher": "Clin Nephrol., 61 Suppl 1:S31-8.",
-    "link": ""
+    "type": "articles"
   },
   {
-    "title": "Quality of life, psychological and physiological changes following exercise training in patients with chronic heart failure.",
-    "names": "Koukouvou G., Kouidi E., Iacovides A., Konstantinidou E., Kaprinis G., Deligiannis A.",
+    "title": "The immune response in hemodialysis patients following physical training",
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=_SH8Z5cAAAAJ&cstart=20&pagesize=80&citation_for_view=_SH8Z5cAAAAJ:z_wVstp3MssC",
+    "names": "M Daniilidis, E Kouidi, F Giagoudaki, A Fleva, P Nikolaides, A Vasilaki, ...",
+    "publisher": "Sport Sciences for Health 1 (1), 11-16",
+    "": ", 2004",
+    "citations": 17,
     "year": 2004,
-    "publisher": "J Rehabil Med., 36(1):36-41.",
-    "link": ""
+    "type": "articles"
   },
   {
-    "title": "Exercise rehabilitation and skeletal muscle benefits in hemodialysis patients.",
-    "names": "Deligiannis A.",
+    "title": "Physiological profile of amateur top level soccer players according to positional role",
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=_SH8Z5cAAAAJ&cstart=20&pagesize=80&citation_for_view=_SH8Z5cAAAAJ:yB1At4FlUx8C",
+    "names": "T Metaxas, T Sentelidis, N Koutlianos, E Kouidi, A Deligiannis",
+    "publisher": "Journal of Human Movement Studies",
+    "": ", 2004",
+    "citations": 8,
     "year": 2004,
-    "publisher": "Clin Nephrol., 61 Suppl 1:S46-50.",
-    "link": ""
+    "type": "articles"
   },
   {
-    "title": "Cardiac adaptations following exercise training in hemodialysis patients.",
-    "names": "Deligiannis A.",
+    "title": "Heart rate variability in soccer players with mitral valve prolapse or benign arrhythmia",
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=_SH8Z5cAAAAJ&cstart=20&pagesize=80&citation_for_view=_SH8Z5cAAAAJ:uc_IGeMz5qoC",
+    "names": "N Koutlianos, E Kouidi, A Deligiannis",
+    "publisher": "Sport Sciences for Health 1 (1), 5-10",
+    "": ", 2004",
+    "citations": 2,
     "year": 2004,
-    "publisher": "Clin Nephrol., 61 Suppl 1:S39-45.",
-    "link": ""
+    "type": "articles"
   },
   {
-    "title": "Η επίδραση δυο διαφορετικών τύπων άσκησης στα επίπεδα της αρτηριακής πίεσης ασθενών με ήπια ιδιοπαθή υπέρταση.",
-    "names": "Παπαδόπουλος Γ., Κουιδή Ε., Καραγιάννης Α., Δεληγιάννης A.",
+    "title": "Seasonal variation of aerobic capacity in elite soccer, basketball and volleyball players",
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=_SH8Z5cAAAAJ&cstart=100&pagesize=100&citation_for_view=_SH8Z5cAAAAJ:5ugPr518TE4C",
+    "names": "K Charitonidis, E Kouidi, N Koutlianos, M Haritonidou, A Deligiannis",
+    "publisher": "Journal of Human Movement Studies",
+    "": ", 2004",
+    "citations": "",
+    "year": 2004,
+    "type": "articles"
+  },
+  {
+    "title": "Heart rate variability changes in soccer players",
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=_SH8Z5cAAAAJ&cstart=20&pagesize=80&citation_for_view=_SH8Z5cAAAAJ:bFI3QPDXJZMC",
+    "names": "T Sendelides, T Metaxas, N Koutlianos, E Kouidi, A Deligianis",
+    "publisher": "Oesterreichisches journal fuer Sportmedizin 33 (2), 10-13",
+    "": ", 2003",
+    "citations": 8,
     "year": 2003,
-    "publisher": "Αρτηριακή Υπέρταση, 12: 59-69.",
-    "link": ""
+    "type": "articles"
+  },
+  {
+    "title": "Cardiorespiratory adaptations in soccer players",
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=_SH8Z5cAAAAJ&cstart=20&pagesize=80&citation_for_view=_SH8Z5cAAAAJ:lmc2jWPfTJgC",
+    "names": "T Sendelides, E Kouidi, T Metaxas, N Koutlianos, A Deligiannis",
+    "publisher": "Hung. Rev. Sports Med 44, 141-151",
+    "": ", 2003",
+    "citations": 6,
+    "year": 2003,
+    "type": "articles"
+  },
+  {
+    "title": "Exercise training in patients with end-stage renal disease on hemodialysis: comparison of three rehabilitation programs",
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=_SH8Z5cAAAAJ&citation_for_view=_SH8Z5cAAAAJ:BqipwSGYUEgC",
+    "names": "E Konstantinidou, G Koukouvou, E Kouidi, A Deligiannis, A Tourkantonis",
+    "publisher": "Journal of rehabilitation medicine 34 (1), 40-45",
+    "": ", 2002",
+    "citations": 407,
+    "year": 2002,
+    "type": "articles"
+  },
+  {
+    "title": "Effects of athletic training on heart rate variability triangular index",
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=_SH8Z5cAAAAJ&cstart=20&pagesize=80&citation_for_view=_SH8Z5cAAAAJ:XD-gHx7UXLsC",
+    "names": "E Kouidi, K Haritonidis, N Koutlianos, A Deligiannis",
+    "publisher": "Clinical physiology and functional imaging 22 (4), 279-284",
+    "": ", 2002",
+    "citations": 71,
+    "year": 2002,
+    "type": "articles"
   },
   {
     "title": "Exercise training in dialysis patients: why, when, and how?",
-    "names": "Kouidi E.",
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=_SH8Z5cAAAAJ&cstart=20&pagesize=80&citation_for_view=_SH8Z5cAAAAJ:pqnbT2bcN3wC",
+    "names": "E Kouidi",
+    "publisher": "Artificial Organs 26 (12), 1009-1013",
+    "": ", 2002",
+    "citations": 55,
     "year": 2002,
-    "publisher": "Artif Organs, 26(12):1009-13.",
-    "link": ""
+    "type": "articles"
   },
   {
-    "title": "Exercise renal rehabilitation: comparison of three exercise programs.",
-    "names": "Konstantinidou E., Koukouvou G., Kouidi E., Deligiannis A., Tourkantonis A.",
+    "title": "Exercise training after renal transplantation: cardiac autonomic effects",
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=_SH8Z5cAAAAJ&cstart=20&pagesize=80&citation_for_view=_SH8Z5cAAAAJ:kRWSkSYxWN8C",
+    "names": "E Kouidi, D Grekas, N Dombros, A Deligiannis, A Tourkantonis",
+    "publisher": "Poster [M475] presented at: 39th ERA-EDTA Congress",
+    "": ", 2002",
+    "citations": 2,
+    "year": 2002,
+    "type": "articles"
+  },
+  {
+    "title": "Central and peripheral adaptations to physical training in patients with end-stage renal disease",
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=_SH8Z5cAAAAJ&citation_for_view=_SH8Z5cAAAAJ:70eg2SAEIzsC",
+    "names": "EJ Kouidi",
+    "publisher": "Sports Medicine 31 (9), 651-665",
+    "": ", 2001",
+    "citations": 132,
     "year": 2001,
-    "publisher": "J Rehabil Med, 34, 40-45.",
-    "link": ""
+    "type": "articles"
   },
   {
-    "title": "Central and peripheral adaptations to physical training in patients with end-stage renal disease.",
-    "names": "Kouidi E.",
-    "year": 2001,
-    "publisher": "Sports Med; 31, 651-665.",
-    "link": ""
-  },
-  {
-    "title": "Physical activity and bone mineral density in hemodialysis patients.",
-    "names": "Siountas A., Koutlianos N.,Kouidi E., Molivda E., Deligiannis A., Tourkantonis A.",
-    "year": 2001,
-    "publisher": "Hungarian Review of Sports Medicine, 42(3): 163-170.",
-    "link": ""
-  },
-  {
-    "title": "Cardiac response to physical training in hemodialysis patients: An echocardiographic study at rest and during exercise.",
-    "names": "Deligiannis A., Kouidi E., Tassoulas E., Gigis P., Tourkantonis A., Coats A.",
+    "title": "Effects of physical training on heart rate variability in patients on hemodialysis",
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=_SH8Z5cAAAAJ&citation_for_view=_SH8Z5cAAAAJ:RGFaLdJalmkC",
+    "names": "A Deligiannis, E Kouidi, A Tourkantonis",
+    "publisher": "The American journal of cardiology 84 (2), 197-202",
+    "": ", 1999",
+    "citations": 212,
     "year": 1999,
-    "publisher": "Int J Cardiol, 70: 253-266.",
-    "link": ""
+    "type": "articles"
   },
   {
-    "title": "The effects of physical training on heart rate variability in hemodialysis patients.",
-    "names": "Deligiannis A., Kouidi E., Tourkantonis A.",
+    "title": "Cardiac effects of exercise rehabilitation in hemodialysis patients",
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=_SH8Z5cAAAAJ&citation_for_view=_SH8Z5cAAAAJ:J_g5lzvAfSwC",
+    "names": "A Deligiannis, E Kouidi, E Tassoulas, P Gigis, A Tourkantonis, A Coats",
+    "publisher": "International journal of cardiology 70 (3), 253-266",
+    "": ", 1999",
+    "citations": 206,
     "year": 1999,
-    "publisher": "Am J Cardiol, 84: 197-202.",
-    "link": ""
+    "type": "articles"
   },
   {
-    "title": "Cardiac response to physical training in hemodialysis patients: An echocardiographic study at rest and during exercise.",
-    "names": "Deligiannis A., Kouidi E., Tassoulas E., Gigis P., Tourkantonis A., Coats A.",
+    "title": "White coat hypertension detected during screening of male adolescent athletes",
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=_SH8Z5cAAAAJ&cstart=20&pagesize=80&citation_for_view=_SH8Z5cAAAAJ:HoB7MX3m0LUC",
+    "names": "E Kouidi, A Fahadidou-Tsiligiroglou, E Tassoulas, A Deligiannis, A Coats",
+    "publisher": "American journal of hypertension 12 (2), 223-226",
+    "": ", 1999",
+    "citations": 58,
     "year": 1999,
-    "publisher": "Int J Cardiol, 70, 253-266.",
-    "link": ""
+    "type": "articles"
   },
   {
-    "title": "The effects of exercise training on muscle atrophy in hemodialysis patients.",
-    "names": "Kouidi E., Albani M., Natsis K., Megalopoulos A., Gigis P., Guiba-Tziampiri O., Deligiannis A., Tourkantonis A.",
+    "title": "340 The effects of antihypertensive treatment on hypertrophied left ventricular (LVH) performance during submaximal exercise",
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=_SH8Z5cAAAAJ&cstart=100&pagesize=100&citation_for_view=_SH8Z5cAAAAJ:TIZ-Mc8IlK0C",
+    "names": "G Eftimiadis, E Kouidi, CH Karvounis, A Deligiannis, G Louridas",
+    "publisher": "European Journal of Echocardiography, S59",
+    "": ", 1999",
+    "citations": "",
+    "year": 1999,
+    "type": "articles"
+  },
+  {
+    "title": "The effects of exercise training on muscle atrophy in haemodialysis patients.",
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=_SH8Z5cAAAAJ&citation_for_view=_SH8Z5cAAAAJ:YFjsv_pBGBYC",
+    "names": "E Kouidi, M Albani, K Natsis, A Megalopoulos, P Gigis, O Guiba-Tziampiri, ...",
+    "publisher": "Nephrology, dialysis, transplantation: official publication of the European …",
+    "": ", 1998",
+    "citations": 449,
     "year": 1998,
-    "publisher": "Nephrol Dial Transplant 13: 685-699.",
-    "link": ""
+    "type": "articles"
   },
   {
-    "title": "Exercise renal rehabilitation program (ERRP): Psychosocial effects.",
-    "names": "Kouidi E., Iacovides A., Iordanidis P., Vassiliou S., Deligiannis A., Ierodiakonou C., Tourkantonis A.",
+    "title": "Effect of exercise on the proportion of unsaturated fatty acids in serum of untrained middle aged individuals.",
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=_SH8Z5cAAAAJ&cstart=20&pagesize=80&citation_for_view=_SH8Z5cAAAAJ:cFHS6HbyZ2cC",
+    "names": "V Mougios, E Kouidi, A Kyparos, A Deligiannis",
+    "publisher": "British journal of sports medicine 32 (1), 58-62",
+    "": ", 1998",
+    "citations": 19,
+    "year": 1998,
+    "type": "articles"
+  },
+  {
+    "title": "THE EFFECTS OF LONG-TERM PHYSICAL TRAINING ON CARDIAC AUTONOMIC OUTFLOW IN DIALYSIS PATIENTS. 2: 45 PM",
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=_SH8Z5cAAAAJ&cstart=100&pagesize=100&citation_for_view=_SH8Z5cAAAAJ:vRqMK49ujn8C",
+    "names": "A Deligiannis, E Kouidi, S Vassiliou, P Gigis, A Tourkantonis",
+    "publisher": "Journal of Cardiopulmonary Rehabilitation and Prevention 18 (5), 343",
+    "": ", 1998",
+    "citations": "",
+    "year": 1998,
+    "type": "articles"
+  },
+  {
+    "title": "Exercise renal rehabilitation program: psychosocial effects",
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=_SH8Z5cAAAAJ&citation_for_view=_SH8Z5cAAAAJ:O3NaXMp0MMsC",
+    "names": "E Kouidi, A Iacovides, P Iordanidis, S Vassiliou, A Deligiatmis, ...",
+    "publisher": "Nephron 77 (2), 152-158",
+    "": ", 1997",
+    "citations": 221,
     "year": 1997,
-    "publisher": "Nephron 77:2: 152-158.",
-    "link": ""
+    "type": "articles"
+  },
+  {
+    "title": "Effect of submaximal dynamic exercise on left ventricular function in endurance-and power-trained athletes",
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=_SH8Z5cAAAAJ&cstart=20&pagesize=80&citation_for_view=_SH8Z5cAAAAJ:g3aElNc5_aQC",
+    "names": "A Deligiannis, E Kouidi, A Milonas",
+    "publisher": "Medical science research 23 (4), 225-227",
+    "": ", 1995",
+    "citations": 9,
+    "year": 1995,
+    "type": "articles"
+  },
+  {
+    "title": "Combined arm exercise and dipyridamole stress thallium imaging for the detection of coronary artery disease",
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=_SH8Z5cAAAAJ&cstart=100&pagesize=100&citation_for_view=_SH8Z5cAAAAJ:Tiz5es2fbqcC",
+    "names": "A Deligiannis, E Pandoulas, A Filindris, E Kouidi, N Papanikitas, ...",
+    "publisher": "International Journal of Angiology 4 (2), 106-109",
+    "": ", 1995",
+    "citations": "",
+    "year": 1995,
+    "type": "articles"
+  },
+  {
+    "title": "Plasma TSH, T3, T4 and cortisol responses to swimming at varying water temperatures.",
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=_SH8Z5cAAAAJ&cstart=20&pagesize=80&citation_for_view=_SH8Z5cAAAAJ:3s1wT3WcHBgC",
+    "names": "A Deligiannis, M Karamouzis, E Kouidi, V Mougios, C Kallaras",
+    "publisher": "British journal of sports medicine 27 (4), 247-250",
+    "": ", 1993",
+    "citations": 45,
+    "year": 1993,
+    "type": "articles"
+  },
+  {
+    "title": "Cardiovascular responses to exercise by canoe and kayak.",
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=_SH8Z5cAAAAJ&cstart=20&pagesize=80&citation_for_view=_SH8Z5cAAAAJ:UxriW0iASnsC",
+    "names": "E Kouidi, S Galitsanos, V Mougios, C Kotzamanidis, A Deligiannis",
+    "publisher": "Medical science research 21 (7), 271-273",
+    "": ", 1993",
+    "citations": 2,
+    "year": 1993,
+    "type": "articles"
+  },
+  {
+    "title": "Effect of water temperature on non-invasive cardiac indices of endurance swimmers",
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=_SH8Z5cAAAAJ&cstart=100&pagesize=100&citation_for_view=_SH8Z5cAAAAJ:hMsQuOkrut0C",
+    "names": "A Deligiannis, E Kouidi, A Fahadidou",
+    "publisher": "Medical science research 20 (16), 589-590",
+    "": ", 1992",
+    "citations": 1,
+    "year": 1992,
+    "type": "articles"
   }
 ]

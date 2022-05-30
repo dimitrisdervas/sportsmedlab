@@ -30,7 +30,7 @@
         <div class="px-8 col-start-2 col-span-2">
             <a class="prose hover:text-red-600" href="{{ .RelPermalink}}">
                 <div class="prose text-5xl font-bold py-2 drop-shadow-sm">Εργαστήριο Αθλητιατρικής</div>
-                <div class="prose text-3xl font-bold py-2">35 χρόνια παρουσίας στην Θεσ/νίκη</div>
+                <div class="prose text-3xl font-bold py-2">Παρουσία στη Θεσ/νίκη από το 1993</div>
                 <div class="prose">Η ιστορία του Εργαστηρίου</div>
              </a>
         </div>
@@ -39,40 +39,6 @@
 </div> 
 </div>
 
-{{/*  ΠΡΟΓΡΑΜΜΑΤΑ  */}}
-<div class="container mx-auto ">
-    <div class="prose text-5xl font-bold  drop-shadow-sm p-8 pb-16 w-full">Προγράμματα</div>
-    <div class="grid grid-cols-2 gap-4 ">
-
-    {{/*  MYWAY  */}}
-    <div class="border flex flex-wrap  justify-center py-8 bg-gray-100 shadow-md rounded-md mb-16">
-    {{ with .Site.GetPage "/myway" }}
-    {{ $image := .Resources.GetMatch "myway.png"}}
-    {{ $image := $image.Resize "150x" }}
-    <a class="w-full flex justify-center p-4" href="{{ .RelPermalink}}">
-        <img src="{{ $image.RelPermalink }}" width="{{ $image.Width }}" height="{{ $image.Height }}">
-    </a>
-    <p class="prose">{{ .Params.description | markdownify}}</p>
-    <div class="w-full prose"><a href="{{ .RelPermalink}}">Περισσότερα</a></div>
-    {{ end }}
-    </div>
-
-{{/*  SWEATY HEARTS  */}}
-    <div class="border flex flex-wrap  justify-center py-8 bg-red-700 shadow-md rounded-md mb-16">
-    {{ with .Site.GetPage "/sweatyhearts" }}
-    {{ $image := .Resources.GetMatch "sweaty-logo.png"}}
-    {{ $image := $image.Resize "150x" }}
-    <a class="w-full flex justify-center p-4" href="{{ .RelPermalink}}">
-        <img src="{{ $image.RelPermalink }}" width="{{ $image.Width }}" height="{{ $image.Height }}">
-    </a>
-    <h2 class=" font-bold uppercase text-6xl  text-white w-full prose text-center "  >{{ .Params.title }}</h2>
-    <p class="prose w-full text-white">{{ .Params.description | markdownify}}</p>
-    <div class="prose w-full prose-a:text-white "><a class="" href="{{ .RelPermalink}}">Περισσότερα</a></div>
-    {{ end }}
-    </div>
-
-</div>
-</div>
 
 
 
@@ -154,6 +120,41 @@
             </div>
         </div>
     </div>           
+</div>
+
+{{/*  ΠΡΟΓΡΑΜΜΑΤΑ  */}}
+<div class="container mx-auto ">
+    <div class="prose text-5xl font-bold  drop-shadow-sm p-8 pb-16 w-full">Προγράμματα</div>
+    <div class="grid grid-cols-2 gap-4 ">
+
+    {{/*  MYWAY  */}}
+    <div class="border flex flex-wrap  justify-center py-8 bg-gray-100 shadow-md rounded-md mb-16">
+    {{ with .Site.GetPage "/myway" }}
+    {{ $image := .Resources.GetMatch "myway.png"}}
+    {{ $image := $image.Resize "150x" }}
+    <a class="w-full flex justify-center p-4" href="{{ .RelPermalink}}">
+        <img src="{{ $image.RelPermalink }}" width="{{ $image.Width }}" height="{{ $image.Height }}">
+    </a>
+    <p class="prose">{{ .Params.description | markdownify}}</p>
+    <div class="w-full prose"><a href="{{ .RelPermalink}}">Περισσότερα</a></div>
+    {{ end }}
+    </div>
+
+{{/*  SWEATY HEARTS  */}}
+    <div class="border flex flex-wrap  justify-center py-8 bg-red-700 shadow-md rounded-md mb-16">
+    {{ with .Site.GetPage "/sweatyhearts" }}
+    {{ $image := .Resources.GetMatch "sweaty-logo.png"}}
+    {{ $image := $image.Resize "150x" }}
+    <a class="w-full flex justify-center p-4" href="{{ .RelPermalink}}">
+        <img src="{{ $image.RelPermalink }}" width="{{ $image.Width }}" height="{{ $image.Height }}">
+    </a>
+    <h2 class=" font-bold uppercase text-6xl  text-white w-full prose text-center "  >{{ .Params.title }}</h2>
+    <p class="prose w-full text-white">{{ .Params.description | markdownify}}</p>
+    <div class="prose w-full prose-a:text-white "><a class="" href="{{ .RelPermalink}}">Περισσότερα</a></div>
+    {{ end }}
+    </div>
+
+</div>
 </div>
 
 {{/*  CONTACT  */}}
