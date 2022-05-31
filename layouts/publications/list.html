@@ -25,7 +25,7 @@
     <div class="font-bold text-2xl py-4 text-tahiti">Δημοσιεύσεις</div>
     <div class="list publications">
       <ul>
-        {{ range first 9 ((index .Site.Data .Language.Lang).articles) }}
+        {{ range first 5 ((index .Site.Data .Language.Lang).articles) }}
         <li class="py-4">
           <div class="flex">
             <div class="year pr-4 text-gray-600 font-bold">{{.year}}</div>
@@ -76,5 +76,134 @@
       >
     </div>
   </div>
+
+
+    <div class="border rounded-md shadow-md p-8 bg-white">
+        <div class="font-bold text-2xl py-4 text-tahiti">Μαραθώνιος</div>
+        <div class="list publications">
+        <ul>
+            {{ range sort ((index .Site.Data .Language.Lang).articles) "tags" "asc"}}
+            {{ if eq .tags "marathon"}}              
+            <li class="py-4">
+            <div class="flex">
+                <div class="year pr-4 text-gray-600 font-bold">{{.year}}</div>
+                <div class="publisher text-gray-600">{{.publisher}}</div>
+            </div>
+            <div class="title font-bold text-xl py-1 text-tahiti"><a href="{{.link}}" target="_blank">{{.title}}</a></div>
+            <div class="names text-gray-500">{{.names}}</div>
+            </li>
+            {{ end }}
+            {{ end }}
+        </ul>
+        </div>
+    </div>
+    
+
+                        <div class="border rounded-md shadow-md p-8 bg-white">
+        <div class="font-bold text-2xl py-4 text-tahiti">doping</div>
+        <div class="list publications">
+        <ul>
+            {{ range sort ((index .Site.Data .Language.Lang).articles) "tags" "asc"}}
+            {{ if eq .tags "doping"}}              
+            <li class="py-4">
+            <div class="flex">
+                <div class="year pr-4 text-gray-600 font-bold">{{.year}}</div>
+                <div class="publisher text-gray-600">{{.publisher}}</div>
+            </div>
+            <div class="title font-bold text-xl py-1 text-tahiti"><a href="{{.link}}" target="_blank">{{.title}}</a></div>
+            <div class="names text-gray-500">{{.names}}</div>
+            </li>
+            {{ end }}
+            {{ end }}
+        </ul>
+        </div>
+    </div>
+
+    
+
+    <div class="border rounded-md shadow-md p-8 bg-white">
+        <div class="font-bold text-2xl py-4 text-tahiti">Νεφρό</div>
+        <div class="list publications">
+        <ul>
+            {{ range sort ((index .Site.Data .Language.Lang).articles) "tags" "asc"}}
+            {{ if eq .tags "nephro"}}              
+            <li class="py-4">
+            <div class="flex">
+                <div class="year pr-4 text-gray-600 font-bold">{{.year}}</div>
+                <div class="publisher text-gray-600">{{.publisher}}</div>
+            </div>
+            <div class="title font-bold text-xl py-1 text-tahiti"><a href="{{.link}}" target="_blank">{{.title}}</a></div>
+            <div class="names text-gray-500">{{.names}}</div>
+            </li>
+            {{ end }}
+            {{ end }}
+        </ul>
+        </div>
+    </div>
+
+        <div class="border rounded-md shadow-md p-8 bg-white">
+        <div class="font-bold text-2xl py-4 text-tahiti">athletes_screening</div>
+        <div class="list publications">
+        <ul>
+            {{ range sort ((index .Site.Data .Language.Lang).articles) "tags" "asc"}}
+            {{ if eq .tags "athletes_screening"}}              
+            <li class="py-4">
+            <div class="flex">
+                <div class="year pr-4 text-gray-600 font-bold">{{.year}}</div>
+                <div class="publisher text-gray-600">{{.publisher}}</div>
+            </div>
+            <div class="title font-bold text-xl py-1 text-tahiti"><a href="{{.link}}" target="_blank">{{.title}}</a></div>
+            <div class="names text-gray-500">{{.names}}</div>
+            </li>
+            {{ end }}
+            {{ end }}
+        </ul>
+        </div>
+    </div>
+
+            <div class="border rounded-md shadow-md p-8 bg-white">
+        <div class="font-bold text-2xl py-4 text-tahiti">Cardiac_rehabilitation</div>
+        <div class="list publications">
+        <ul>
+            {{ range sort ((index .Site.Data .Language.Lang).articles) "tags" "asc"}}
+            {{ if eq .tags "Cardiac_Rehabilitation"}}              
+            <li class="py-4">
+            <div class="flex">
+                <div class="year pr-4 text-gray-600 font-bold">{{.year}}</div>
+                <div class="publisher text-gray-600">{{.publisher}}</div>
+            </div>
+            <div class="title font-bold text-xl py-1 text-tahiti"><a href="{{.link}}" target="_blank">{{.title}}</a></div>
+            <div class="names text-gray-500">{{.names}}</div>
+            </li>
+            {{ end }}
+            {{ end }}
+        </ul>
+        </div>
+    </div>
+
+                <div class="border rounded-md shadow-md p-8 bg-white">
+        <div class="font-bold text-2xl py-4 text-tahiti">Rehabilitation</div>
+        <div class="list publications">
+        <ul>
+            {{ range sort ((index .Site.Data .Language.Lang).articles) "tags" "asc"}}
+            {{ if eq .tags "Rehabilitation"}}              
+            <li class="py-4">
+            <div class="flex">
+                <div class="year pr-4 text-gray-600 font-bold">{{.year}}</div>
+                <div class="publisher text-gray-600">{{.publisher}}</div>
+            </div>
+            <div class="title font-bold text-xl py-1 text-tahiti"><a href="{{.link}}" target="_blank">{{.title}}</a></div>
+            <div class="names text-gray-500">{{.names}}</div>
+            </li>
+            {{ end }}
+            {{ end }}
+        </ul>
+        </div>
+    </div>
+
+
+
+
+
 </div>
 {{ end }}

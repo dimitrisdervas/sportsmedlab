@@ -23,7 +23,9 @@ order: 1
 Εργαστήριο: ΑΘΛΗΤΙΑΤΡΙΚΗΣ
 
 
-[Βιογραφικό](https://qa.auth.gr/el/cv/adeligia)
+[Βιογραφικό ΜΟΔΙΠ](https://qa.auth.gr/el/cv/adeligia)
+
+[Βιογραφικό Google Scholar](https://scholar.google.com/citations?hl=fr&user=rAiWqHAAAAAJ)
 
 ## Στοιχεία επικοινωνίας
 
