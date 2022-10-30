@@ -24,7 +24,9 @@ order: 4
 
 Εργαστήριο: Αθλητιατρικής
 
-[Βιογραφικό](https://qa.auth.gr/el/cv/mamel)
+[Βιογραφικό ΜΟΔΙΠ](https://qa.auth.gr/el/cv/mamel)
+
+[Βιογραφικό Google Scholar](https://scholar.google.com/citations?hl=fr&user=__-eLPMAAAAJ)
 
 ## Στοιχεία επικοινωνίας
 

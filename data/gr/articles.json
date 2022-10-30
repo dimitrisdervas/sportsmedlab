@@ -7,7 +7,8 @@
     "": ", 2022",
     "citations": 5,
     "year": 2022,
-    "type": "articles"
+    "type": "articles",
+    "tags": "doping"
   },
   {
     "title": "The role of cardiac computed tomography in pre-participation screening of mature athletes",
@@ -17,7 +18,8 @@
     "": ", 2022",
     "citations": 3,
     "year": 2022,
-    "type": "articles"
+    "type": "articles",
+    "tags": "athletes_screening"
   },
   {
     "title": "The acute effects of an ultramarathon on biventricular function in master athletes: everything in moderation or not?",
@@ -27,17 +29,19 @@
     "": ", 2022",
     "citations": 1,
     "year": 2022,
-    "type": "articles"
+    "type": "articles",
+    "tags": "marathon"
   },
   {
     "title": "Development of the International Cardiac Rehabilitation Registry Including Variable Selection and Definition Process",
     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=_SH8Z5cAAAAJ&cstart=100&pagesize=100&citation_for_view=_SH8Z5cAAAAJ:q3CdL3IzO_QC",
     "names": "MI Chowdhury, K Turk-Adawi, AS Babu, GLM Ghisi, P Seron, T Joo Yeo, ...",
-    "publisher": "Ubiquity Press",
+    "publisher": "Global Heart 17(1): 1.",
     "": ", 2022",
     "citations": 1,
     "year": 2022,
-    "type": "articles"
+    "type": "articles",
+    "tags": "Cardiac_Rehabilitation"
   },
   {
     "title": "The effect of a 6-month intradialytic exercise program on hemodialysis adequacy and body composition: a randomized controlled trial",
@@ -47,7 +51,19 @@
     "": ", 2022",
     "citations": "",
     "year": 2022,
-    "type": "articles"
+    "type": "articles",
+    "tags": "nephro"
+  },
+  {
+    "title": "Prognostic value of combined preoperative phase angle and handgrip strength in cardiac surgery",
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=_SH8Z5cAAAAJ&cstart=100&pagesize=100&citation_for_view=_SH8Z5cAAAAJ:Ug5p-4gJ2f0C",
+    "names": "M Papadakis, M Panagidi, AS Papazoglou, DV Moysidis, E Vlachopoulou, ...",
+    "publisher": "",
+    "": "",
+    "citations": "",
+    "year": 2022,
+    "type": "articles",
+    "tags": ""
   },
   {
     "title": "Delphi consensus recommendations on how to provide cardiovascular rehabilitation in the COVID-19 era",
@@ -57,7 +73,19 @@
     "": ", 2021",
     "citations": 10,
     "year": 2021,
-    "type": "articles"
+    "type": "articles",
+    "tags": "Cardiac_Rehabilitation"
+  },
+  {
+    "title": "Bridging the gap from research to practice for enhanced health-related quality of life in people with chronic kidney disease",
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=_SH8Z5cAAAAJ&cstart=20&pagesize=80&citation_for_view=_SH8Z5cAAAAJ:WZBGuue-350C",
+    "names": "E Segura-Orti, P Koufaki, E Kouidi",
+    "publisher": "Clinical Kidney Journal 14 (Supplement_2), ii34-ii42",
+    "": ", 2021",
+    "citations": 6,
+    "year": 2021,
+    "type": "articles",
+    "tags": "nephro"
   },
   {
     "title": "A novel mHealth monitoring system during cycling in elite athletes",
@@ -67,7 +95,8 @@
     "": ", 2021",
     "citations": 4,
     "year": 2021,
-    "type": "articles"
+    "type": "articles",
+    "tags": "athletes_screening"
   },
   {
     "title": "Impact of a 246 Km ultra-marathon running race on heart: Insights from advanced deformation analysis",
@@ -77,7 +106,8 @@
     "": ", 2021",
     "citations": 3,
     "year": 2021,
-    "type": "articles"
+    "type": "articles",
+    "tags": "marathon"
   },
   {
     "title": "Early left ventricular diastolic dysfunction, reduced baroreflex sensitivity, and cardiac autonomic imbalance in anabolic–androgenic steroid users",
@@ -87,7 +117,8 @@
     "": ", 2021",
     "citations": 2,
     "year": 2021,
-    "type": "articles"
+    "type": "articles",
+    "tags": "doping"
   },
   {
     "title": "Arterial function after a 246 km ultra-marathon running race",
@@ -97,7 +128,8 @@
     "": ", 2021",
     "citations": 1,
     "year": 2021,
-    "type": "articles"
+    "type": "articles",
+    "tags": "marathon"
   },
   {
     "title": "Sudden cardiac death in sports: could we save Pheidippides?",
@@ -107,7 +139,8 @@
     "": ", 2021",
     "citations": 1,
     "year": 2021,
-    "type": "articles"
+    "type": "articles",
+    "tags": "athletes_screening"
   },
   {
     "title": "Long-Term Effect of an Exercise Training Program on Physical Functioning and Quality of Life in Pulmonary Hypertension: A Randomized Controlled Trial",
@@ -117,7 +150,8 @@
     "": ", 2021",
     "citations": 1,
     "year": 2021,
-    "type": "articles"
+    "type": "articles",
+    "tags": "Cardiac_Rehabilitation"
   },
   {
     "title": "Exploring the Anthropometric, Cardiorespiratory, and Haematological Determinants of Marathon Performance",
@@ -127,7 +161,8 @@
     "": ", 2021",
     "citations": 1,
     "year": 2021,
-    "type": "articles"
+    "type": "articles",
+    "tags": "marathon"
   },
   {
     "title": "Identification of Good Practices in Long-Term Exercise-Based Rehabilitation Programs in Stroke Patients",
@@ -137,17 +172,30 @@
     "": ", 2021",
     "citations": "",
     "year": 2021,
-    "type": "articles"
+    "type": "articles",
+    "tags": "Rehabilitation"
   },
   {
-    "title": "GOODRENAL: HOLISTIC PATIENT CARE INTRADIALYSIS PROGRAM IN HEMODIALYSIS THROUGH A VIRTUAL HEALTH PLATFORM",
-    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=_SH8Z5cAAAAJ&cstart=100&pagesize=100&citation_for_view=_SH8Z5cAAAAJ:xtoqd-5pKcoC",
-    "names": "E Segura-Orti, N Clyne, A Garcia-Testal, E Kouidi, A Van Craenenbroeck, ...",
-    "publisher": "NEPHROLOGY DIALYSIS TRANSPLANTATION 36, 364-364",
+    "title": "Exploring the physiological determinants of marathon performance",
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=_SH8Z5cAAAAJ&cstart=100&pagesize=100&citation_for_view=_SH8Z5cAAAAJ:-FonjvnnhkoC",
+    "names": "G Christou, E Pagourelias, A Deligiannis, E Kouidi",
+    "publisher": "European Journal of Preventive Cardiology 28 (Supplement_1), zwab061. 370",
     "": ", 2021",
     "citations": "",
     "year": 2021,
-    "type": "articles"
+    "type": "articles",
+    "tags": "marathon"
+  },
+  {
+    "title": "Telecardiology Screening in Athletes: A Feasibility e-Health Study",
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=_SH8Z5cAAAAJ&cstart=100&pagesize=100&citation_for_view=_SH8Z5cAAAAJ:VaXvl8Fpj5cC",
+    "names": "S Karavasileiadou, D Papadopoulos, E Kouidi, N Koutlianos, ...",
+    "publisher": "JOURNAL OF INTEGRATIVE CARDIOLOGY OPEN ACCESS",
+    "": "",
+    "citations": "",
+    "year": 2021,
+    "type": "articles",
+    "tags": "athletes_screening"
   },
   {
     "title": "Exploring the determinants of the cardiac changes after ultra-long duration exercise: The echocardiographic Spartathlon study",
@@ -157,7 +205,8 @@
     "": ", 2020",
     "citations": 12,
     "year": 2020,
-    "type": "articles"
+    "type": "articles",
+    "tags": "marathon"
   },
   {
     "title": "The effects of an integrative training program on elite young soccer players' physical performance.",
@@ -167,17 +216,8 @@
     "": ", 2020",
     "citations": 1,
     "year": 2020,
-    "type": "articles"
-  },
-  {
-    "title": "SWEATY HEARTS-A collaborative partnership to develop, implement and evaluate a model of long-term physical activity and behavioral change in CHD European patients",
-    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=_SH8Z5cAAAAJ&cstart=100&pagesize=100&citation_for_view=_SH8Z5cAAAAJ:KUbvn5osdkgC",
-    "names": "B Mayr, B Reich, A Egger, S Droese, M Scherrenberg, A Deligiannis, ...",
-    "publisher": "WIENER KLINISCHE WOCHENSCHRIFT 132 (SUPPL 5), S230-S230",
-    "": ", 2020",
-    "citations": "",
-    "year": 2020,
-    "type": "articles"
+    "type": "articles",
+    "tags": "athletes_screening"
   },
   {
     "title": "Cardiac rehabilitation availability and density around the globe",
@@ -187,7 +227,8 @@
     "": ", 2019",
     "citations": 93,
     "year": 2019,
-    "type": "articles"
+    "type": "articles",
+    "tags": "Cardiac_Rehabilitation"
   },
   {
     "title": "Nature of cardiac rehabilitation around the globe",
@@ -197,7 +238,8 @@
     "": ", 2019",
     "citations": 82,
     "year": 2019,
-    "type": "articles"
+    "type": "articles",
+    "tags": "Cardiac_Rehabilitation"
   },
   {
     "title": "Cardiac rehabilitation availability and delivery in Europe: How does it differ by region and compare with other high-income countries? Endorsed by the European Association of …",
@@ -207,7 +249,8 @@
     "": ", 2019",
     "citations": 40,
     "year": 2019,
-    "type": "articles"
+    "type": "articles",
+    "tags": "Cardiac_Rehabilitation"
   },
   {
     "title": "Attitudes of hemodialysis patients, medical and nursing staff towards patients’ physical activity",
@@ -217,7 +260,8 @@
     "": ", 2019",
     "citations": 17,
     "year": 2019,
-    "type": "articles"
+    "type": "articles",
+    "tags": "nephro"
   },
   {
     "title": "“OPTImAL”: an ontology for patient adherence modeling in physical activity domain",
@@ -227,7 +271,8 @@
     "": ", 2019",
     "citations": 4,
     "year": 2019,
-    "type": "articles"
+    "type": "articles",
+    "tags": "Cardiac_Rehabilitation"
   },
   {
     "title": "Arterial adaptations in athletes of dynamic and static sports disciplines–a pilot study",
@@ -237,7 +282,8 @@
     "": ", 2019",
     "citations": 4,
     "year": 2019,
-    "type": "articles"
+    "type": "articles",
+    "tags": "athletes_screening"
   },
   {
     "title": "Cardiac autonomic function during intradialytic exercise training",
@@ -247,7 +293,8 @@
     "": ", 2019",
     "citations": 3,
     "year": 2019,
-    "type": "articles"
+    "type": "articles",
+    "tags": "nephro"
   },
   {
     "title": "Combination of novel and traditional cardiorespiratory indices for the evaluation of adolescent volleyball players",
@@ -257,7 +304,8 @@
     "": ", 2019",
     "citations": 1,
     "year": 2019,
-    "type": "articles"
+    "type": "articles",
+    "tags": "athletes_screening"
   },
   {
     "title": "Exploring the impact of sleep and stress on daily physical activity of cardiac patients: a preliminary study",
@@ -267,7 +315,8 @@
     "": ", 2019",
     "citations": 1,
     "year": 2019,
-    "type": "articles"
+    "type": "articles",
+    "tags": "Cardiac_Rehabilitation"
   },
   {
     "title": "Exercise prescription in patients with different combinations of cardiovascular disease risk factors: a consensus statement from the EXPERT Working Group",
@@ -277,7 +326,8 @@
     "": ", 2018",
     "citations": 115,
     "year": 2018,
-    "type": "articles"
+    "type": "articles",
+    "tags": "Cardiac_Rehabilitation"
   },
   {
     "title": "Computerized decision support for beneficial home-based exercise rehabilitation in patients with cardiovascular disease",
@@ -287,7 +337,8 @@
     "": ", 2018",
     "citations": 16,
     "year": 2018,
-    "type": "articles"
+    "type": "articles",
+    "tags": "Cardiac_Rehabilitation"
   },
   {
     "title": "Computerised decision support in physical activity interventions: a systematic literature review",
@@ -297,7 +348,8 @@
     "": ", 2018",
     "citations": 12,
     "year": 2018,
-    "type": "articles"
+    "type": "articles",
+    "tags": "Cardiac_Rehabilitation"
   },
   {
     "title": "Relationships between abdominal aortic calcification, glomerular filtration rate, and cardiovascular risk factors in patients with non-dialysis dependent chronic kidney disease",
@@ -307,7 +359,8 @@
     "": ", 2018",
     "citations": 9,
     "year": 2018,
-    "type": "articles"
+    "type": "articles",
+    "tags": "nephro"
   },
   {
     "title": "2233 Simultaneous 4-chamber longitudinal strain assessment before and after a 246 km ultra-marathon race: focus on inter-chamber relationships",
@@ -317,7 +370,8 @@
     "": ", 2018",
     "citations": "",
     "year": 2018,
-    "type": "articles"
+    "type": "articles",
+    "tags": "marathon"
   },
   {
     "title": "The European Association of Preventive Cardiology Exercise Prescription in Everyday Practice and Rehabilitative Training (EXPERT) tool: A digital training and decision support …",
@@ -327,7 +381,8 @@
     "": ", 2017",
     "citations": 133,
     "year": 2017,
-    "type": "articles"
+    "type": "articles",
+    "tags": "Cardiac_Rehabilitation"
   },
   {
     "title": "Exercise-based cardiac rehabilitation in twelve European countries results of the European cardiac rehabilitation registry",
@@ -337,7 +392,8 @@
     "": ", 2017",
     "citations": 77,
     "year": 2017,
-    "type": "articles"
+    "type": "articles",
+    "tags": "Cardiac_Rehabilitation"
   },
   {
     "title": "Impact of traditional Greek dancing on jumping ability, muscular strength and lower limb endurance in cardiac rehabilitation programmes",
@@ -347,7 +403,8 @@
     "": ", 2017",
     "citations": 15,
     "year": 2017,
-    "type": "articles"
+    "type": "articles",
+    "tags": "Cardiac_Rehabilitation"
   },
   {
     "title": "Diagnosis and treatment of dyslipidaemias in athletes",
@@ -357,7 +414,8 @@
     "": ", 2017",
     "citations": 11,
     "year": 2017,
-    "type": "articles"
+    "type": "articles",
+    "tags": "athletes_screening"
   },
   {
     "title": "Adherence to physical activity in patients with heart disease: types, settings and evaluation instruments",
@@ -367,37 +425,8 @@
     "": ", 2017",
     "citations": 4,
     "year": 2017,
-    "type": "articles"
-  },
-  {
-    "title": "THE EFFECTS OF INTRADIALYTIC EXERCISE PLUS MUSIC ON ANXIETY",
-    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=_SH8Z5cAAAAJ&cstart=100&pagesize=100&citation_for_view=_SH8Z5cAAAAJ:JoZmwDi-zQgC",
-    "names": "S Vrakas, D Mameletzi, T Samaras, V Liakopoulos, E Kouidi, ...",
-    "publisher": "Nephrology Dialysis Transplantation 32",
-    "": ", 2017",
-    "citations": 1,
-    "year": 2017,
-    "type": "articles"
-  },
-  {
-    "title": "Corrigendum to\" Exercise-based cardiac rehabilitation in twelve European countries: Results of the European Cardiac Rehabilitation Registry\"[Int. J. Cardiol. 228 (2017) 58-67]",
-    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=_SH8Z5cAAAAJ&cstart=100&pagesize=100&citation_for_view=_SH8Z5cAAAAJ:LjlpjdlvIbIC",
-    "names": "W Benzer, B Rauch, JP Schmid, AD Zwisler, P Dendale, CH Davos, ...",
-    "publisher": "International journal of cardiology 242, 50",
-    "": ", 2017",
-    "citations": "",
-    "year": 2017,
-    "type": "articles"
-  },
-  {
-    "title": "WS08. 4 Is there cardiac autonomic dysfunction among patients with cystic fibrosis?",
-    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=_SH8Z5cAAAAJ&cstart=100&pagesize=100&citation_for_view=_SH8Z5cAAAAJ:eMMeJKvmdy0C",
-    "names": "E Hatziagorou, S Giannakoulakos, E Kouidi, A Kampouras, M Anifanti, ...",
-    "publisher": "Journal of Cystic Fibrosis 1 (16), S14-S15",
-    "": ", 2017",
-    "citations": "",
-    "year": 2017,
-    "type": "articles"
+    "type": "articles",
+    "tags": "Cardiac_Rehabilitation"
   },
   {
     "title": "Relationship between declining glomerular filtration rate and measures of cardiac and vascular autonomic neuropathy",
@@ -407,7 +436,8 @@
     "": ", 2016",
     "citations": 32,
     "year": 2016,
-    "type": "articles"
+    "type": "articles",
+    "tags": "nephro"
   },
   {
     "title": "The effects of aquatic exercise on functional capacity and health-related quality of life in hemodialysis patients",
@@ -417,7 +447,8 @@
     "": ", 2016",
     "citations": 13,
     "year": 2016,
-    "type": "articles"
+    "type": "articles",
+    "tags": "nephro"
   },
   {
     "title": "A novel strategy for evaluating tilt test in athletes with syncope",
@@ -427,7 +458,8 @@
     "": ", 2016",
     "citations": 8,
     "year": 2016,
-    "type": "articles"
+    "type": "articles",
+    "tags": "athletes_screening"
   },
   {
     "title": "Pathophysiological mechanisms of noncardiac syncope in athletes",
@@ -437,7 +469,8 @@
     "": ", 2016",
     "citations": 5,
     "year": 2016,
-    "type": "articles"
+    "type": "articles",
+    "tags": "athletes_screening"
   },
   {
     "title": "The impact of inflammation and autonomic nervous system activity on cognitive impairment during a hemodialysis session",
@@ -447,7 +480,8 @@
     "": ", 2016",
     "citations": 2,
     "year": 2016,
-    "type": "articles"
+    "type": "articles",
+    "tags": "nephro"
   },
   {
     "title": "Anti-inflammatory effects of exercise on arteries: mechanisms of protection against atherosclerosis and its complications",
@@ -457,17 +491,8 @@
     "": ", 2016",
     "citations": "",
     "year": 2016,
-    "type": "articles"
-  },
-  {
-    "title": "WS09. 2 Physical activity and quality of life among patients with cystic fibrosis",
-    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=_SH8Z5cAAAAJ&cstart=100&pagesize=100&citation_for_view=_SH8Z5cAAAAJ:tkaPQYYpVKoC",
-    "names": "E Hatziagorou, S Giannakoulakos, A Kampouras, L Nousia, D Pappa, ...",
-    "publisher": "Journal of Cystic Fibrosis 1 (15), S14-S15",
-    "": ", 2016",
-    "citations": "",
-    "year": 2016,
-    "type": "articles"
+    "type": "articles",
+    "tags": "Rehabilitation"
   },
   {
     "title": "Effect of moderate aerobic exercise training on endothelial function and arterial stiffness in CKD stages 3-4: a randomized controlled trial",
@@ -477,7 +502,8 @@
     "": ", 2015",
     "citations": 86,
     "year": 2015,
-    "type": "articles"
+    "type": "articles",
+    "tags": "nephro"
   },
   {
     "title": "Effects of exercise training with traditional dancing on functional capacity and quality of life in patients with schizophrenia: a randomized controlled study",
@@ -487,27 +513,8 @@
     "": ", 2015",
     "citations": 40,
     "year": 2015,
-    "type": "articles"
-  },
-  {
-    "title": "EFFECTS OF MUSIC AND EXERCISE TRAINING DURING HEMODIALYSIS ON THE CARDIAC AUTONOMIC NERVOUS SYSTEM ACTIVITY",
-    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=_SH8Z5cAAAAJ&cstart=100&pagesize=100&citation_for_view=_SH8Z5cAAAAJ:geHnlv5EZngC",
-    "names": "M Mitsiou, E Kouidi, V Liakopoulos, A Deligiannis",
-    "publisher": "Nephrology Dialysis Transplantation 30",
-    "": ", 2015",
-    "citations": 1,
-    "year": 2015,
-    "type": "articles"
-  },
-  {
-    "title": "Carotid intima-media thickness and arterial functional properties in young high level and recreational long distance runners and weight lifters-A pilot study",
-    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=_SH8Z5cAAAAJ&cstart=100&pagesize=100&citation_for_view=_SH8Z5cAAAAJ:WbkHhVStYXYC",
-    "names": "P Sotiriou, E Kouidi, A Karagiannis, N Koutlianos, P Geleris, V Vassilikos, ...",
-    "publisher": "EUROPEAN HEART JOURNAL 36, 468-468",
-    "": ", 2015",
-    "citations": "",
-    "year": 2015,
-    "type": "articles"
+    "type": "articles",
+    "tags": "Rehabilitation"
   },
   {
     "title": "Functional and psychosocial effects of either a traditional dancing or a formal exercising training program in patients with chronic heart failure: a comparative randomized …",
@@ -517,7 +524,8 @@
     "": ", 2014",
     "citations": 74,
     "year": 2014,
-    "type": "articles"
+    "type": "articles",
+    "tags": "Cardiac_Rehabilitation"
   },
   {
     "title": "Vascular effects of exercise training in CKD: current evidence and pathophysiological mechanisms",
@@ -527,7 +535,8 @@
     "": ", 2014",
     "citations": 45,
     "year": 2014,
-    "type": "articles"
+    "type": "articles",
+    "tags": "nephro"
   },
   {
     "title": "Eighteen years’ experience applying old and current strategies in the pre-participation cardiovascular screening of athletes",
@@ -537,7 +546,8 @@
     "": ", 2014",
     "citations": 14,
     "year": 2014,
-    "type": "articles"
+    "type": "articles",
+    "tags": "athletes_screening"
   },
   {
     "title": "Right atrial and ventricular adaptations to training in male Caucasian athletes: an echocardiographic study",
@@ -547,7 +557,8 @@
     "": ", 2013",
     "citations": 99,
     "year": 2013,
-    "type": "articles"
+    "type": "articles",
+    "tags": "athletes_screening"
   },
   {
     "title": "Indirect estimation of VO2max in athletes by ACSM’s equation: valid or not?",
@@ -557,7 +568,8 @@
     "": ", 2013",
     "citations": 81,
     "year": 2013,
-    "type": "articles"
+    "type": "articles",
+    "tags": "athletes_screening"
   },
   {
     "title": "A randomized controlled trial of exercise training on cardiovascular and autonomic function among renal transplant recipients",
@@ -567,7 +579,8 @@
     "": ", 2013",
     "citations": 69,
     "year": 2013,
-    "type": "articles"
+    "type": "articles",
+    "tags": "nephro"
   },
   {
     "title": "Linear and non-linear analysis of heart rate variability in master athletes and healthy middle-aged non-athletes",
@@ -577,7 +590,8 @@
     "": ", 2013",
     "citations": 34,
     "year": 2013,
-    "type": "articles"
+    "type": "articles",
+    "tags": "athletes_screening"
   },
   {
     "title": "Efficacy of various “classic” echocardiographic and laboratory indices in distinguishing the “gray zone” between athlete's heart and hypertrophic cardiomyopathy: a pilot study",
@@ -587,17 +601,8 @@
     "": ", 2013",
     "citations": 20,
     "year": 2013,
-    "type": "articles"
-  },
-  {
-    "title": "FUNCTIONAL AND PSYCHOSOCIAL EFFECTS OF EXERCISE TRAINING WITH TRADITIONAL DANCING IN PATIENTS WITH CHRONIC HEART FAILURE",
-    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=_SH8Z5cAAAAJ&cstart=20&pagesize=80&citation_for_view=_SH8Z5cAAAAJ:JQOojiI6XY0C",
-    "names": "A Kaltsatou, E Kouidi, M Anifanti, S Douka, A Deligiannis",
-    "publisher": "",
-    "": "",
-    "citations": 2,
-    "year": 2013,
-    "type": "articles"
+    "type": "articles",
+    "tags": "athletes_screening"
   },
   {
     "title": "Importance of characteristics and modalities of physical activity and exercise in the management of cardiovascular health in individuals with cardiovascular risk factors …",
@@ -607,7 +612,8 @@
     "": ", 2012",
     "citations": 517,
     "year": 2012,
-    "type": "articles"
+    "type": "articles",
+    "tags": "Rehabilitation"
   },
   {
     "title": "Importance of characteristics and modalities of physical activity and exercise in defining the benefits to cardiovascular health within the general population: recommendations …",
@@ -617,7 +623,8 @@
     "": ", 2012",
     "citations": 156,
     "year": 2012,
-    "type": "articles"
+    "type": "articles",
+    "tags": "Rehabilitation"
   },
   {
     "title": "Cardiovascular adverse effects of doping in sports",
@@ -627,7 +634,8 @@
     "": ", 2012",
     "citations": 40,
     "year": 2012,
-    "type": "articles"
+    "type": "articles",
+    "tags": "doping"
   },
   {
     "title": "Heart rate variability in free diving athletes",
@@ -637,7 +645,8 @@
     "": ", 2012",
     "citations": 33,
     "year": 2012,
-    "type": "articles"
+    "type": "articles",
+    "tags": "athletes_screening"
   },
   {
     "title": "Improving the diagnosis of mild hypertrophic cardiomyopathy with mapreduce",
@@ -647,7 +656,8 @@
     "": ", 2012",
     "citations": 14,
     "year": 2012,
-    "type": "articles"
+    "type": "articles",
+    "tags": "athletes_screening"
   },
   {
     "title": "Relationship between exercise test recovery indices and psychological and quality-of-life status in hemodialysis patients: a pilot study.",
@@ -657,7 +667,8 @@
     "": ", 2012",
     "citations": 10,
     "year": 2012,
-    "type": "articles"
+    "type": "articles",
+    "tags": "nephro"
   },
   {
     "title": "Development of the global disability scale (Glo. Di. S): preliminary results",
@@ -667,7 +678,8 @@
     "": ", 2012",
     "citations": 9,
     "year": 2012,
-    "type": "articles"
+    "type": "articles",
+    "tags": "athletes_screening"
   },
   {
     "title": "Comparative study of ECG and echocardiographic parameters indicative of cardiac hypertrophy in athletes",
@@ -677,27 +689,8 @@
     "": ", 2012",
     "citations": 2,
     "year": 2012,
-    "type": "articles"
-  },
-  {
-    "title": "Oral Abstract Session: Rehabilitation and implementation Saturday, 05 May 2012, 10: 30–11: 30 Location: Liffey Hall 2",
-    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=_SH8Z5cAAAAJ&cstart=100&pagesize=100&citation_for_view=_SH8Z5cAAAAJ:EYYDruWGBe4C",
-    "names": "E Koudi, P Dendale, JP Schmid, EG Porrero, CH Davos, H Mc Gee10",
-    "publisher": "Rehabilitation 10",
-    "": ", 2012",
-    "citations": "",
-    "year": 2012,
-    "type": "articles"
-  },
-  {
-    "title": "structured exercising during dialysis (hD)–experiences in europe",
-    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=_SH8Z5cAAAAJ&cstart=100&pagesize=100&citation_for_view=_SH8Z5cAAAAJ:tOudhMTPpwUC",
-    "names": "R Krause, I Fuhrmann, E Kouidi, P Koufaki, T Mercer, A Daul, ...",
-    "publisher": "Deutsche Zeitschrift für sportmeDiZin 63 (7-8)",
-    "": ", 2012",
-    "citations": "",
-    "year": 2012,
-    "type": "articles"
+    "type": "articles",
+    "tags": "athletes_screening"
   },
   {
     "title": "Cardiovascular evaluation of middle-aged/senior individuals engaged in leisure-time sport activities: position stand from the sections of exercise physiology and sports …",
@@ -707,7 +700,8 @@
     "": ", 2011",
     "citations": 300,
     "year": 2011,
-    "type": "articles"
+    "type": "articles",
+    "tags": "athletes_screening"
   },
   {
     "title": "The use of pupillometry in the assessment of cardiac autonomic function in elite different type trained athletes",
@@ -717,7 +711,8 @@
     "": ", 2011",
     "citations": 46,
     "year": 2011,
-    "type": "articles"
+    "type": "articles",
+    "tags": "athletes_screening"
   },
   {
     "title": "Chronotropic incompetence and its relation to exercise intolerance in hypertrophic cardiomyopathy",
@@ -727,7 +722,8 @@
     "": ", 2011",
     "citations": 45,
     "year": 2011,
-    "type": "articles"
+    "type": "articles",
+    "tags": "athletes_screening"
   },
   {
     "title": "Effects of long-term exercise training on cardiac baroreflex sensitivity in patients with coronary artery disease: a randomized controlled trial",
@@ -737,7 +733,8 @@
     "": ", 2011",
     "citations": 23,
     "year": 2011,
-    "type": "articles"
+    "type": "articles",
+    "tags": "Cardiac_Rehabilitation"
   },
   {
     "title": "Trends in e-health monitoring implementation in sports",
@@ -747,7 +744,8 @@
     "": ", 2011",
     "citations": 5,
     "year": 2011,
-    "type": "articles"
+    "type": "articles",
+    "tags": "athletes_screening"
   },
   {
     "title": "Athlete's Heart or Hypertrophic Cardiomyopathy",
@@ -757,17 +755,8 @@
     "": ", 2011",
     "citations": 5,
     "year": 2011,
-    "type": "articles"
-  },
-  {
-    "title": "The role of physical activity on cardiometabolic risk in adult greek women",
-    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=_SH8Z5cAAAAJ&cstart=100&pagesize=100&citation_for_view=_SH8Z5cAAAAJ:tYavs44e6CUC",
-    "names": "EE Papadopoulou, K Kontopoulou, E Kouidi, D Psirropoulos, ...",
-    "publisher": "British Journal of Sports Medicine 45 (2), e3-e3",
-    "": ", 2011",
-    "citations": "",
-    "year": 2011,
-    "type": "articles"
+    "type": "articles",
+    "tags": "athletes_screening"
   },
   {
     "title": "Depression, heart rate variability, and exercise training in dialysis patients",
@@ -777,7 +766,8 @@
     "": ", 2010",
     "citations": 168,
     "year": 2010,
-    "type": "articles"
+    "type": "articles",
+    "tags": "nephro"
   },
   {
     "title": "Current best evidence recommendations on measurement and interpretation of physical function in patients with chronic kidney disease",
@@ -787,7 +777,8 @@
     "": ", 2010",
     "citations": 76,
     "year": 2010,
-    "type": "articles"
+    "type": "articles",
+    "tags": "nephro"
   },
   {
     "title": "Effects of exercise training on heart-rate-variability indices in individuals with Down syndrome",
@@ -797,7 +788,8 @@
     "": ", 2010",
     "citations": 40,
     "year": 2010,
-    "type": "articles"
+    "type": "articles",
+    "tags": "Rehabilitation"
   },
   {
     "title": "Obesity and smoking in patients with schizophrenia and normal controls: a case-control study",
@@ -807,7 +799,8 @@
     "": ", 2010",
     "citations": 40,
     "year": 2010,
-    "type": "articles"
+    "type": "articles",
+    "tags": "Rehabilitation"
   },
   {
     "title": "Brain natriuretic peptide and the athlete’s heart: a pilot study",
@@ -817,7 +810,8 @@
     "": ", 2010",
     "citations": 23,
     "year": 2010,
-    "type": "articles"
+    "type": "articles",
+    "tags": "athletes_screening"
   },
   {
     "title": "Recommendations for the cardiovascular screening of athletes",
@@ -827,17 +821,8 @@
     "": ", 2010",
     "citations": 13,
     "year": 2010,
-    "type": "articles"
-  },
-  {
-    "title": "Assessment of cardiac autonomic function in dynamic athletes by pupillometry",
-    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=_SH8Z5cAAAAJ&cstart=20&pagesize=80&citation_for_view=_SH8Z5cAAAAJ:t6usbXjVLHcC",
-    "names": "A Kaltsatou, E Kouidi, C Lithari, N Koutlianos, F Fotiou, A Deligiannis",
-    "publisher": "International Journal of Psychophysiology 3 (77), 283-284",
-    "": ", 2010",
-    "citations": 5,
-    "year": 2010,
-    "type": "articles"
+    "type": "articles",
+    "tags": "athletes_screening"
   },
   {
     "title": "Brain natriuretic peptide and the athletes heart",
@@ -847,7 +832,8 @@
     "": ", 2010",
     "citations": "",
     "year": 2010,
-    "type": "articles"
+    "type": "articles",
+    "tags": "athletes_screening"
   },
   {
     "title": "Standards for the use of cardiopulmonary exercise testing for the functional evaluation of cardiac patients: a report from the Exercise Physiology Section of the European …",
@@ -857,7 +843,8 @@
     "": ", 2009",
     "citations": 459,
     "year": 2009,
-    "type": "articles"
+    "type": "articles",
+    "tags": "Cardiac_Rehabilitation"
   },
   {
     "title": "Effects of intradialytic exercise training on health-related quality of life indices in haemodialysis patients",
@@ -867,7 +854,8 @@
     "": ", 2009",
     "citations": 327,
     "year": 2009,
-    "type": "articles"
+    "type": "articles",
+    "tags": "nephro"
   },
   {
     "title": "Effects of exercise training on noninvasive cardiac measures in patients undergoing long-term hemodialysis: a randomized controlled trial",
@@ -877,7 +865,8 @@
     "": ", 2009",
     "citations": 140,
     "year": 2009,
-    "type": "articles"
+    "type": "articles",
+    "tags": "nephro"
   },
   {
     "title": "Effect of resistance exercise during hemodialysis on physical function and quality of life: randomized controlled trial",
@@ -887,7 +876,8 @@
     "": ", 2009",
     "citations": 137,
     "year": 2009,
-    "type": "articles"
+    "type": "articles",
+    "tags": "nephro"
   },
   {
     "title": "Physical training in patients on hemodialysis has a beneficial effect on the levels of eicosanoid hormone-like substances",
@@ -897,17 +887,8 @@
     "": ", 2009",
     "citations": 14,
     "year": 2009,
-    "type": "articles"
-  },
-  {
-    "title": "European Journal of Cardiovascular Prevention",
-    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=_SH8Z5cAAAAJ&cstart=100&pagesize=100&citation_for_view=_SH8Z5cAAAAJ:XiSMed-E-HIC",
-    "names": "I Njølstad, R Oganov, T Thomsen, A Tverdal, H Wedel, L Wilhelmsen, ...",
-    "publisher": "European Journal of Cardiovascular Prevention and Rehabilitation 16, 541-549",
-    "": ", 2009",
-    "citations": "",
-    "year": 2009,
-    "type": "articles"
+    "type": "articles",
+    "tags": "nephro"
   },
   {
     "title": "Effects of exercise training during hemodialysis on cardiac baroreflex sensitivity.",
@@ -917,7 +898,8 @@
     "": ", 2008",
     "citations": 62,
     "year": 2008,
-    "type": "articles"
+    "type": "articles",
+    "tags": "nephro"
   },
   {
     "title": "Transtelephonic electrocardiographic transmission in the preparticipation screening of athletes",
@@ -927,27 +909,8 @@
     "": ", 2008",
     "citations": 21,
     "year": 2008,
-    "type": "articles"
-  },
-  {
-    "title": "Effects of androgenic anabolic steroids use on left ventricular anatomy and function in strength-trained athletes",
-    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=_SH8Z5cAAAAJ&cstart=20&pagesize=80&citation_for_view=_SH8Z5cAAAAJ:uWQEDVKXjbEC",
-    "names": "E Kouidi, M Anifanti, A Kaltsatou, A Deligiannis",
-    "publisher": "EUROPEAN HEART JOURNAL 29, 532-532",
-    "": ", 2008",
-    "citations": 2,
-    "year": 2008,
-    "type": "articles"
-  },
-  {
-    "title": "Comparison of body fat in patients with schizophrenia and normal controls",
-    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=_SH8Z5cAAAAJ&cstart=100&pagesize=100&citation_for_view=_SH8Z5cAAAAJ:bnK-pcrLprsC",
-    "names": "K Fountoulakis, M Siamouli, P Panagiotidis, S Magiria, S Sokolaki, ...",
-    "publisher": "Annals of General Psychiatry 7 (1), 1-1",
-    "": ", 2008",
-    "citations": 1,
-    "year": 2008,
-    "type": "articles"
+    "type": "articles",
+    "tags": "athletes_screening"
   },
   {
     "title": "ESC study group of sports cardiology position paper on adverse cardiovascular effects of doping in athletes",
@@ -957,7 +920,8 @@
     "": ", 2006",
     "citations": 141,
     "year": 2006,
-    "type": "articles"
+    "type": "articles",
+    "tags": "doping"
   },
   {
     "title": "Transtelephonic electrocardiographic monitoring of an outpatient cardiac rehabilitation programme",
@@ -967,7 +931,8 @@
     "": ", 2006",
     "citations": 56,
     "year": 2006,
-    "type": "articles"
+    "type": "articles",
+    "tags": "Cardiac_Rehabilitation"
   },
   {
     "title": "Effects of physical training on plasma levels of thromboxane (TXB2) in patients on hemodialysis",
@@ -977,7 +942,8 @@
     "": ", 2006",
     "citations": 3,
     "year": 2006,
-    "type": "articles"
+    "type": "articles",
+    "tags": "nephro"
   },
   {
     "title": "The effects of exercise training on non-invasive variables for cardiac risk stratification in hemodialysis patients",
@@ -987,7 +953,8 @@
     "": ", 2006",
     "citations": 1,
     "year": 2006,
-    "type": "articles"
+    "type": "articles",
+    "tags": "nephro"
   },
   {
     "title": "Comparative study of field and laboratory tests for the evaluation of aerobic capacity in soccer players",
@@ -997,7 +964,8 @@
     "": ", 2005",
     "citations": 177,
     "year": 2005,
-    "type": "articles"
+    "type": "articles",
+    "tags": "athletes_screening"
   },
   {
     "title": "Cardiac function after exhaustive open-sea swimming",
@@ -1007,37 +975,19 @@
     "": ", 2005",
     "citations": 10,
     "year": 2005,
-    "type": "articles"
+    "type": "articles",
+    "tags": "athletes_screening"
   },
   {
-    "title": "Psychosocial effects of exercise training during dialysis in uraemic patients under epoietin therapy",
-    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=_SH8Z5cAAAAJ&cstart=20&pagesize=80&citation_for_view=_SH8Z5cAAAAJ:u9iWguZQMMsC",
-    "names": "EJ Kouidi, DM Grekas, SG Ouzouni, AI Iacovides, AP Deligiannis",
-    "publisher": "Nephrology Dialysis Transplantation 20, V314-V314",
-    "": ", 2005",
-    "citations": 2,
-    "year": 2005,
-    "type": "articles"
-  },
-  {
-    "title": "Prevalence of mild pulmonic and tricuspid valvular regurgitation in young athletes",
-    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=_SH8Z5cAAAAJ&cstart=100&pagesize=100&citation_for_view=_SH8Z5cAAAAJ:fQNAKQ3IYiAC",
-    "names": "K Tsorbatzoglou, N Koutlianos, E Kouidi, A Sarnara, A Deligiannis",
-    "publisher": "EUROPEAN HEART JOURNAL 26, 167-167",
-    "": ", 2005",
-    "citations": "",
-    "year": 2005,
-    "type": "articles"
-  },
-  {
-    "title": "outcomes of long-term exercise training in",
+    "title": "Outcomes of long-term exercise training in dialysis patients: Comparison of two training programs",
     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=_SH8Z5cAAAAJ&citation_for_view=_SH8Z5cAAAAJ:RYcK_YlVTxYC",
     "names": "E Kouidi, D Grekas, A Deligiannis, A Tourkantonisº",
     "publisher": "Clinical nephrology 61 (1), S31-S38",
     "": ", 2004",
     "citations": 195,
     "year": 2004,
-    "type": "articles"
+    "type": "articles",
+    "tags": "nephro"
   },
   {
     "title": "Quality of life, psychological and physiological changes following exercise training in patients with chronic heart failure",
@@ -1047,7 +997,8 @@
     "": ", 2004",
     "citations": 149,
     "year": 2004,
-    "type": "articles"
+    "type": "articles",
+    "tags": "Cardiac_Rehabilitation"
   },
   {
     "title": "Health-related quality of life in end-stage renal disease patients: the effects of renal rehabilitation.",
@@ -1057,7 +1008,8 @@
     "": ", 2004",
     "citations": 91,
     "year": 2004,
-    "type": "articles"
+    "type": "articles",
+    "tags": "nephro"
   },
   {
     "title": "Seasonal variation of aerobic capacity in elite soccer, basketball and volleyball players",
@@ -1067,7 +1019,8 @@
     "": ", 2004",
     "citations": 26,
     "year": 2004,
-    "type": "articles"
+    "type": "articles",
+    "tags": "athletes_screening"
   },
   {
     "title": "Non-invasive cardiac electrophysiological indices in soccer players with mitral valve prolapse",
@@ -1077,7 +1030,8 @@
     "": ", 2004",
     "citations": 24,
     "year": 2004,
-    "type": "articles"
+    "type": "articles",
+    "tags": "athletes_screening"
   },
   {
     "title": "The immune response in hemodialysis patients following physical training",
@@ -1087,7 +1041,8 @@
     "": ", 2004",
     "citations": 17,
     "year": 2004,
-    "type": "articles"
+    "type": "articles",
+    "tags": "nephro"
   },
   {
     "title": "Physiological profile of amateur top level soccer players according to positional role",
@@ -1097,7 +1052,8 @@
     "": ", 2004",
     "citations": 8,
     "year": 2004,
-    "type": "articles"
+    "type": "articles",
+    "tags": "athletes_screening"
   },
   {
     "title": "Heart rate variability in soccer players with mitral valve prolapse or benign arrhythmia",
@@ -1107,7 +1063,8 @@
     "": ", 2004",
     "citations": 2,
     "year": 2004,
-    "type": "articles"
+    "type": "articles",
+    "tags": "athletes_screening"
   },
   {
     "title": "Seasonal variation of aerobic capacity in elite soccer, basketball and volleyball players",
@@ -1117,7 +1074,8 @@
     "": ", 2004",
     "citations": "",
     "year": 2004,
-    "type": "articles"
+    "type": "articles",
+    "tags": "athletes_screening"
   },
   {
     "title": "Heart rate variability changes in soccer players",
@@ -1127,7 +1085,8 @@
     "": ", 2003",
     "citations": 8,
     "year": 2003,
-    "type": "articles"
+    "type": "articles",
+    "tags": "athletes_screening"
   },
   {
     "title": "Cardiorespiratory adaptations in soccer players",
@@ -1137,7 +1096,8 @@
     "": ", 2003",
     "citations": 6,
     "year": 2003,
-    "type": "articles"
+    "type": "articles",
+    "tags": "athletes_screening"
   },
   {
     "title": "Exercise training in patients with end-stage renal disease on hemodialysis: comparison of three rehabilitation programs",
@@ -1147,7 +1107,8 @@
     "": ", 2002",
     "citations": 407,
     "year": 2002,
-    "type": "articles"
+    "type": "articles",
+    "tags": "nephro"
   },
   {
     "title": "Effects of athletic training on heart rate variability triangular index",
@@ -1157,7 +1118,8 @@
     "": ", 2002",
     "citations": 71,
     "year": 2002,
-    "type": "articles"
+    "type": "articles",
+    "tags": "athletes_screening"
   },
   {
     "title": "Exercise training in dialysis patients: why, when, and how?",
@@ -1167,17 +1129,8 @@
     "": ", 2002",
     "citations": 55,
     "year": 2002,
-    "type": "articles"
-  },
-  {
-    "title": "Exercise training after renal transplantation: cardiac autonomic effects",
-    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=_SH8Z5cAAAAJ&cstart=20&pagesize=80&citation_for_view=_SH8Z5cAAAAJ:kRWSkSYxWN8C",
-    "names": "E Kouidi, D Grekas, N Dombros, A Deligiannis, A Tourkantonis",
-    "publisher": "Poster [M475] presented at: 39th ERA-EDTA Congress",
-    "": ", 2002",
-    "citations": 2,
-    "year": 2002,
-    "type": "articles"
+    "type": "articles",
+    "tags": "nephro"
   },
   {
     "title": "Central and peripheral adaptations to physical training in patients with end-stage renal disease",
@@ -1187,7 +1140,8 @@
     "": ", 2001",
     "citations": 132,
     "year": 2001,
-    "type": "articles"
+    "type": "articles",
+    "tags": "nephro"
   },
   {
     "title": "Effects of physical training on heart rate variability in patients on hemodialysis",
@@ -1197,7 +1151,8 @@
     "": ", 1999",
     "citations": 212,
     "year": 1999,
-    "type": "articles"
+    "type": "articles",
+    "tags": "nephro"
   },
   {
     "title": "Cardiac effects of exercise rehabilitation in hemodialysis patients",
@@ -1207,7 +1162,8 @@
     "": ", 1999",
     "citations": 206,
     "year": 1999,
-    "type": "articles"
+    "type": "articles",
+    "tags": "nephro"
   },
   {
     "title": "White coat hypertension detected during screening of male adolescent athletes",
@@ -1217,17 +1173,8 @@
     "": ", 1999",
     "citations": 58,
     "year": 1999,
-    "type": "articles"
-  },
-  {
-    "title": "340 The effects of antihypertensive treatment on hypertrophied left ventricular (LVH) performance during submaximal exercise",
-    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=_SH8Z5cAAAAJ&cstart=100&pagesize=100&citation_for_view=_SH8Z5cAAAAJ:TIZ-Mc8IlK0C",
-    "names": "G Eftimiadis, E Kouidi, CH Karvounis, A Deligiannis, G Louridas",
-    "publisher": "European Journal of Echocardiography, S59",
-    "": ", 1999",
-    "citations": "",
-    "year": 1999,
-    "type": "articles"
+    "type": "articles",
+    "tags": "athletes_screening"
   },
   {
     "title": "The effects of exercise training on muscle atrophy in haemodialysis patients.",
@@ -1237,7 +1184,8 @@
     "": ", 1998",
     "citations": 449,
     "year": 1998,
-    "type": "articles"
+    "type": "articles",
+    "tags": "nephro"
   },
   {
     "title": "Effect of exercise on the proportion of unsaturated fatty acids in serum of untrained middle aged individuals.",
@@ -1247,17 +1195,8 @@
     "": ", 1998",
     "citations": 19,
     "year": 1998,
-    "type": "articles"
-  },
-  {
-    "title": "THE EFFECTS OF LONG-TERM PHYSICAL TRAINING ON CARDIAC AUTONOMIC OUTFLOW IN DIALYSIS PATIENTS. 2: 45 PM",
-    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=_SH8Z5cAAAAJ&cstart=100&pagesize=100&citation_for_view=_SH8Z5cAAAAJ:vRqMK49ujn8C",
-    "names": "A Deligiannis, E Kouidi, S Vassiliou, P Gigis, A Tourkantonis",
-    "publisher": "Journal of Cardiopulmonary Rehabilitation and Prevention 18 (5), 343",
-    "": ", 1998",
-    "citations": "",
-    "year": 1998,
-    "type": "articles"
+    "type": "articles",
+    "tags": "athletes_screening"
   },
   {
     "title": "Exercise renal rehabilitation program: psychosocial effects",
@@ -1267,7 +1206,8 @@
     "": ", 1997",
     "citations": 221,
     "year": 1997,
-    "type": "articles"
+    "type": "articles",
+    "tags": "nephro"
   },
   {
     "title": "Effect of submaximal dynamic exercise on left ventricular function in endurance-and power-trained athletes",
@@ -1277,7 +1217,8 @@
     "": ", 1995",
     "citations": 9,
     "year": 1995,
-    "type": "articles"
+    "type": "articles",
+    "tags": "athletes_screening"
   },
   {
     "title": "Combined arm exercise and dipyridamole stress thallium imaging for the detection of coronary artery disease",
@@ -1287,7 +1228,8 @@
     "": ", 1995",
     "citations": "",
     "year": 1995,
-    "type": "articles"
+    "type": "articles",
+    "tags": "athletes_screening"
   },
   {
     "title": "Plasma TSH, T3, T4 and cortisol responses to swimming at varying water temperatures.",
@@ -1297,7 +1239,8 @@
     "": ", 1993",
     "citations": 45,
     "year": 1993,
-    "type": "articles"
+    "type": "articles",
+    "tags": "athletes_screening"
   },
   {
     "title": "Cardiovascular responses to exercise by canoe and kayak.",
@@ -1307,7 +1250,8 @@
     "": ", 1993",
     "citations": 2,
     "year": 1993,
-    "type": "articles"
+    "type": "articles",
+    "tags": "athletes_screening"
   },
   {
     "title": "Effect of water temperature on non-invasive cardiac indices of endurance swimmers",
@@ -1317,6 +1261,7 @@
     "": ", 1992",
     "citations": 1,
     "year": 1992,
-    "type": "articles"
+    "type": "articles",
+    "tags": "athletes_screening"
   }
 ]

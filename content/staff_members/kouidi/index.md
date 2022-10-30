@@ -26,7 +26,10 @@ order: 2
 
 [Προσωπική ιστοσελίδα](http://users.auth.gr/kouidi/)
 
-[Βιογραφικό](https://qa.auth.gr/el/cv/kouidi)
+[Βιογραφικό ΜΟΔΙΠ](https://qa.auth.gr/el/cv/kouidi)
+
+[Βιογραφικό Google Scholar](https://scholar.google.com/citations?hl=fr&user=_SH8Z5cAAAAJ)
+
 
 ## Στοιχεία επικοινωνίας
 
