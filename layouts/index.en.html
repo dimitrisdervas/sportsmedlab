@@ -29,9 +29,9 @@
         <img class="drop-shadow-lg rounded-sm " src="{{ $image.RelPermalink }}" width="{{ $image.Width }}" height="{{ $image.Height }}">
         <div class="px-8 col-start-2 col-span-2">
             <a class="prose hover:text-red-600" href="{{ .RelPermalink}}">
-                <div class="prose text-5xl font-bold py-2 drop-shadow-sm">Εργαστήριο Αθλητιατρικής</div>
-                <div class="prose text-3xl font-bold py-2">35 χρόνια παρουσίας στην Θεσ/νίκη</div>
-                <div class="prose">Η ιστορία του Εργαστηρίου</div>
+                <div class="prose text-5xl font-bold py-2 drop-shadow-sm">Sports Medicine Lab</div>
+                <div class="prose text-3xl font-bold py-2">35 years in Thessaloniki</div>
+                <div class="prose">Lab's History</div>
              </a>
         </div>
     </div>
@@ -53,8 +53,8 @@
         <a class="w-full flex justify-center p-4" href="{{ .RelPermalink}}">
             <img src="{{ $image.RelPermalink }}" width="{{ $image.Width }}" height="{{ $image.Height }}">
         </a>
-        <p class="prose">{{ .Params.description | markdownify}}</p>
-        <div class="w-full prose"><a href="{{ .RelPermalink}}">More</a></div>
+        <p class="prose px-4">{{ .Params.description | markdownify}}</p>
+        <div class="w-full prose px-4"><a href="{{ .RelPermalink}}">More</a></div>
         {{ end }}
 
     </div>
@@ -69,8 +69,8 @@
         <img src="{{ $image.RelPermalink }}" width="{{ $image.Width }}" height="{{ $image.Height }}">
     </a>
     <h2 class=" font-bold uppercase text-6xl  text-white w-full prose text-center "  >{{ .Params.title }}</h2>
-    <p class="prose w-full text-white">{{ .Params.description | markdownify}}</p>
-    <div class="prose w-full prose-a:text-white "><a class="" href="{{ .RelPermalink}}">More</a></div>
+    <p class="prose w-full text-white px-4">{{ .Params.description | markdownify}}</p>
+    <div class="prose w-full prose-a:text-white px-4 "><a class="" href="{{ .RelPermalink}}">More</a></div>
     {{ end }}
     </div>
 

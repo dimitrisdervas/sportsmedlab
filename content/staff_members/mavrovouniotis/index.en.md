@@ -4,7 +4,7 @@ name: Fotis Mavrovouniotis
 lang: en
 position: PROFESSOR
 degree: Πτυχιούχος Φυσικής Αγωγής
-image: maurovouniotis.jpg
+image: mavrovouniotis.jpg
 cv_document: entipa/cv/en/cv-mavrovouniotis.pdf
 contact:
   tel: 2310 992 187

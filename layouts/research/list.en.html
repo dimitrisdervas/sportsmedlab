@@ -1,7 +1,7 @@
 {{ define "main" }}
     
 <div class="container mx-auto mb-16 ">
-    <div class="font-bold text-3xl pb-8 text-tahiti" id="awards">Συνεργαζόμενα κέντρα του εξωτερικού</div>
+    <div class="font-bold text-3xl pb-8 text-tahiti" id="awards">Collaborating Centers</div>
     <div class=" border rounded-md shadow-md bg-white">
         <ul class="grid grid-cols-2 gap-8 p-16">
         {{ range ((index .Site.Data .Language.Lang).synergazomena_kentra) }}
@@ -19,7 +19,7 @@
 
 <div class="container mx-auto mb-16">
     <div class="">
-        <div class="font-bold text-3xl pb-8 text-tahiti" id="interests">Τομείς ερευνητικής δραστηριότητας</div>
+        <div class="font-bold text-3xl pb-8 text-tahiti" id="interests">Research Fields</div>
         <div class="list list publications">
 
     <!-- Editor Link -->
@@ -45,7 +45,7 @@
 
 
 <div class="border rounded-md shadow-md p-8 bg-white">
-    <div class="font-bold text-2xl py-4 text-tahiti" id="science-projects">Ερευνητικά προγράμματα</div>
+    <div class="font-bold text-2xl py-4 text-tahiti" id="science-projects">Research Programs</div>
     <div class="list publications">
     <ul>
         {{ range first 5 ((index .Site.Data .Language.Lang).research_programs) }}
@@ -62,7 +62,7 @@
 
 
 <div class="border rounded-md shadow-md p-8 bg-white">
-<div class="font-bold text-2xl py-4 text-tahiti" id="awards">Βραβεύσεις</div>
+<div class="font-bold text-2xl py-4 text-tahiti" id="awards">Awards</div>
 <div class="list publications">
 
 

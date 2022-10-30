@@ -3,8 +3,8 @@
 {{/*  YOUTUBE VIDEOS  */}}
 <div class="container mx-auto shadow-md rounded-md mb-16 ">
     <div class="flex justify-between">
-        <div class="w-2/3">      
-            <a href="https://www.youtube.com/channel/UCYRSJ_S8qYoNv0IIjmO-NIA/videos">
+        <div class="w-2/3 flex">      
+            <a class="flex align-center" href="https://www.youtube.com/channel/UCYRSJ_S8qYoNv0IIjmO-NIA/videos">
                 <img class="w-full" src="/images/conferences/conference_04_22.jpg" alt="">
             </a>
         </div>  
@@ -131,12 +131,13 @@
     <div class="border flex flex-wrap  justify-center py-8 bg-gray-100 shadow-md rounded-md mb-16">
     {{ with .Site.GetPage "/myway" }}
     {{ $image := .Resources.GetMatch "myway.png"}}
-    {{ $image := $image.Resize "150x" }}
+    {{ $image := $image.Resize "x120" }}
     <a class="w-full flex justify-center p-4" href="{{ .RelPermalink}}">
         <img src="{{ $image.RelPermalink }}" width="{{ $image.Width }}" height="{{ $image.Height }}">
     </a>
-    <p class="prose">{{ .Params.description | markdownify}}</p>
-    <div class="w-full prose"><a href="{{ .RelPermalink}}">Περισσότερα</a></div>
+    <h2 class=" font-bold uppercase text-6xl py-4 w-full prose text-center "  >{{ .Params.title }}</h2>
+    <p class="prose px-4">{{ .Params.description | markdownify}}</p>
+    <div class="w-full prose px-4"><a href="{{ .RelPermalink}}">Περισσότερα</a></div>
     {{ end }}
     </div>
 
@@ -144,13 +145,13 @@
     <div class="border flex flex-wrap  justify-center py-8 bg-red-700 shadow-md rounded-md mb-16">
     {{ with .Site.GetPage "/sweatyhearts" }}
     {{ $image := .Resources.GetMatch "sweaty-logo.png"}}
-    {{ $image := $image.Resize "150x" }}
+    {{ $image := $image.Resize "x120" }}
     <a class="w-full flex justify-center p-4" href="{{ .RelPermalink}}">
         <img src="{{ $image.RelPermalink }}" width="{{ $image.Width }}" height="{{ $image.Height }}">
     </a>
     <h2 class=" font-bold uppercase text-6xl  text-white w-full prose text-center "  >{{ .Params.title }}</h2>
-    <p class="prose w-full text-white">{{ .Params.description | markdownify}}</p>
-    <div class="prose w-full prose-a:text-white "><a class="" href="{{ .RelPermalink}}">Περισσότερα</a></div>
+    <p class="prose w-full text-white px-4">{{ .Params.description | markdownify}}</p>
+    <div class="prose w-full prose-a:text-white px-4 "><a class="" href="{{ .RelPermalink}}">Περισσότερα</a></div>
     {{ end }}
     </div>
 
@@ -172,18 +173,6 @@
 </div>
 
 <div class="my-8 px-4 mx-auto prose">
-
-
-
-    
-{{ .Content }}
-
-
-
-
-
-
-
-
+    {{/*  {{ .Content }}  */}}
 </div>
 {{ end }}
