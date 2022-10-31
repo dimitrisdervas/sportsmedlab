@@ -1,4 +1,5 @@
-<header class="w-full py-2 shadow-md border-t-4 border-red-500 z-10  bg-white    {{ if eq .Kind  "home" }} hover:bg-gray-200 hover:opacity-80 absolute top-0 {{ end}}"
+<header class="w-full py-2 shadow-md border-t-4 border-red-500 z-10  bg-white    
+{{/*  {{ if eq .Kind  "home" }} hover:bg-gray-200 hover:opacity-80 absolute top-0 {{ end}}  */}}"
             {{ if eq .Kind  "home" }}
             style="@media only screen and (min-width: 768px) { height: 23vh; }"
             {{ end }}
@@ -7,13 +8,13 @@
 
 <div class="flex container mx-auto  justify-between items-center ">
 
-        <div class="logo-image border-r ">
+        <div class="logo-image border-r pr-2">
             <a class=" flex items-center flex-wrap justify-between"  href="/{{.Language.Lang}}">
                 <img class="w-40 h-full" src="/images/logo/logo_with_letters_{{.Language.Lang}}.png">
             </a>
         </div>
                
-        <nav class="flex container mx-auto justify-around mx-auto py-2 ">
+        <nav class="flex container mx-auto justify-around items-center mx-auto py-2 ">
 
         {{ range ((index .Site.Data .Language.Lang).navigation)}}
             <a  class="px-4 text-lg
@@ -28,13 +29,13 @@
         {{/*  LANGUAGES  */}}
         {{/*    */}}
         {{ if .Page.IsTranslated }}
-            <ul>
+            
             {{ range .Translations }}
-            <li>
-                <a href="{{ .Permalink }}">{{ .Site.Language.LanguageName }}</a>
-            </li>
+        
+                <a class="hover:text-red-600" href="{{ .Permalink }}">{{ .Site.Language.LanguageName }}</a>
+        
             {{ end }}
-            </ul>
+          
         {{ end }}
 
         </nav>
