@@ -34,6 +34,7 @@
                 <h1 class=" font-bold py-2 drop-shadow-sm">Εργαστήριο Αθλητιατρικής</h1>
                 <h2 class=" font-bold py-2">Παρουσία στη Θεσ/νίκη από το 1993</h2>
                 <div class="hidden md:block  ">Η ιστορία του Εργαστηρίου</div>
+                <div class="prose text-sm">{{ .Summary }}</div>
              </a>
         </div>
     </div>
@@ -50,12 +51,12 @@
     <ul class="grid grid-cols-1 gap-4 md:grid-cols-3 md:gap-x-8  md:gap-y-12 px-8 pb-8 ">           
         {{ range (where  .Site.RegularPages "Section" "staff_members")  }}
             {{ if eq .Language .Page.Language }}
-            <li class="grid grid-cols-3 gap-4 shadow-md rounded-md mb-4 bg-gray-100 place-items-center">
+            <li class="grid grid-cols-3 gap-4 border border-gray-200 rounded-lg shadow-md place-items-center bg-white">
                 <div class="col-span-1">
                 {{ $image := string .Params.image}}
                 {{ with .Resources.GetMatch $image }}
                     {{ with .Fill "150x150" }}
-                        <img src="{{ .RelPermalink }}" width="{{ .Width }}" height="{{ .Height }}">
+                        <img class="rounded-l-md" src="{{ .RelPermalink }}" width="{{ .Width }}" height="{{ .Height }}">
                     {{ end }}
                 {{ end }}
 
@@ -64,6 +65,7 @@
                     <div class="p-2">
                     <div class="font-bold text-2xl"><a href="{{ .RelPermalink }}">{{.Params.name}}</a></div>
                     <div class="prose text-sm">{{ .Params.position | markdownify }}</div>
+
                     </div>
                 </div>
             </li>
@@ -74,11 +76,12 @@
 </section>
 
 
+
 {{/*  YPIRESIES  */}}
 <div class="container mx-auto  flex flex-wrap  justify-center py-8 md:mb-16">
     <div class="prose text-5xl font-bold  drop-shadow-sm p-8 pb-16 w-full">Υπηρεσίες</div>
     <div class="grid md:grid-cols-1 gap-4 md:grid-cols-2 md:gap-4 px-4 md:px-8">
-        <div class=" border shadow-md rounded-md ">
+        <div class=" border shadow-md rounded-md bg-white">
             {{ with .Site.GetPage "/services" }}
                 {{ $image := .Resources.GetMatch "ecg.jpg"}}
                 {{ $image := $image.Fill "800x600" }}
@@ -100,7 +103,7 @@
             {{ end }}
             </div>
         </div>
-        <div class=" border shadow-md rounded-md ">
+        <div class=" border shadow-md rounded-md bg-white">
             {{ with .Site.GetPage "/services" }}
                 {{ $image := .Resources.GetMatch "exercise.jpg"}}
                 {{ $image := $image.Fill "800x600" }}
