@@ -1,7 +1,7 @@
 {{ define "main" }}
 
 {{/*  YOUTUBE VIDEOS  */}}
-<div class="container mx-auto shadow-md rounded-md mb-8 md:mb-16 ">
+<div class="container mx-auto border shadow-md rounded-md bg-white mb-8 md:mb-16 ">
     <div class="flex justify-between flex-wrap md:flex-no-wrap">
         <div class="md:w-2/3 flex">      
             <div class="flex justify-between  bg-white">                 
@@ -22,23 +22,31 @@
 
 {{/*  LAB  */}}
 <div class="container mx-auto  ">
-    <div class=" shadow-md rounded-md md:mb-16 ">   
+    <div class=" border shadow-md rounded-md bg-white md:mb-16 ">   
     {{ with .Site.GetPage "/lab" }}
     {{ $image := .Resources.GetMatch "ergastirio-outdoor-backside.jpg"}}
-    {{ $image := $image.Fill "800x600" }}
     {{ $image := $image.Filter (images.Sepia 15) }}
     <div class="grid grid-cols-3 gap-4 flex  items-center">
         <img class="col-span-3 md:col-span-2 drop-shadow-lg rounded-sm " src="{{ $image.RelPermalink }}" width="{{ $image.Width }}" height="{{ $image.Height }}">
-        <div class="px-8 col-start-1 md:col-start-3 md:col-span-1 col-span-3 md:col-span-2">
-            <a class="prose hover:text-red-600" href="{{ .RelPermalink}}">
-                <h1 class=" font-bold py-2 drop-shadow-sm">Εργαστήριο Αθλητιατρικής</h1>
-                <h2 class=" font-bold py-2">Παρουσία στη Θεσ/νίκη από το 1993</h2>
-                <div class="hidden md:block  ">Η ιστορία του Εργαστηρίου</div>
-                <div class="prose text-sm">{{ .Summary }}</div>
-             </a>
+        <div class="px-8 pt-4 col-start-1 md:col-start-3 md:col-span-1 col-span-3 md:col-span-2">
+        {{ end }}
+            {{ with .Site.GetPage "/history" }}
+            <div class="prose ">{{ .Summary }}</div>
+            {{ end }}
+
+            {{ with .Site.GetPage "/lab" }}
+
+            <a class="inline-flex mt-2 items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 
+            focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800" 
+            
+            href="{{.RelPermalink}}">
+            Περισσότερα
+                <svg aria-hidden="true" class="w-4 h-4 ml-2 -mr-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
+            </a>
+            {{ end }}
         </div>
     </div>
-    {{ end }}
+
 </div> 
 </div>
 
@@ -63,7 +71,7 @@
                 </div>
                 <div class="col-span-2 ">
                     <div class="p-2">
-                    <div class="font-bold text-2xl"><a href="{{ .RelPermalink }}">{{.Params.name}}</a></div>
+                    <div class="font-bold text-xl"><a href="{{ .RelPermalink }}">{{.Params.name}}</a></div>
                     <div class="prose text-sm">{{ .Params.position | markdownify }}</div>
 
                     </div>
