@@ -15,26 +15,28 @@
 </div>
 </section>
 
-
 {{/*  PROSOPIKO  */}}
-<section class="container mx-auto  mb-16">
+<section class="container mx-auto  md:mb-16">
     <div class="prose text-5xl font-bold  drop-shadow-sm p-8 pb-16"> Διδακτικό Προσωπικό </div>
-    <ul class="grid grid-cols-3 gap-x-8  gap-y-12 px-8 pb-8 ">           
+    <ul class="grid grid-cols-1 gap-4 md:grid-cols-3 md:gap-x-8  md:gap-y-12 px-8 pb-8 ">           
         {{ range (where  .Site.RegularPages "Section" "staff_members")  }}
             {{ if eq .Language .Page.Language }}
-            <li class="flex flex-1 shadow-md rounded-md mb-4 bg-gray-100 items-center">
-                <div class="w-64">
+            <li class="grid grid-cols-3 gap-4 border border-gray-200 rounded-lg shadow-md place-items-center bg-white">
+                <div class="col-span-1">
                 {{ $image := string .Params.image}}
                 {{ with .Resources.GetMatch $image }}
                     {{ with .Fill "150x150" }}
-                        <img src="{{ .RelPermalink }}" width="{{ .Width }}" height="{{ .Height }}">
+                        <img class="rounded-l-md" src="{{ .RelPermalink }}" width="{{ .Width }}" height="{{ .Height }}">
                     {{ end }}
                 {{ end }}
 
                 </div>
-                <div class="px-4">
-                    <div class="font-bold text-2xl"><a href="{{ .RelPermalink }}">{{.Params.name}}</a></div>
-                    <div class="prose">{{ .Params.position | markdownify }}</div>
+                <div class="col-span-2 ">
+                    <div class="p-2">
+                    <div class="font-bold text-xl"><a href="{{ .RelPermalink }}">{{.Params.name}}</a></div>
+                    <div class="prose text-sm">{{ .Params.position | markdownify }}</div>
+
+                    </div>
                 </div>
             </li>
             {{ end }}

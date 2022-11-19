@@ -90,36 +90,94 @@
 
 {{/*  ΠΡΟΓΡΑΜΜΑΤΑ  */}}
 
+{{/*  ΠΡΟΓΡΑΜΜΑΤΑ  */}}
 <div class="container mx-auto ">
     <div class="prose text-5xl font-bold  drop-shadow-sm p-8 pb-16 w-full">Προγράμματα</div>
-    <div class="grid grid-cols-1 md:grid-cols-2 gap-4 ">
-        {{/*  MYWAY  */}}
-        <div class="border flex flex-wrap  justify-center py-8 bg-gray-100 shadow-md rounded-md mb-16">
-        {{ with .Site.GetPage "/myway" }}
-        {{ $image := .Resources.GetMatch "myway.png"}}
-        {{ $image := $image.Resize "150x" }}
-        <a class="w-full flex justify-center p-4" href="{{ .RelPermalink}}">
-            <img src="{{ $image.RelPermalink }}" width="{{ $image.Width }}" height="{{ $image.Height }}">
-        </a>
-        <p class="prose">{{ .Params.description | markdownify}}</p>
-        <div class="w-full prose"><a href="{{ .RelPermalink}}">Περισσότερα</a></div>
-        {{ end }}
-        </div>
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-4 ">
 
-    {{/*  SWEATY HEARTS  */}}
-        <div class="border flex flex-wrap  justify-center py-8 bg-red-700 shadow-md rounded-md mb-16">
-        {{ with .Site.GetPage "/sweatyhearts" }}
-        {{ $image := .Resources.GetMatch "sweaty-logo.png"}}
-        {{ $image := $image.Resize "150x" }}
-        <a class="w-full flex justify-center p-4" href="{{ .RelPermalink}}">
-            <img src="{{ $image.RelPermalink }}" width="{{ $image.Width }}" height="{{ $image.Height }}">
-        </a>
-        <h2 class=" font-bold uppercase text-6xl  text-white w-full prose text-center "  >{{ .Params.title }}</h2>
-        <p class="prose w-full text-white">{{ .Params.description | markdownify}}</p>
-        <div class="prose w-full prose-a:text-white "><a class="" href="{{ .RelPermalink}}">Περισσότερα</a></div>
-        {{ end }}
-        </div>
+    {{/*  GOOD RENAL  */}}
+<div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700">
+    <a href="#">
+        <img class="rounded-t-lg" src="/images/programs/goodrenal.png" alt="" />
+    </a>
+    <div class="p-5">
+        <h2 class="font-bold uppercase text-2xl py-4 w-full prose text-center ">ΕΥΡΩΠΑΙΚO ΠΡOΓΡΑΜΜΑ ERASMUS+</h2>
+        <p class=" text-black font-bold text-center">«Ολοκληρωμένο πρόγραμμα περίθαλψης αιμοκαθαιρόμενων ασθενών μέσω μιας πλατφόρμας εικονικής πραγματικότητας»
+        </p>
+
+        <p class=" text-black text-center pt-4">
+        GOODRENAL Project nº2020-1-ES01-KA204-083141
+        </p>
+
+        <p class=" pt-4 ">
+        Το GoodRENal είναι ένα Ευρωπαϊκό πρόγραμμα που στοχεύει στην προώθηση ενός υγιεινού
+        τρόπου ζωής σε άτομα με χρόνια νεφρική νόσο. Ερευνητές από τη Σουηδία, την Ελλάδα, το
+        Βέλγιο και την Ισπανία εργάζονται πάνω σε αυτό το έργο, το οποίο χρηματοδοτείται από το
+
+        Ευρωπαϊκό Πρόγραμμα Erasmus+
+        </p> 
+
+        <p class=" pt-4">
+            Για περισσότερες πληροφορίες παρακαλώ επισκεφτείτε <br>
+            <a href=" http://goodrenal.eu">http://goodrenal.eu</a><br>
+            <a href="https://twitter.com/goodrenal">https://twitter.com/goodrenal</a> 
+        </p>
     </div>
 </div>
+
+    {{/*  MYWAY  */}}
+    {{ with .Site.GetPage "/myway" }}
+    {{ $image := .Resources.GetMatch "myway.png"}}
+    <div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700">
+        <a href="#">
+            <img class="rounded-t-lg" src="{{ $image.RelPermalink }}" width="{{ $image.Width }}" height="{{ $image.Height }}" alt="">            
+        </a>
+        <div class="p-5">
+            <a href="#">
+                <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">{{ .Params.title }}</h5>
+            </a>
+            <p class="mb-3 font-normal text-gray-700 dark:text-gray-400"> 
+                Μία ευρωπαϊκή καινοτόμος συνεργασία μεταξύ φορέων για την ανάπτυξη, 
+                εφαρμογή και μεταφορά καινοτόμων πρακτικών που σχετίζονται με τη φυσική δραστηριότητα που 
+                βελτιώνει την υγεία σε ασθενείς μετά το εγκεφαλικό επεισόδιο.
+
+            </p>
+            <p class=" pt-4">
+                Για περισσότερες πληροφορίες επισκεφτείτε <br>
+                <a href="https://www.myway-project.org/">https://www.myway-project.org/</a>
+            </p>
+            <a class="inline-flex mt-2 items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 
+            focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+                href="{{ .RelPermalink}}">Περισσότερα
+                <svg aria-hidden="true" class="w-4 h-4 ml-2 -mr-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
+            </a>
+        </div>
+    </div>
+    {{ end }}
+
+{{/*  SWEATY HEARTS  */}}
+    {{ with .Site.GetPage "/sweatyhearts" }}
+    {{ $image := .Resources.GetMatch "sweatyhearts.png"}}
+    <div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700">
+        <a href="#">
+            <img class="rounded-t-lg" src="{{ $image.RelPermalink }}" width="{{ $image.Width }}" height="{{ $image.Height }}" alt="">            
+        </a>
+        <div class="p-5">
+            <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
+                ΔΡΑΣΤΗΡΙΟΠΟΙΗΘΕΙΤΕ ΣΥΜΜΕΤΕΧΟΝΤΑΣ </p> 
+                <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">στο πρόγραμμα άσκησής μας στο πλαίσιο του ευρωπαϊκού προγράμματος</p>                
+            <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">{{ .Params.title }}</h5>            
+            <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">    Ένα πρόγραμμα άσκησης κατάλληλο για ασθενείς με στεφανιαία νόσο, δωρεάν.</p>
+
+            <p class=" pt-4">
+                Για περισσότερες πληροφορίες <br>
+                <a href=" http://goodrenal.eu">Τηλ: 2310 992493, 2310 992184</a><br>
+                <a href="https://twitter.com/goodrenal">email: mamel@phed.auth.gr</a> 
+            </p>
+
+        </div>
+    </div>
+    {{ end }}
+
 
 {{ end }}
