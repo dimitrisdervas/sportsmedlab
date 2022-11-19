@@ -1,0 +1,27 @@
+<div class="border rounded-md shadow-md p-8 bg-white">
+
+    <div class="list publications">
+    <ul>
+      
+        {{ range where (sort .publications_data "tags" "asc") "tags" .publication_category}}
+
+        <li class="py-4">
+        <div class="flex">
+            <div class="year pr-4 text-gray-600 font-bold">{{.year}}</div>
+            <div class="publisher text-gray-600">{{.publisher}}</div>
+        </div>
+        <div class="title font-bold text-xl py-1 text-tahiti"><a href="{{.link}}" target="_blank">{{.title}}</a></div>
+        <div class="names text-gray-500">{{.names}}</div>
+        </li>
+        {{ end }}
+
+    </ul>
+    </div>
+    <div class="flex justify-end">
+      <a
+        class="bg-indigo-800 px-8 py-4 text-white hover:bg-red-700"
+        href="{{.publication_category}}"
+        >Περισσότερα</a
+      >
+    </div>
+</div>

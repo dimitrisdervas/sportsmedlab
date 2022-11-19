@@ -4,7 +4,7 @@
   <div class="border rounded-md shadow-md p-8 bg-white">
     <div class="font-bold text-2xl py-4 text-tahiti" id="books">Βιβλία</div>
     <div class="list publications ">
-      <ul class="grid grid-cols-3 gap-8">
+      <ul class="grid grid-cols-1 md:grid-cols-3 gap-8">
         {{ range ((index .Site.Data .Language.Lang).books) }}
         <li class="py-4">
           <div class="title font-bold text-xl text-tahiti">{{.title}}</div>
@@ -20,40 +20,21 @@
   </div>
 </div>
 
-  <div class="container mx-auto pb-16 grid grid-cols-2 gap-8">
-  <div class="border rounded-md shadow-md p-8 bg-white">
-    <div class="font-bold text-2xl py-4 text-tahiti">Δημοσιεύσεις</div>
-    <div class="list publications">
-      <ul>
-        {{ range first 5 ((index .Site.Data .Language.Lang).articles) }}
-        <li class="py-4">
-          <div class="flex">
-            <div class="year pr-4 text-gray-600 font-bold">{{.year}}</div>
-            <div class="publisher text-gray-600">{{.publisher}}</div>
-          </div>
-          <div class="title font-bold text-xl py-1 text-tahiti"><a href="{{.link}}" target="_blank">{{.title}}</a></div>
-          <div class="names text-gray-500">{{.names}}</div>
-        </li>
-        {{ end }}
-      </ul>
-    </div>
-    <div class="flex justify-end">
-      <a
-        class="bg-indigo-800 px-8 py-4 text-white hover:bg-red-700"
-        href="papers"
-        >Περισσότερα</a
-      >
-    </div>
-  </div>
+  <div class="container mx-auto pb-16 grid grid-cols-1 md:grid-cols-2 gap-8">
+
 
 
 
   <div class="border rounded-md shadow-md p-8 bg-white">
     <div class="font-bold text-2xl py-4 text-tahiti">
       Επιστημονικές ανακοινώσεις
+      {{$list := ((index .Site.Data .Language.Lang).anakoinoseis) }}
+      {{$len2 := len $list }}
+     ( {{ $len2 }})
     </div>
     <div class="list publications">
       <ul>
+        
         {{ range first 5 ((index .Site.Data .Language.Lang).anakoinoseis) }}
         <li class="py-4">
           <div class="flex">
@@ -79,11 +60,15 @@
 
 
     <div class="border rounded-md shadow-md p-8 bg-white">
-        <div class="font-bold text-2xl py-4 text-tahiti">Μαραθώνιος</div>
+        <div class="font-bold text-2xl py-4 text-tahiti">Μαραθώνιος
+          {{$list := (where (sort ((index .Site.Data .Language.Lang).articles) "tags" "asc") "tags" "marathon")}}
+          {{$len2 := len $list }}
+         ( {{ $len2 }})
+        </div>
         <div class="list publications">
         <ul>
-            {{ range sort ((index .Site.Data .Language.Lang).articles) "tags" "asc"}}
-            {{ if eq .tags "marathon"}}              
+          {{ range  first 5 (where (sort ((index .Site.Data .Language.Lang).articles) "tags" "asc") "tags" "marathon") }}
+             
             <li class="py-4">
             <div class="flex">
                 <div class="year pr-4 text-gray-600 font-bold">{{.year}}</div>
@@ -92,19 +77,30 @@
             <div class="title font-bold text-xl py-1 text-tahiti"><a href="{{.link}}" target="_blank">{{.title}}</a></div>
             <div class="names text-gray-500">{{.names}}</div>
             </li>
-            {{ end }}
+
             {{ end }}
         </ul>
+        </div>
+        <div class="flex justify-end">
+          <a
+            class="bg-indigo-800 px-8 py-4 text-white hover:bg-red-700"
+            href="marathonios"
+            >Περισσότερα</a
+          >
         </div>
     </div>
     
 
                         <div class="border rounded-md shadow-md p-8 bg-white">
-        <div class="font-bold text-2xl py-4 text-tahiti">doping</div>
+        <div class="font-bold text-2xl py-4 text-tahiti">Doping
+          {{$list := (where (sort ((index .Site.Data .Language.Lang).articles) "tags" "asc") "tags" "doping")}}
+          {{$len2 := len $list }}
+         ( {{ $len2 }})
+        </div>
         <div class="list publications">
         <ul>
-            {{ range sort ((index .Site.Data .Language.Lang).articles) "tags" "asc"}}
-            {{ if eq .tags "doping"}}              
+          {{ range  first 5 (where (sort ((index .Site.Data .Language.Lang).articles) "tags" "asc") "tags" "doping") }}
+        
             <li class="py-4">
             <div class="flex">
                 <div class="year pr-4 text-gray-600 font-bold">{{.year}}</div>
@@ -114,19 +110,30 @@
             <div class="names text-gray-500">{{.names}}</div>
             </li>
             {{ end }}
-            {{ end }}
         </ul>
+        </div>
+        <div class="flex justify-end">
+          <a
+            class="bg-indigo-800 px-8 py-4 text-white hover:bg-red-700"
+            href="doping"
+            >Περισσότερα</a
+          >
         </div>
     </div>
 
     
 
     <div class="border rounded-md shadow-md p-8 bg-white">
-        <div class="font-bold text-2xl py-4 text-tahiti">Νεφρό</div>
+        <div class="font-bold text-2xl py-4 text-tahiti">Νεφρό
+          {{$list := (where (sort ((index .Site.Data .Language.Lang).articles) "tags" "asc") "tags" "nephro")}}
+          {{$len2 := len $list }}
+         ( {{ $len2 }})
+        </div>
         <div class="list publications">
         <ul>
-            {{ range sort ((index .Site.Data .Language.Lang).articles) "tags" "asc"}}
-            {{ if eq .tags "nephro"}}              
+          {{ range  first 5 (where (sort ((index .Site.Data .Language.Lang).articles) "tags" "asc") "tags" "nephro") }}
+            
+            
             <li class="py-4">
             <div class="flex">
                 <div class="year pr-4 text-gray-600 font-bold">{{.year}}</div>
@@ -136,17 +143,26 @@
             <div class="names text-gray-500">{{.names}}</div>
             </li>
             {{ end }}
-            {{ end }}
         </ul>
+        </div>
+        <div class="flex justify-end">
+          <a
+            class="bg-indigo-800 px-8 py-4 text-white hover:bg-red-700"
+            href="nephro"
+            >Περισσότερα</a
+          >
         </div>
     </div>
 
         <div class="border rounded-md shadow-md p-8 bg-white">
-        <div class="font-bold text-2xl py-4 text-tahiti">athletes_screening</div>
+        <div class="font-bold text-2xl py-4 text-tahiti">Screening Αθλητών
+          {{$list := (where (sort ((index .Site.Data .Language.Lang).articles) "tags" "asc") "tags" "athletes_screening")}}
+          {{$len2 := len $list }}
+         ( {{ $len2 }})</div>
         <div class="list publications">
         <ul>
-            {{ range sort ((index .Site.Data .Language.Lang).articles) "tags" "asc"}}
-            {{ if eq .tags "athletes_screening"}}              
+          {{ range  first 5 (where (sort ((index .Site.Data .Language.Lang).articles) "tags" "asc") "tags" "athletes_screening") }}
+            
             <li class="py-4">
             <div class="flex">
                 <div class="year pr-4 text-gray-600 font-bold">{{.year}}</div>
@@ -156,17 +172,28 @@
             <div class="names text-gray-500">{{.names}}</div>
             </li>
             {{ end }}
-            {{ end }}
+
         </ul>
+        </div>
+        <div class="flex justify-end">
+          <a
+            class="bg-indigo-800 px-8 py-4 text-white hover:bg-red-700"
+            href="athletes_screening"
+            >Περισσότερα</a
+          >
         </div>
     </div>
 
             <div class="border rounded-md shadow-md p-8 bg-white">
-        <div class="font-bold text-2xl py-4 text-tahiti">Cardiac_rehabilitation</div>
+        <div class="font-bold text-2xl py-4 text-tahiti">Cardiac Rehabilitation
+          {{$list := (where (sort ((index .Site.Data .Language.Lang).articles) "tags" "asc") "tags" "Cardiac_Rehabilitation")}}
+          {{$len2 := len $list }}
+         ( {{ $len2 }})
+        </div>
         <div class="list publications">
         <ul>
-            {{ range sort ((index .Site.Data .Language.Lang).articles) "tags" "asc"}}
-            {{ if eq .tags "Cardiac_Rehabilitation"}}              
+          {{ range  first 5 (where (sort ((index .Site.Data .Language.Lang).articles) "tags" "asc") "tags" "Cardiac_Rehabilitation") }}
+            
             <li class="py-4">
             <div class="flex">
                 <div class="year pr-4 text-gray-600 font-bold">{{.year}}</div>
@@ -176,17 +203,29 @@
             <div class="names text-gray-500">{{.names}}</div>
             </li>
             {{ end }}
-            {{ end }}
+
         </ul>
+        </div>
+        <div class="flex justify-end">
+          <a
+            class="bg-indigo-800 px-8 py-4 text-white hover:bg-red-700"
+            href="cardiac"
+            >Περισσότερα</a
+          >
         </div>
     </div>
 
                 <div class="border rounded-md shadow-md p-8 bg-white">
-        <div class="font-bold text-2xl py-4 text-tahiti">Rehabilitation</div>
+        <div class="font-bold text-2xl py-4 text-tahiti">Rehabilitation
+          {{$list := (where (sort ((index .Site.Data .Language.Lang).articles) "tags" "asc") "tags" "Rehabilitation")}}
+          {{$len2 := len $list }}
+         ( {{ $len2 }})
+        </div>
         <div class="list publications">
         <ul>
-            {{ range sort ((index .Site.Data .Language.Lang).articles) "tags" "asc"}}
-            {{ if eq .tags "Rehabilitation"}}              
+          {{ range  first 5 (where (sort ((index .Site.Data .Language.Lang).articles) "tags" "asc") "tags" "Rehabilitation") }}
+
+           
             <li class="py-4">
             <div class="flex">
                 <div class="year pr-4 text-gray-600 font-bold">{{.year}}</div>
@@ -196,8 +235,15 @@
             <div class="names text-gray-500">{{.names}}</div>
             </li>
             {{ end }}
-            {{ end }}
+
         </ul>
+        </div>
+        <div class="flex justify-end">
+          <a
+            class="bg-indigo-800 px-8 py-4 text-white hover:bg-red-700"
+            href="rehabilitation"
+            >Περισσότερα</a
+          >
         </div>
     </div>
 

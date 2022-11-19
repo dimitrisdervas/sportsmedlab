@@ -1,10 +1,40 @@
 {{ define "main" }}
     
-<div class="mx-auto prose prose-xl">
-    <div class="font-bold text-2xl py-4 text-tahiti">{{.Title}}</div>
+<div class="mx-auto md:container prose prose-base prose-a:text-tahiti">
+    <h1 class="p-4 text-tahiti">{{.Title}} 
+      {{ with .Params.tags }}
+      {{$list :=  where ((index $.Site.Data $.Language.Lang).articles) "tags" . }}
+          {{$len2 := len $list }}
+         ( {{ $len2 }} )
+      {{ end }}
+    </h1>
     <div class="list publications">
-    <ul>
+    <ul class="list-none">
+{{ with .Params.tags }}
 
+
+<div class="border rounded-md shadow-md p-4 bg-white">
+  <div class="list publications">
+  <ul class="p-2 list-none">
+    {{ range (where ((index $.Site.Data $.Language.Lang).articles) "tags" . ) }}
+      <li class="py-4">
+      <div class="flex">
+          <div class="year pr-4 prose prose-sm font-bold">{{.year}}</div>
+          <div class="publisher prose prose-sm">{{.publisher}}</div>
+      </div>
+      <div class="title font-bold text-xl py-1 "><a class="prose-a:text-blue-600" href="{{.link}}" target="_blank">{{.title}}</a></div>
+      <div class="names prose prose-sm">{{.names}}</div>
+      </li>
+      {{ end }}
+  </ul>
+  </div>
+ 
+</div>
+
+
+
+
+{{ else }}
         {{ range (index (index .Site.Data .Language.Lang) (string .Params.dataContent))}}
         <li class="py-4">
           <div class="flex">
@@ -15,6 +45,8 @@
           <div class="names text-gray-500">{{.names}}</div>
         </li>
         {{end}}
+
+{{ end }}
         </ul>
     </div>
 </div>
