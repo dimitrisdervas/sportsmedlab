@@ -2,7 +2,7 @@
 title: Mameletzi
 name: Dimitra Mameletzi
 lang: en
-position: ASSISTANT PROFESSOR - Physical Rehabilitation in Persons with Health Disorders
+position: Assistant Professor - Physical Rehabilitation in Persons with Health Disorders
 degree: Πτυχιούχος Φυσικής Αγωγής
 image: mameletzi.jpg
 cv_document: entipa/cv/en/cv-mameletzi.pdf

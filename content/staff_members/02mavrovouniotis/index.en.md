@@ -2,14 +2,14 @@
 title: Mavrovouniotis
 name: Fotis Mavrovouniotis
 lang: en
-position: PROFESSOR
+position: Professor of Exercise and Physical Health
 degree: Πτυχιούχος Φυσικής Αγωγής
 image: mavrovouniotis.jpg
 cv_document: entipa/cv/en/cv-mavrovouniotis.pdf
 contact:
   tel: 2310 992 187
   email: mavrov@phed.auth.gr
-order: 3
+order: 2
 ---
 
 ## Προσωπικά στοιχεία

@@ -9,7 +9,7 @@ cv_document: entipa/cv/gr/cv-koutlianos.pdf
 contact:
   tel: 2310 992 188
   email: koutlian@phed.auth.gr
-order: 4
+order: 3
 ---
 
 ## Προσωπικά στοιχεία

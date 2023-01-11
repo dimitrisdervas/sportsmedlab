@@ -9,7 +9,7 @@ cv_document: entipa/cv/gr/cv-mavrovouniotis.pdf
 contact:
   tel: 2310 992 187
   email: mavrov@phed.auth.gr
-order: 3
+order: 2
 ---
 
 ## Προσωπικά στοιχεία

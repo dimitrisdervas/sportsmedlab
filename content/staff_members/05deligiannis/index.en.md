@@ -2,14 +2,14 @@
 title: deligiannis
 name: Deligiannis Asterios
 lang: en
-position: "EMERITUS PROFESSOR OF SPORTS MEDICINE"
+position: Emeritus Professor of Sports Medicine
 degree: Πτυχίο Ιατρικής ΑΠΘ (1975)
 image: deligiannis.jpg
 cv_document: entipa/cv/en/cv-deligiannis.pdf
 contact:
   tel: 2310 992 181
   email: adeligia@phed.auth.gr, stergios@med.auth.gr
-order: 1
+order: 5
 ---
 
 ## Personal details

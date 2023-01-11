@@ -9,7 +9,7 @@ cv_document: entipa/cv/gr/cv-kouidi.pdf
 contact:
   tel: 2310 992 189
   email: kouidi@phed.auth.gr, ekouidi@med.auth.gr
-order: 2
+order: 1
 ---
 
 ## Προσωπικά στοιχεία
