@@ -6,8 +6,13 @@ image-hero: /assets/images/slideshow/Photos-history1.jpg
 tag: lab
 ---
 
-The Laboratory of Sports Medicine of AUTh was established in 1992. It is the biggest Sports Medicine centre in Greece which is standardized by ISO 2007. The main staff of the Laboratory includes 7 professors and 8 researchers, who are skilled and are experts in sports cardiology, exercise physiology, sports nutrition and physical rehabilitation. The laboratory of Sports Medicine is a fully equipped for non-invasive cardiac evaluation of athletes. It collaborates with many sports clubs and leagues for the screening of athletes. And until today, there have been more than 30,000 athletes examined in the laboratory. The last 25 years cardiac and renal rehabilitation programs are applied in the Laboratory of Sports Medicine.
+# History of The Laboratory of Sports Medicine of AUTh
 
+The Laboratory of Sports Medicine of AUTh was established in 1992. It is the biggest Sports Medicine centre in Greece which is standardized by ISO 2007. The main staff of the Laboratory includes 7 professors and 8 researchers, who are skilled and are experts in sports cardiology, exercise physiology, sports nutrition and physical rehabilitation. 
+
+The laboratory of Sports Medicine is a fully equipped for non-invasive cardiac evaluation of athletes. It collaborates with many sports clubs and leagues for the screening of athletes. And until today, there have been more than 30,000 athletes examined in the laboratory. The last 25 years cardiac and renal rehabilitation programs are applied in the Laboratory of Sports Medicine.
+
+ <!--more-->
 
 More than 200 patients with chronic cardiac diseases exercise free of charge every year in Thessaloniki’s Public Gyms. Additionally, renal rehabilitation program is performed in the Renal Unit of AHEPA Hospital. Exercise training programs for children with oncologic diseases and cystic fibrosis, and for adults with diabetes mellitus and psychiatric disorders are performed, also. The person in charge of the rehabilitation programs is the Director of the Laboratory, Dr. Evangelia Kouidi, Professor of Sports Medicine and Cardiologist, who specializes in conducting long-term physical rehabilitation studies and evaluation of the anatomical and functional adaptive effects of exercise training for patients with chronic cardiac and renal diseases. 
 

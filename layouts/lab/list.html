@@ -6,7 +6,7 @@
 <section class="container mx-auto  mb-16">
      <div class="prose text-5xl font-bold  drop-shadow-sm p-8 pb-16"> Ιστορικό </div>
     <div class="prose prose-xl mx-auto  drop-shadow-sm ">
-{{ with .Site.GetPage "/lab/history.md" }}
+{{ with .Site.GetPage "/lab/historyv2.md" }}
     {{ .Summary }}
     {{ if .Truncated }}
       <a href="{{ .RelPermalink }}">Read More ...</a>
@@ -18,8 +18,8 @@
 {{/*  PROSOPIKO  */}}
 <section class="container mx-auto  md:mb-16">
     <div class="prose text-5xl font-bold  drop-shadow-sm p-8 pb-16"> Διδακτικό Προσωπικό </div>
-    <ul class="grid grid-cols-1 gap-4 md:grid-cols-3 md:gap-x-8  md:gap-y-12 px-8 pb-8 ">           
-        {{ range (where  .Site.RegularPages "Section" "staff_members")  }}
+    <ul class="grid grid-cols-1 gap-4 md:grid-cols-3 md:gap-x-8  md:gap-y-12 px-8 pb-8 ">       
+        {{ range  (where  .Site.RegularPages "Section" "staff_members").ByParam "order"  }}
             {{ if eq .Language .Page.Language }}
             <li class="grid grid-cols-3 gap-4 border border-gray-200 rounded-lg shadow-md place-items-center bg-white">
                 <div class="col-span-1">
@@ -44,6 +44,8 @@
     </ul>
         </div>
 </section>
+
+
 
 <section class="container mx-auto  mb-16">
     <div class="prose prose-xl mx-auto  drop-shadow-sm ">
