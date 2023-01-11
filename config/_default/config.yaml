@@ -20,3 +20,5 @@ languages:
   en:
     languageName: English
     weight: 20
+
+timeout: 60000
