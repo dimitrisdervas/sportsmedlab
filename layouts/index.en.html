@@ -143,12 +143,12 @@
 {{/*  ΠΡΟΓΡΑΜΜΑΤΑ  */}}
 <div class="container mx-auto ">
     <div class="prose text-5xl font-bold  drop-shadow-sm p-8 pb-16 w-full">PROJECTS</div>
-    <div class="grid grid-cols-1 md:grid-cols-3 gap-4 justify-center">
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-8 justify-center">
 
     {{/*  GOOD RENAL  */}}
-    <div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700 ">
-        <a href="http://goodrenal.eu">
-            <img class="rounded-t-lg" src="/images/programs/goodrenal.png" alt="" />
+    <div class="md:col-span-2 bg-white border border-gray-200 rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700 ">
+        <a class="flex justify-center" href="http://goodrenal.eu" style="background:#c4e3cd">
+            <img class="rounded-t-lg" src="/images/programs/goodrenal_large.png" alt="" />
         </a>
         <div class="p-5">
             <h2 class="font-bold uppercase text-2xl py-4 w-full prose text-center ">ΕΥΡΩΠΑΙΚO ΠΡOΓΡΑΜΜΑ ERASMUS+</h2>
@@ -164,20 +164,33 @@
                 Researchers from Sweden, Greece, Belgium and Spain are working on this project,                 
                 which is funded by the Erasmus+ European programme and the Spanish R+D+i Plan.
             </p> 
-
-            <p class=" pt-4">
-                For more info visit<br>
+            <div>
+                <p class="pt-4">For more info visit: </p>
                 <a class="text-blue-800" href=" http://goodrenal.eu">http://goodrenal.eu</a><br>
-                <a class="text-blue-800" href="https://twitter.com/goodrenal">https://twitter.com/goodrenal</a> 
-            </p>
+                <a class="text-blue-800" href="https://twitter.com/goodrenal">Twitter: @goodrenal</a> 
+            </div>      
+            <hr class="mt-2 pb-2">
+            <div class="flex justify-between">
+                <a class="pr-4" href="http://sepie.es/">
+                <img class="rounded-t-lg" src="/images/programs/SEPIE_erasmus_plus.gif" alt="Sepie.es" />
+                </a>
+                <p class="text-gray-600 text-sm">
+                    This publication [communication] reflects the views only of the CEU 
+                    Cardenal Herrera University, and either the European  Commission or 
+                    the Spanish Service for the Internationalisation of Education (SEPIE) 
+                    cannot be held responsible for any use which may be made of the 
+                    information contained therein.
+                </p>
+            </div>
+
         </div>
     </div>
 
     {{/*  MYWAY  */}}
     {{ with .Site.GetPage "/myway" }}
-    {{ $image := .Resources.GetMatch "myway.png"}}
-    <div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700">
-        <a href="https://www.myway-project.org/">
+    {{ $image := .Resources.GetMatch "myway_large.png"}}
+    <div class=" bg-white border border-gray-200 rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700">
+        <a class="flex justify-center bg-white" href="https://www.myway-project.org/">
             <img class="rounded-t-lg" src="{{ $image.RelPermalink }}" width="{{ $image.Width }}" height="{{ $image.Height }}" alt="">            
         </a>
         <div class="p-5">
@@ -203,9 +216,9 @@
 
 {{/*  SWEATY HEARTS  */}}
     {{ with .Site.GetPage "/sweatyhearts" }}
-    {{ $image := .Resources.GetMatch "sweatyhearts.png"}}
-    <div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700">
-        <a href="https://www.sweatyhearts.eu/">
+    {{ $image := .Resources.GetMatch "sweatyhearts_large.png"}}
+    <div class=" bg-white border border-gray-200 rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700">
+        <a class="flex justify-center" href="https://www.sweatyhearts.eu/">
             <img class="rounded-t-lg" src="{{ $image.RelPermalink }}" width="{{ $image.Width }}" height="{{ $image.Height }}" alt="">            
         </a>
         <div class="p-5">
