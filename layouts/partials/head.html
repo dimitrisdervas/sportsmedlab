@@ -14,6 +14,19 @@
 {{/* Fonts */}}
 {{ partial "huge/fonts/tags" "fonts" }}
 
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/5.3.4/photoswipe.min.css" integrity="sha512-TdCx5ObKpq3+lwUdiXFgFLhqwTB98YsdaQWSJrwkOz084qaeO86+NMYfU/pnpPo1pDVah0a7yvFmbcvI8ZiGAw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-<script src="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/5.3.4/photoswipe.esm.min.js" integrity="sha512-YhpTZsEw3/p0hDjEmlIv2gACla/ScS+z2UXHMS3DCWpLw3JCYPf9zFWgcbtQZYLduSpjlxNGAi2SbBKTvSUXTQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/5.3.4/photoswipe-lightbox.esm.min.js" integrity="sha512-BSWjxbwxteqrvkMPgWQrDNYiz1D4htzpxDgwrzgOf2T4AvUrgXHxCbI5DNaNNHit8qLwEgbDNXtztz+btTa3tQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+{{ if in .Page.RelPermalink "lab"}}
+<link rel="stylesheet" href="photoswipe/dist/photoswipe.css">
+
+<script type="module">
+import PhotoSwipeLightbox from 'photoswipe/lightbox';
+import 'photoswipe/style.css';
+
+const lightbox = new PhotoSwipeLightbox({
+  gallery: '#my-gallery',
+  children: 'a',
+  pswpModule: () => import('photoswipe')
+});
+lightbox.init();
+    </script>
+
+    {{ end}}
