@@ -21,9 +21,9 @@
 </div>
 
 {{/*  LAB  */}}
-<div class="container mx-auto  ">
+<div class="container mx-auto px-4 md:px-8 ">
     <div class=" border shadow-md rounded-md bg-white md:mb-16 ">   
-    {{ with .Site.GetPage "/lab" }}
+    {{ with .Site.GetPage "/lab" }} 
     {{ $image := .Resources.GetMatch "ergastirio-outdoor-backside.jpg"}}
     {{ $image := $image.Filter (images.Sepia 15) }}
     <div class="grid grid-cols-3 gap-4 flex  items-center">
@@ -57,7 +57,7 @@
 {{/*  PROSOPIKO  */}}
 <section class="container mx-auto  md:mb-16">
     <div class="prose text-5xl font-bold  drop-shadow-sm p-8 pb-16"> Διδακτικό Προσωπικό </div>
-    <ul class="grid grid-cols-1 gap-4 md:grid-cols-3 md:gap-x-8  md:gap-y-12 px-8 pb-8 ">       
+    <ul class="grid grid-cols-1 gap-4 md:grid-cols-3 md:gap-x-8  md:gap-y-12 px-4 md:px-8 ">       
         {{ range  (where  .Site.RegularPages "Section" "staff_members").ByParam "order"  }}
             {{ if eq .Language .Page.Language }}
             <li class="grid grid-cols-3 gap-4 border border-gray-200 rounded-lg shadow-md place-items-center bg-white">
@@ -87,7 +87,7 @@
 
 
 {{/*  YPIRESIES  */}}
-<div class="container mx-auto  flex flex-wrap  justify-center py-8 md:mb-16">
+<div class="container mx-auto  flex flex-wrap  justify-center py-8 mb-16">
     <div class="prose text-5xl font-bold  drop-shadow-sm p-8 pb-16 w-full">Υπηρεσίες</div>
     <div class="grid md:grid-cols-1 gap-4 md:grid-cols-2 md:gap-4 px-4 md:px-8">
         <div class=" border shadow-md rounded-md bg-white">
@@ -137,12 +137,12 @@
 </div>
 
 {{/*  ΠΡΟΓΡΑΜΜΑΤΑ  */}}
-<div class="container mx-auto ">
+<div class="container mx-auto mb-16">
     <div class="prose text-5xl font-bold  drop-shadow-sm p-8 pb-16 w-full">Προγράμματα</div>
-    <div class="grid grid-cols-1 md:grid-cols-2 gap-8 justify-center">
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-8 justify-center px-4 md:px-8">
 
     {{/*  GOOD RENAL  */}}
-    <div class="md:col-span-2  bg-white border border-gray-200 rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700 ">
+    <div class="md:col-span-2  bg-white border border-gray-200 rounded-lg shadow-md gap-4  ">
         <a class="flex justify-center" href="http://goodrenal.eu" target="_blank" style="background:#c4e3cd">
             <img class="rounded-t-lg" src="/images/programs/goodrenal.png" alt="Goodrenal program" />
         </a>
@@ -197,15 +197,15 @@
     {{/*  MYWAY  */}}
     {{ with .Site.GetPage "/myway" }}
     {{ $image := .Resources.GetMatch "myway_large.png"}}
-    <div class=" bg-white border border-gray-200 rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700">
+    <div class=" bg-white border border-gray-200 rounded-lg shadow-md ">
         <a class="flex justify-center bg-white" href="https://www.myway-project.org/" target="_blank">
             <img class="rounded-t-lg" src="{{ $image.RelPermalink }}" width="{{ $image.Width }}" height="{{ $image.Height }}" alt="Myway">            
         </a>
         <div class="p-5">
             <a href="#">
-                <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">{{ .Params.title }}</h5>
+                <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 ">{{ .Params.title }}</h5>
             </a>
-            <p class="mb-3 font-normal text-gray-700 dark:text-gray-400"> 
+            <p class="mb-3 font-normal text-gray-700 "> 
                 Μία ευρωπαϊκή καινοτόμος συνεργασία μεταξύ φορέων για την ανάπτυξη, 
                 εφαρμογή και μεταφορά καινοτόμων πρακτικών που σχετίζονται με τη φυσική δραστηριότητα που 
                 βελτιώνει την υγεία σε ασθενείς μετά το εγκεφαλικό επεισόδιο.
@@ -227,16 +227,16 @@
 {{/*  SWEATY HEARTS  */}}
     {{ with .Site.GetPage "/sweatyhearts" }}
     {{ $image := .Resources.GetMatch "sweatyhearts_large.png"}}
-    <div class=" bg-white border border-gray-200 rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700">
+    <div class=" bg-white border border-gray-200 rounded-lg shadow-md ">
         <a class="flex justify-center" href="https://www.sweatyhearts.eu/" target="_blank">
             <img class="rounded-t-lg" src="{{ $image.RelPermalink }}" width="{{ $image.Width }}" height="{{ $image.Height }}" alt="SweatyHearts">            
         </a>
         <div class="p-5">
-            <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
+            <p class="mb-3 font-normal text-gray-700 ">
                 ΔΡΑΣΤΗΡΙΟΠΟΙΗΘΕΙΤΕ ΣΥΜΜΕΤΕΧΟΝΤΑΣ </p> 
-                <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">στο πρόγραμμα άσκησής μας στο πλαίσιο του ευρωπαϊκού προγράμματος</p>                
-            <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">{{ .Params.title }}</h5>            
-            <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">    Ένα πρόγραμμα άσκησης κατάλληλο για ασθενείς με στεφανιαία νόσο, δωρεάν.</p>
+                <p class="mb-3 font-normal text-gray-700 ">στο πρόγραμμα άσκησής μας στο πλαίσιο του ευρωπαϊκού προγράμματος</p>                
+            <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 ">{{ .Params.title }}</h5>            
+            <p class="mb-3 font-normal text-gray-700 ">    Ένα πρόγραμμα άσκησης κατάλληλο για ασθενείς με στεφανιαία νόσο, δωρεάν.</p>
 
             <p class=" pt-4">
                 Για περισσότερες πληροφορίες <br>
@@ -257,7 +257,7 @@
 
 
 {{/*  CONTACT  */}}
-    <div class="container mx-auto md:mb-16">
+    <div class="container mx-auto md:mb-16 px-4 md:px-8">
         <div class="prose text-5xl font-bold  drop-shadow-sm p-8 pb-16">Τηλέφωνα</div>
         <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
             <div class="text-4xl font-bold text-center text-white border shadow-md rounded-md p-8 bg-red-600">2310-992184</div>

@@ -8,47 +8,74 @@
          ( {{ $len2 }} )
       {{ end }}
     </h1>
-    <div class="list publications">
-    <ul class="list-none">
+
+
 {{ with .Params.tags }}
-
-
-<div class="border rounded-md shadow-md p-4 bg-white">
-  <div class="list publications">
-  <ul class="p-2 list-none">
-    {{ range (where ((index $.Site.Data $.Language.Lang).articles) "tags" . ) }}
+<div class="list publications">
+  <ul class="list-none">
+  <div class="border rounded-md shadow-md p-4 bg-white">
+    <div class="list publications">
+    <ul class="p-2 list-none">
+      {{ range (where ((index $.Site.Data $.Language.Lang).articles) "tags" . ) }}
       <li class="py-4">
-      <div class="flex">
-          <div class="year pr-4 prose prose-sm font-bold">{{.year}}</div>
-          <div class="publisher prose prose-sm">{{.publisher}}</div>
-      </div>
-      <div class="title font-bold text-xl py-1 "><a class="prose-a:text-blue-600" href="{{.link}}" target="_blank">{{.title}}</a></div>
-      <div class="names prose prose-sm">{{.names}}</div>
-      </li>
-      {{ end }}
-  </ul>
+        <div class="flex">
+            <div class="year pr-4 text-gray-600 font-bold">{{.year}}</div>
+            <div class="publisher text-gray-600">{{.publisher}}</div>
+        </div>
+        <div class="title font-bold text-xl py-1 text-tahiti"><a href="{{.link}}" target="_blank">{{.title}}</a></div>
+        <div class="names text-gray-500">{{.names}}</div>
+        </li>
+        {{ end }}
+    </ul>
+    </div>
   </div>
- 
+
+</ul>
+</div>
+</div>
+{{ else }}
+
+    {{/*  https://mertbakir.gitlab.io/hugo/group-by-data-files/  */}}
+{{ $papers := slice }}
+{{ range (index (index $.Site.Data .Language.Lang) "articles") }}
+{{ $papers = $papers | append .year }}
+{{ end }}
+{{ $papers = uniq $papers }}
+
+<div class="flex flex-wrap gap-4 mb-8">
+{{ range $papers }}
+{{ $paper := . }}
+<a class="text-lg px-4 py-2 border rounded-md shadow-md  bg-white text-tahiti hover:bg-blue-800 hover:text-white no-underline" href="#{{ $paper }}">{{ $paper }}</a>
+
+{{ end}}
 </div>
 
 
+<div class="grid grid-cols-2 gap-4">
+    {{ range $papers }}
+    {{ $paper := . }}
+    
+      <div id="{{ $paper }}" class="border rounded-md shadow-md p-4  list publications  bg-white ">
+    <ul class="p-2 list-none">
+      <div class="text-3xl font-bold">      {{ $paper }}</div>
 
-
-{{ else }}
-        {{ range (index (index .Site.Data .Language.Lang) (string .Params.dataContent))}}
+        {{ range (where (index (index $.Site.Data $.Language.Lang) "articles") "year" $paper) }}
         <li class="py-4">
           <div class="flex">
             <div class="year pr-4 text-gray-600 font-bold">{{.year}}</div>
-            <div class="publisher text-gray-600">{{.publisher}}</div>
+            <div class="names text-gray-500">{{.names}}</div>
           </div>
-          <div class="title font-bold text-2xl py-1 text-tahiti"><a href="{{.link}}" target="_blank">{{.title}}</a></div>
-          <div class="names text-gray-500">{{.names}}</div>
+          <div class="title font-bold text-xl py-1 text-tahiti">{{.title}}</div>
+
+          <div class="publisher text-gray-600">{{.conference}}</div>
         </li>
-        {{end}}
+        {{ end }}
+      </ul>
+    </div>
+     {{ end }}
+    </div>
 
 {{ end }}
-        </ul>
-    </div>
-</div>
+
 
 {{ end }}

@@ -47,9 +47,7 @@
 
   {{ $darkMode := partial "huge/env/IsProduction" . }}
 
-  <body
-    class="{{ .Kind }} text-black bg-bodybg h-full flex flex-col "
-  >
+  <body class="{{ .Kind }} text-black bg-bodybg h-full flex flex-col">
 
     {{ partial "header.html" . }}
 
