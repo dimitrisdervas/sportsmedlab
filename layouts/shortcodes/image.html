@@ -4,6 +4,9 @@
 <!-- Get alt param from shortcode -->
 {{ $alt := $.Get "alt"}}
 
+{{ $caption := $.Get "caption"}}
+
+{{ .Get "caption" }}
 <!-- Get image -->
 {{$img := resources.Get $src}}
 
@@ -15,3 +18,5 @@
     <source media="(max-width:401px)" srcset="{{ $mobile.Permalink }}">
     <img src="{{ $desktop.Permalink }}" alt="{{ $alt }}" style="width:auto;">
 </picture>
+
+<em class="prose-sm ">{{ $caption }}</em>
