@@ -53,7 +53,7 @@
 {{ with .Site.GetPage "/lab/exoplismos.md" }}{{ .Content }}{{ end }}
 </div>
 
-
+{{/*  Gallery  */}}
 <div id="gallery" class="flex flex-wrap pswp-gallery justify-center gap-2">
 {{ range .Resources.Match "lab*" }}
 {{ $thumbnail := .Resize "320x" }}
@@ -66,10 +66,9 @@ target="_blank"
 >
 <img src="{{ $thumbnail.Permalink }}" />
 </a>
-
-
 {{ end }}
 </div>
+
 </section>
 
 
