@@ -3,7 +3,7 @@
 <div class="container mx-auto mb-16 ">
     <div class="font-bold text-3xl pb-8 text-tahiti" id="awards">Collaborating Centers</div>
     <div class=" border rounded-md shadow-md bg-white">
-        <ul class="grid grid-cols-2 gap-8 p-16">
+        <ul class="grid grid-col1-1 md:grid-cols-2 gap-8 p-16">
         {{ range ((index .Site.Data .Language.Lang).synergazomena_kentra) }}
             <li class="">
                 <a href="{{.link}}">
@@ -12,9 +12,9 @@
             </li>
         {{end}}
         </ul>
-    </div> 
-     
+    </div>  
 </div>
+
 
 
 <div class="container mx-auto mb-16">
@@ -25,11 +25,11 @@
     <!-- Editor Link -->
 
 
-        <ul class="grid grid-cols-3 gap-8">
+    <ul class="grid grid-cols-2 md:grid-cols-3 gap-8">
             {{ range ((index .Site.Data .Language.Lang).interests)}}
             
                 <li class="border rounded-md shadow-md p-8 flex items-center bg-white ">
-                    <div class="title text-xl text-tahiti">{{.title}}</div>
+                    <div class="title prose text-tahiti">{{.title}}</div>
                 </li>
             {{end}}
             </ul>
@@ -37,28 +37,35 @@
     </div>
 </div>
 
-<div class="container mx-auto pb-16 grid grid-cols-2 gap-8">
 
-
-
-
-
-
-<div class="border rounded-md shadow-md p-8 bg-white">
-    <div class="font-bold text-2xl py-4 text-tahiti" id="science-projects">Research Programs</div>
-    <div class="list publications">
-    <ul>
-        {{ range first 5 ((index .Site.Data .Language.Lang).research_programs) }}
-         <li class="py-4">
+    <div class="container mx-auto pb-16 grid grid-cols-1 md:grid-cols-2 gap-8">
+        <div class="border rounded-md shadow-md p-8 bg-white">
+        <div class="font-bold text-2xl py-4 text-tahiti" id="science-projects">Research Programs</div>
+        <div class="list publications">
+            <ul>
+                {{ range first 5 ((index .Site.Data .Language.Lang).phd) }}
+                <li class="py-4">
                 <div class="flex ">
-                    <div class="names text-gray-500">{{.authority}}</div>
+                <div class="year pr-4 text-gray-600 font-bold ">{{.year}}</div>
+                <div class="names text-gray-500">{{.name}}</div>
                 </div>
-                <div class="title font-bold text-xl py-1 text-tahiti">{{.title}}</div>
-    		</li>
-        {{end}}
-        </ul>
+                <div class="title font-bold text-xl py-1 text-tahiti">                    
+                        {{ $title := .title }}
+                        {{ $link := .link }}
+                        {{ with .link }}
+                            <a class="a:text-tahiti a:no-underline a:font-bold" href="{{.}}" target="_blank">{{$title}}</a>
+                        {{ else }}
+                            {{$title}}
+                        {{ end }}
+                    </div>
+            </li>
+                {{end}}
+            </ul>
+        </div>
+        <div class="flex justify-end">
+            <a class="bg-indigo-800 px-8 py-4 text-white hover:bg-red-700" href="phd">Περισσότερα</a>
+        </div>
     </div>
-</div>
 
 
 <div class="border rounded-md shadow-md p-8 bg-white">

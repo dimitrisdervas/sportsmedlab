@@ -24,7 +24,6 @@
 
 {{/*  LATEST  */}}
 <div class="container mx-auto pb-16 ">
-<div class="container mx-auto pb-16 ">
   <div class="border rounded-md shadow-md p-8 bg-white">
   <div id="publications" class="font-bold text-2xl py-4 text-tahiti">Δημοσιεύσεις - Πρόφατες (10)</div>
   <div class="list publications">
@@ -139,7 +138,7 @@
     </div>
     
 
-                        <div class="border rounded-md shadow-md p-8 bg-white">
+        <div class="border rounded-md shadow-md p-8 bg-white">
         <div class="font-bold text-2xl py-4 text-tahiti">Doping
           {{$list := (where (sort ((index .Site.Data .Language.Lang).articles) "tags" "asc") "tags" "doping")}}
           {{$len2 := len $list }}
