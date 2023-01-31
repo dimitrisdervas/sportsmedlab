@@ -14,21 +14,3 @@
 {{/* Fonts */}}
 {{ partial "huge/fonts/tags" "fonts" }}
 
-{{ if in .Page.RelPermalink "lab"}}
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/5.3.4/photoswipe.min.css" integrity="sha512-TdCx5ObKpq3+lwUdiXFgFLhqwTB98YsdaQWSJrwkOz084qaeO86+NMYfU/pnpPo1pDVah0a7yvFmbcvI8ZiGAw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-<link rel="stylesheet" href="photoswipe/dist/photoswipe.css">
-<script src="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/5.3.4/umd/photoswipe-lightbox.umd.min.js" integrity="sha512-Fr1D8tO0FkGPNvHX4higgA6VC6lN131oIwo4h/56Zsd3H8KmmjJvJmS/4zNHAquh8WpcmqLQk9YVQBgdxE2pYw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/5.3.4/umd/photoswipe.umd.min.js" integrity="sha512-DXjj7djaqwwI1SOOparvm5rJBlDUPYJnN8Y+mdR6DexxBB7oEtbmv418ln9ILcirnYKihSqwKJAHuKzkowFNjQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-<script type="module">
-import PhotoSwipeLightbox from 'photoswipe/lightbox';
-import 'photoswipe/style.css';
-
-const lightbox = new PhotoSwipeLightbox({
-  gallery: '#my-gallery',
-  children: 'a',
-  pswpModule: () => import('photoswipe')
-});
-lightbox.init();
-    </script>
-
-    {{ end}}

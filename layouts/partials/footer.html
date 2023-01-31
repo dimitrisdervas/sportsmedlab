@@ -10,5 +10,6 @@
     </footer>
     
 </div>
-
+{{ if in .Page.RelPermalink "lab"}}
 {{ partial "photoswipe.html" . }}
+{{ end }}
