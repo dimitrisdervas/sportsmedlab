@@ -1,6 +1,8 @@
 mounts:
   - source: assets
     target: assets
+  - source: static
+    target: static
   - source: _huge
     target: assets/_huge
   - source: node_modules
