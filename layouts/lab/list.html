@@ -48,26 +48,21 @@
 
 
 <section class="container mx-auto  mb-16">
-    <div class="prose prose-xl mx-auto  drop-shadow-sm ">
+<div  class="prose prose-xl mx-auto  drop-shadow-sm ">
 {{ with .Site.GetPage "/lab/exoplismos.md" }}{{ .Content }}{{ end }}
-
-
-    {{ range .Resources.Match "lab*" }}
-    {{ $thumbnail := .Resize "320x" }}
-    <figure itemscope itemtype="http://schema.org/ImageObject" class="image gallery-item">
-    <a href="{{ .Permalink }}" itemprop="contentUrl" data-size="{{ .Width }}x{{ .Height }}" >
-      <img src="{{ $thumbnail.Permalink }}" itemprop="thumbnail" alt="galleryImage" class="galleryImage" />
-    </a>
-    <figcaption itemprop="caption description">
-      <span itemprop="copyrightHolder"></span>
-    </figcaption>
-    </figure> 
-    {{ end }}
-
- 
-
-
-
+</div>
+<div id="my-gallery" class="grid grid-cols-3 gap-4">
+{{ range .Resources.Match "lab*" }}
+{{ $thumbnail := .Resize "320x" }}
+<figure itemscope itemtype="http://schema.org/ImageObject" class="image gallery-item">
+<a href="{{ .Permalink }}" itemprop="contentUrl" data-size="{{ .Width }}x{{ .Height }}" >
+<img src="{{ $thumbnail.Permalink }}" itemprop="thumbnail" alt="galleryImage" class="galleryImage" />
+</a>
+<figcaption itemprop="caption description">
+<span itemprop="copyrightHolder"></span>
+</figcaption>
+</figure> 
+{{ end }}
 </div>
 </section>
 
