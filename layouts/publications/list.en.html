@@ -28,7 +28,7 @@
     <div id="publications" class="font-bold text-2xl py-4 text-tahiti">Latest Publication (10)</div>
     <div class="list publications">
     <ul>
-      {{ range  first 10 (where (sort ((index .Site.Data .Language.Lang).articles) "year" "desc") "year" "2022") }}
+      {{ range  first 10 (sort ((index .Site.Data .Language.Lang).articles) "year" "desc") }}
          
         <li class="py-4">
         <div class="flex">
@@ -51,6 +51,8 @@
     </div>
   </div>
   </div>
+
+  
 {{/*  BY TAGS  */}}
 <div class="container mx-auto pb-16 grid grid-cols-1 md:grid-cols-2 gap-8">
 

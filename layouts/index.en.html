@@ -1,7 +1,7 @@
 {{ define "main" }}
 
 {{/*  YOUTUBE VIDEOS  */}}
-<div class="container mx-auto shadow-md rounded-md mb-16 ">
+{{/*  <div class="container mx-auto shadow-md rounded-md mb-16 ">
     <div class="flex justify-between">
         <div class="w-2/3">      
             <a href="https://www.youtube.com/channel/UCYRSJ_S8qYoNv0IIjmO-NIA/videos">
@@ -16,7 +16,37 @@
         </div>
         </a>
     </div>
-</div>
+</div>  */}}
+
+{{/*  LATEST  */}}
+<div class="container mx-auto pb-16 ">
+    <div class="border rounded-md shadow-md p-8 bg-white">
+    <div id="publications" class="font-bold text-2xl py-4 text-tahiti">Latest Publication (5)</div>
+    <div class="list publications">
+    <ul>
+      {{ range  first 5 (sort ((index .Site.Data .Language.Lang).articles) "year" "desc") }}
+         
+        <li class="py-4">
+        <div class="flex">
+            <div class="year pr-4 text-gray-600 font-bold">{{.year}}</div>
+            <div class="publisher text-gray-600">{{.publisher}}</div>
+        </div>
+        <div class="title font-bold text-xl py-1 text-tahiti"><a href="{{.link}}" target="_blank">{{.title}}</a></div>
+        <div class="names text-gray-500">{{.names}}</div>
+        </li>
+  
+        {{ end }}
+    </ul>
+    </div>
+    <div class="flex justify-end">
+      <a
+        class="bg-indigo-800 px-8 py-4 text-white hover:bg-red-700"
+        href="papers"
+        >See them all per year</a
+      >
+    </div>
+  </div>
+  </div>
 
 {{/*  LAB  */}}
 <div class="container mx-auto  ">
