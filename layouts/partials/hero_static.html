@@ -1,7 +1,7 @@
 <div class="container mx-auto  w-full ">
         {{ range   (where .Site.RegularPages.ByTitle "Section" "slideshow" )  }}
             {{ if eq .Title "Education"}}
-                {{ partial "image_scrset.html" . }}
+                {{ partial "image_scrset_slideshow.html" . }}
             {{ end }}
         {{ end }}
 </div>

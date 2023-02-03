@@ -1,0 +1,30 @@
+{{ with .Params.image }}
+{{ $original := ($.Site.GetPage "section" "slideshow").Resources.GetMatch (string . ) }}
+{{ $image320w := $original.Fill "320x160 TopLeft" }}
+{{ $image375w := $original.Fill "375x184 TopLeft" }}
+{{ $image425w := $original.Fill "425x212 TopLeft" }}
+{{ $image768w := $original.Fill "768x384 TopLeft" }}
+{{ $image1024w := $original.Fill "1200x511 TopLeft" }}
+
+
+<img
+alt="{{ $original }}"
+data-sizes="auto"
+data-srcset="   
+{{ $image320w.RelPermalink }}  320w,
+{{ $image375w.RelPermalink }}  375w,
+{{ $image425w.RelPermalink }}  425w,     
+{{ $image768w.RelPermalink }}  768w,
+{{ $image1024w.RelPermalink }}  1024w,
+
+"
+data-src="{{ $image425w.RelPermalink }}"
+class="lazyload" />
+
+<!-- noscript pattern -->
+<noscript>
+<img src="{{ $image425w.RelPermalink }}" />
+</noscript>
+
+
+{{ end }}   

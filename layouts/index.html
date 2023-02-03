@@ -43,8 +43,8 @@
     <div class="flex justify-end">
       <a
         class="bg-indigo-800 px-8 py-4 text-white hover:bg-red-700"
-        href="papers"
-        >Δείτε τες όλες ανά έτος</a
+        href="/publications/papers"
+        >Δείτε όλες τις δημοσιεύσεις ανά έτος</a
       >
     </div>
   </div>
@@ -58,8 +58,27 @@
     {{ $image := .Resources.GetMatch "ergastirio-outdoor-backside.jpg"}}
     {{ $image := $image.Filter (images.Sepia 15) }}
     <div class="grid grid-cols-3 gap-4 flex  items-center">
-        <img class="col-span-3 md:col-span-2 drop-shadow-lg rounded-sm " src="{{ $image.RelPermalink }}" 
-        width="{{ $image.Width }}" height="{{ $image.Height }}">
+{{/*  IMAGE  */}}
+        {{ $original := $image }}
+        {{ $image320w := $original.Fill "320x160 TopLeft" }}
+        {{ $image375w := $original.Fill "375x184 TopLeft" }}
+        {{ $image425w := $original.Fill "425x212 TopLeft" }}
+        {{ $image768w := $original.Fill "768x384 TopLeft" }}
+        <img
+        class="col-span-3 md:col-span-2 drop-shadow-lg rounded-sm lazyload " 
+        alt="{{ $original }}"
+        data-sizes="auto"
+        data-srcset="   
+        {{ $image320w.RelPermalink }}  320w,
+        {{ $image375w.RelPermalink }}  375w,
+        {{ $image425w.RelPermalink }}  425w,     
+        {{ $image768w.RelPermalink }}  768w,"
+        data-src="{{ $image768w.RelPermalink }}" />
+        <!-- noscript pattern -->
+        <noscript>
+        <img src="{{ $image768w.RelPermalink }}" width="{{ $image.Width }}" height="{{ $image.Height }}"> />
+        </noscript>
+{{/*  TEXT  */}}
         <div class="px-8 pt-4 col-start-1 md:col-start-3 md:col-span-1 col-span-3 md:col-span-2">
         {{ end }}
             {{ with .Site.GetPage "/history" }}
@@ -96,7 +115,7 @@
                 {{ $image := string .Params.image}}
                 {{ with .Resources.GetMatch $image }}
                     {{ with .Fill "150x150" }}
-                        <img class="rounded-l-md" src="{{ .RelPermalink }}" width="{{ .Width }}" height="{{ .Height }}">
+                        <img class="rounded-l-md" src="{{ .RelPermalink }}" width="{{ .Width }}" height="{{ .Height }}" alt="{{.Params.name}} - {{ .Params.position | markdownify }}" >
                     {{ end }}
                 {{ end }}
 
@@ -205,7 +224,7 @@
 
             <hr class="mt-2 pb-2">
 
-            <div class="flex justify-between">
+            <div class="flex flex-wrap justify-between">
                 <a class="pr-4" href="http://sepie.es/">
                 <img class="rounded-t-lg" src="/images/programs/SEPIE_erasmus_plus.gif" alt="Sepie.es" />
                 </a>
