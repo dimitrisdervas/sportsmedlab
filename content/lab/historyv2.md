@@ -389,7 +389,7 @@ strategy: overall goal
 
 {{< image src="/images/history/aristeio_kouidi_phed_2020.jpg"  alt="aristeio_kouidi_phed_2020" >}}
 {{< image src="/images/history/aristeio_kouidi_phed_2019.jpg"  alt="aristeio_kouidi_phed_2019" >}}
-{{<div image src="/images/history/aristeio_kouidi_phed_2018.jpg"  alt="aristeio_kouidi_phed_2018" >}}
+{{< image src="/images/history/aristeio_kouidi_phed_2018.jpg"  alt="aristeio_kouidi_phed_2018" >}}
 
 {{< image src="/images/history/htm_707f908d322c25a6.png" alt="Εικόνα 25" >}}
 Βράβευση εργασίας στο Παγκόσμιο Συνέδριο της FIMS (XXVII FIMS world congress of sports medicine,  2002, Budapest)
