@@ -1,0 +1,18 @@
+{{ define "main" }}
+
+
+
+<div class="container mx-auto p-4 mb-16 prose prose-base prose-a:text-tahiti bg-white rounded">
+
+{{ with .Resources.GetMatch .Params.image_hero }}
+
+	<img src="{{.Permalink}}" alt="{{$.Title}}">
+
+{{ end }}
+
+<h1>{{.Title}}</h1>
+
+{{ .Content }}
+</div>
+
+{{ end }}

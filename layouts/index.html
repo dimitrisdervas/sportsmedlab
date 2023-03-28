@@ -20,8 +20,62 @@
     </div>
 </div>  */}}
 
+{{/* ANOUNCEMENTS  */}}
+
+<div class="container mx-auto mb-16 px-4 lg:px-8 ">
+    <div class="border rounded-md shadow-md p-8 bg-white flex flex-wrap md:flex-nowrap justify-start gap-8">
+       
+{{ with .GetPage "/news/imerida-nefro-202304/index.md"}}
+
+         <div class="min-w-2/5">
+        {{ with .Resources.GetMatch .Params.image_hero }}
+                {{ $original := . }}
+                {{ $image320w := $original.Resize "320x TopLeft" }}
+                {{ $image375w := $original.Resize "375x TopLeft" }}
+                {{ $image425w := $original.Resize "425x TopLeft" }}
+                {{ $image768w := $original.Resize "768x TopLeft" }}
+                <img
+                class=" lazyload " 
+                alt="{{ $original }}"
+                data-sizes="auto"
+                data-srcset="   
+                {{ $image320w.RelPermalink }}  320w,
+                {{ $image375w.RelPermalink }}  375w,
+                {{ $image425w.RelPermalink }}  425w,     
+                {{ $image768w.RelPermalink }}  768w,"
+                data-src="{{ $image768w.RelPermalink }}" />
+                <!-- noscript pattern -->
+                <noscript>
+                <img src="{{ $image768w.RelPermalink }}" width="{{ .Width }}" height="{{ .Height }}"> />
+                </noscript>
+        {{ end }}
+        </div>
+
+<div class="text">
+    <div  class="font-bold text-3xl py-4 text-tahiti"><a href="{{.Permalink}}">{{ .Title }}</a></div>
+    <div class="prose max-w-none mb-4">{{ .Summary  | markdownify }} </div>
+
+
+    {{ with .Resources.Match "**.pdf" }}   
+    {{ range .  }}
+        
+    
+    <a class="hover:text-red-700 text-indigo-800 flex items-center"href="{{.Permalink}}"> <img class="w-6 fill-indigo-800 px-1" src="/pdf.svg" alt="pdf"> {{.Title}}</a>
+    {{ end }}
+    {{ end }}
+
+    <div class="flex justify-end">
+    <a class="bg-indigo-800 px-8 py-4 text-white hover:bg-red-700" href="{{.Permalink}}">περισσότερα</a>
+    </div>
+
+
+    {{ end }}
+</div>
+</div>
+</div>
+
 {{/*  LATEST  */}}
-<div class="container mx-auto pb-16 ">
+<div class="container mx-auto mb-16 px-4 lg:px-8 ">
     <div class="border rounded-md shadow-md p-8 bg-white">
     <div id="publications" class="font-bold text-2xl py-4 text-tahiti">Δημοσιεύσεις - Πρόφατες (5)</div>
     <div class="list publications">
@@ -52,8 +106,8 @@
   
 
 {{/*  LAB  */}}
-<div class="container mx-auto px-4 md:px-8 ">
-    <div class=" border shadow-md rounded-md bg-white md:mb-16 ">   
+<div class="container mx-auto px-4 lg:px-8 ">
+    <div class=" border shadow-md rounded-md bg-white lg:mb-16 ">   
     {{ with .Site.GetPage "/lab" }} 
     {{ $image := .Resources.GetMatch "ergastirio-outdoor-backside.jpg"}}
     {{ $image := $image.Filter (images.Sepia 15) }}
@@ -65,7 +119,7 @@
         {{ $image425w := $original.Fill "425x212 TopLeft" }}
         {{ $image768w := $original.Fill "768x384 TopLeft" }}
         <img
-        class="col-span-3 md:col-span-2 drop-shadow-lg rounded-sm lazyload " 
+        class="col-span-3 lg:col-span-2 drop-shadow-lg rounded-sm lazyload " 
         alt="{{ $original }}"
         data-sizes="auto"
         data-srcset="   
@@ -79,7 +133,7 @@
         <img src="{{ $image768w.RelPermalink }}" width="{{ $image.Width }}" height="{{ $image.Height }}"> />
         </noscript>
 {{/*  TEXT  */}}
-        <div class="px-8 pt-4 col-start-1 md:col-start-3 md:col-span-1 col-span-3 md:col-span-2">
+        <div class="px-8 pt-4 col-start-1 lg:col-start-3 lg:col-span-1 col-span-3 lg:col-span-2">
         {{ end }}
             {{ with .Site.GetPage "/history" }}
             <div class="prose ">{{ .Summary }}</div>
@@ -106,7 +160,7 @@
 
 {{/*  PROSOPIKO  */}}
 <section class="container mx-auto  md:mb-16">
-    <div class="prose text-5xl font-bold  drop-shadow-sm p-8 pb-16"> Διδακτικό Προσωπικό </div>
+    <div class="prose text-5xl font-bold  drop-shadow-sm p-8 mb-16"> Διδακτικό Προσωπικό </div>
     <ul class="grid grid-cols-1 gap-4 md:grid-cols-3 md:gap-x-8  md:gap-y-12 px-4 md:px-8 ">       
         {{ range  (where  .Site.RegularPages "Section" "staff_members").ByParam "order"  }}
             {{ if eq .Language .Page.Language }}
@@ -138,7 +192,7 @@
 
 {{/*  YPIRESIES  */}}
 <div class="container mx-auto  flex flex-wrap  justify-center py-8 mb-16">
-    <div class="prose text-5xl font-bold  drop-shadow-sm p-8 pb-16 w-full">Υπηρεσίες</div>
+    <div class="prose text-5xl font-bold  drop-shadow-sm p-8 mb-16 w-full">Υπηρεσίες</div>
     <div class="grid md:grid-cols-1 gap-4 md:grid-cols-2 md:gap-4 px-4 md:px-8">
         <div class=" border shadow-md rounded-md bg-white">
             {{ with .Site.GetPage "/services" }}
@@ -188,7 +242,7 @@
 
 {{/*  ΠΡΟΓΡΑΜΜΑΤΑ  */}}
 <div class="container mx-auto mb-16">
-    <div class="prose text-5xl font-bold  drop-shadow-sm p-8 pb-16 w-full">Προγράμματα</div>
+    <div class="prose text-5xl font-bold  drop-shadow-sm p-8 mb-16 w-full">Προγράμματα</div>
     <div class="grid grid-cols-1 md:grid-cols-2 gap-8 justify-center px-4 md:px-8">
 
     {{/*  GOOD RENAL  */}}
@@ -308,7 +362,7 @@
 
 {{/*  CONTACT  */}}
     <div class="container mx-auto md:mb-16 px-4 md:px-8">
-        <div class="prose text-5xl font-bold  drop-shadow-sm p-8 pb-16">Τηλέφωνα</div>
+        <div class="prose text-5xl font-bold  drop-shadow-sm p-8 mb-16">Τηλέφωνα</div>
         <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
             <div class="text-4xl font-bold text-center text-white border shadow-md rounded-md p-8 bg-red-600">2310-992184</div>
             <div class="text-4xl font-bold text-center text-white border shadow-md rounded-md p-8 bg-red-600">2310-992182</div>
