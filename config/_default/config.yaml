@@ -2,7 +2,7 @@
 # This is where root config key goes.
 # ###################################
 title: Sport Med Lab
-baseURL: "sportsmedlab.gr"
+baseURL: "https://sportsmedlab.gr/"
 enableRobotsTXT: true
 disableAliases: true
 staticDir: static
