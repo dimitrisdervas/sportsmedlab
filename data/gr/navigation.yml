@@ -22,6 +22,10 @@
   link: /services
   new_window: false
   highlight: false
+- name: Νέα
+  link: /news
+  new_window: false
+  highlight: false
 - name: Επικοινωνία
   link: /contact
   new_window: false

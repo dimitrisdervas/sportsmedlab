@@ -1,0 +1,81 @@
+{{ define "main" }}
+
+
+<div class="container mx-auto pb-16 grid grid-cols-1  gap-8">
+
+    <div class="border rounded-md shadow-md p-8 bg-white">
+      <div class="font-bold text-2xl py-4 text-tahiti">
+        Νέα και άλλα
+      </div>
+      <div class="list publications">
+        <ul>
+          
+          {{ range .Pages }}
+          <li class="py-4 mb-24 ">
+
+            <div class="grid md:grid-cols-2 gap-8">
+                <div class="w-full">
+
+
+                    {{ with .Resources.GetMatch .Params.image_hero }}
+                            {{ $original := . }}
+                            {{ $image320w := $original.Fit "320x320 left" }}
+                            {{ $image375w := $original.Fit "375x375 left" }}
+                            {{ $image425w := $original.Fit "425x380 left" }}
+                            {{ $image768w := $original.Fit "768x768 left" }}
+                            <img
+                            class=" lazyload " 
+                            alt="{{ $original }}"
+                            data-sizes="auto"
+                            data-srcset="   
+                            {{ $image320w.RelPermalink }}  320w,
+                            {{ $image375w.RelPermalink }}  375w,
+                            {{ $image425w.RelPermalink }}  425w,     
+                            {{ $image768w.RelPermalink }}  768w,"
+                            data-src="{{ $image768w.RelPermalink }}" />
+                            <!-- noscript pattern -->
+                            <noscript>
+                            <img src="{{ $image768w.RelPermalink }}" width="{{ .Width }}" height="{{ .Height }}"> />
+                            </noscript>
+                    {{ end }}
+
+
+                    </div>
+            <div class="flex flex-col items-center content-center">
+                <div class="w-full text-left py-2 text-gray-600 "> {{ .Date.Month }} {{.Date.Day}} , {{.Date.Year}}</div>
+                <div class="w-full mb-6">    
+                    <a class="font-bold text-3xl  text-tahiti text-left" href="{{.RelPermalink}}">{{.Title}}</a>
+                </div>
+                
+                {{ if isset .Params "link" }} 
+                <div class="w-full text-blue-600 leading-relaxed mb-2">
+                    από    <a href="{{.Params.link}}">{{ .Params.from }}</a>
+                </div>
+                {{ end }}
+                <div class="publisher text-gray-600 leading-relaxed text-lg">{{.Params.summary}}</div>
+                {{ with .Resources.Match "**.pdf" }}   
+                <div class="flex gap-4 w-full justify-self-start py-6">
+                {{ range .  }}
+                    <a class="text-red-700  flex items-center text-lg" href="{{.Permalink}}">
+                        <img class="w-6 px-1" src="/pdf.svg" alt="pdf"> {{.Title}}</a>
+                {{ end }}
+                 </div>
+                {{ end }}            
+            </div>
+          </li>
+  
+          {{ end }}
+        </ul>
+      </div>
+      <div class="flex justify-end">
+        <a
+          class="bg-indigo-800 px-8 py-4 text-white hover:bg-red-700"
+          href="anakoinoseis"
+          >Περισσότερα</a
+        >
+      </div>
+    </div>
+
+
+
+{{ end }}

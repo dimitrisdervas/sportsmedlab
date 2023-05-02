@@ -13,6 +13,21 @@
 <h1>{{.Title}}</h1>
 
 {{ .Content }}
+
+{{ if isset .Params "link" }} 
+<div class="w-full text-blue-600 leading-relaxed mb-2">
+	από    <a href="{{.Params.link}}">{{ .Params.from }}</a>
+</div>
+{{ end }}
+
+{{ with .Resources.Match "**.pdf" }}   
+<div class="flex gap-4 w-full justify-self-start py-6">
+{{ range .  }}
+	<a class="text-red-700  flex items-center text-lg" href="{{.Permalink}}">
+		<img class="w-6 px-1" src="/pdf.svg" alt="pdf"> {{.Title}}</a>
+{{ end }}
+ </div>
+ {{ end }}
 </div>
 
 {{ end }}

@@ -23,17 +23,20 @@
 {{/* ANOUNCEMENTS  */}}
 
 <div class="container mx-auto mb-16 px-4 lg:px-8 ">
-    <div class="border rounded-md shadow-md p-8 bg-white flex flex-wrap md:flex-nowrap justify-start gap-8">
-       
-{{ with .GetPage "/news/imerida-nefro-202304/index.md"}}
+    <div class="border rounded-md shadow-md p-8 bg-white">
+        <div id="publications" class="font-bold text-2xl py-4 text-tahiti">Τα Νέα μας</div>
 
-         <div class="w-full md:min-w-2/5 xl:w-1/3">
+{{ range first 3 (where .Site.RegularPages "Section" "news" )}}
+       
+
+<div class="list grid md:grid-cols-2 gap-4 mb-16">
+        <div class="w-full">
         {{ with .Resources.GetMatch .Params.image_hero }}
                 {{ $original := . }}
-                {{ $image320w := $original.Resize "320x TopLeft" }}
-                {{ $image375w := $original.Resize "375x TopLeft" }}
-                {{ $image425w := $original.Resize "425x TopLeft" }}
-                {{ $image768w := $original.Resize "768x TopLeft" }}
+                {{ $image320w := $original.Fit "320x320 left" }}
+                {{ $image375w := $original.Fit "375x375 left" }}
+                {{ $image425w := $original.Fit "425x380 left" }}
+                {{ $image768w := $original.Fit "768x768 left" }}
                 <img
                 class=" lazyload " 
                 alt="{{ $original }}"
@@ -51,24 +54,15 @@
         {{ end }}
         </div>
 
-<div class="text">
-    <div  class="font-bold text-3xl py-4 text-tahiti"><a href="{{.Permalink}}">{{ .Title }}</a></div>
-    <div class="prose max-w-none mb-4">{{ .Summary  | markdownify }} </div>
-
-
-    {{ with .Resources.Match "**.pdf" }}   
-    {{ range .  }}
-        
-    
-    <a class="hover:text-red-700 text-indigo-800 flex items-center"href="{{.Permalink}}"> <img class="w-6 fill-indigo-800 px-1" src="/pdf.svg" alt="pdf"> {{.Title}}</a>
-    {{ end }}
-    {{ end }}
-
-    <div class="flex justify-end">
-    <a class="bg-indigo-800 px-8 py-4 text-white hover:bg-red-700" href="{{.Permalink}}">περισσότερα</a>
+    <div class="text">
+        <div  class="font-bold text-3xl py-4 text-tahiti"><a href="{{.Permalink}}">{{ .Title }}</a></div>
+        <div class="prose max-w-none mb-4">{{ .Summary  | markdownify }} </div>
+        <div class="flex justify-end">
+        <a class="text-indigo-800 px-8 py-4 " href="{{.Permalink}}">περισσότερα</a>
+        </div>
     </div>
 
-
+</div>
     {{ end }}
 </div>
 </div>
