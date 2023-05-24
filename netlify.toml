@@ -4,7 +4,7 @@ command = "hugo"
 
 [build.environment]
   GO_VERSION = "1.14"
-  HUGO_VERSION = "0.110"
+  HUGO_VERSION = "0.112"
 
 [context]
 
