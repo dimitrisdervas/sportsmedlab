@@ -23,39 +23,42 @@
 {{/* ANOUNCEMENTS  */}}
 
 <div class="container mx-auto mb-16 px-4 lg:px-8 ">
-    <div class="border rounded-md shadow-md p-8 bg-white">
-        <div id="publications" class="font-bold text-2xl py-4 text-tahiti">Τα Νέα μας</div>
-
-{{ range first 3 (where .Site.RegularPages "Section" "news" )}}
+    <div class=" ">
+        <div id="news" class="font-bold text-2xl py-4 text-tahiti">Τα Νέα μας</div>
+        <div class="grid md:grid-cols-3 gap-4">
+{{ range (first 5 ((where .Site.RegularPages "Section" "news" ).ByDate.Reverse))}}
        
 
-<div class="list grid md:grid-cols-2 gap-4 mb-16">
-        <div class="w-full">
-        {{ with .Resources.GetMatch .Params.image_hero }}
-                {{ $original := . }}
-                {{ $image320w := $original.Fit "320x320 left" }}
-                {{ $image375w := $original.Fit "375x375 left" }}
-                {{ $image425w := $original.Fit "425x380 left" }}
-                {{ $image768w := $original.Fit "768x768 left" }}
-                <img
-                class=" lazyload " 
-                alt="{{ $original }}"
-                data-sizes="auto"
-                data-srcset="   
-                {{ $image320w.RelPermalink }}  320w,
-                {{ $image375w.RelPermalink }}  375w,
-                {{ $image425w.RelPermalink }}  425w,     
-                {{ $image768w.RelPermalink }}  768w,"
-                data-src="{{ $image768w.RelPermalink }}" />
-                <!-- noscript pattern -->
-                <noscript>
-                <img src="{{ $image768w.RelPermalink }}" width="{{ .Width }}" height="{{ .Height }}"> />
-                </noscript>
-        {{ end }}
-        </div>
+<div class="list bg-white rounded overflow-hidden shadow-lg border">
+    <div class="border-b border-gray-50 px-4 py-2">
+        <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 ">#νέα</span> 
+    </div>
+    <div class="w-full flex justify-center mb-2">
+    {{ with .Resources.GetMatch .Params.image_hero }}
+            {{ $original := . }}
+            {{ $image320w := $original.Fit "320x320 left" }}
+            {{ $image375w := $original.Fit "375x375 left" }}
+            {{ $image425w := $original.Fit "425x380 left" }}
+            {{ $image768w := $original.Fit "768x768 left" }}
+            <img
+            class=" lazyload " 
+            alt="{{ $original }}"
+            data-sizes="auto"
+            data-srcset="   
+            {{ $image320w.RelPermalink }}  320w,
+            {{ $image375w.RelPermalink }}  375w,
+            {{ $image425w.RelPermalink }}  425w,     
+            {{ $image768w.RelPermalink }}  768w,"
+            data-src="{{ $image768w.RelPermalink }}" />
+            <!-- noscript pattern -->
+            <noscript>
+            <img src="{{ $image768w.RelPermalink }}" width="{{ .Width }}" height="{{ .Height }}"> />
+            </noscript>
+    {{ end }}
+    </div>
 
-    <div class="text">
-        <div  class="font-bold text-3xl py-4 text-tahiti"><a href="{{.Permalink}}">{{ .Title }}</a></div>
+    <div class="text px-6 py-4">
+        <div  class="font-bold text-xl  text-tahiti mb-4"><a href="{{.Permalink}}">{{ .Title }}</a></div>
         <div class="prose max-w-none mb-4">{{ .Summary  | markdownify }} </div>
         <div class="flex justify-end">
         <a class="text-indigo-800 px-8 py-4 " href="{{.Permalink}}">περισσότερα</a>
@@ -64,6 +67,7 @@
 
 </div>
     {{ end }}
+</div>
 </div>
 </div>
 </div>
