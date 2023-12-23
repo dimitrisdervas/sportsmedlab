@@ -746,3 +746,20 @@ Astrand, B. Saltin, W. Macenna, S. Ocley, B. Maron, S. Sharma, D. Corrado, A. Bi
 {{< image src="/images/history/leukoma.jpg" alt="Εικόνα 58" >}}
 
 {{< image src="/images/history/htm_24130cea09b772c9.png" alt="Εικόνα 97" >}}
+
+Στις 15/12/2023 στα πλαίσια συμπλήρωσης 30 ετών λειτουργίας του Εργαστηρίου
+Αθλητιατρικής σε ειδική εκδήλωση τιμήθηκε ο Ομότιμος Καθηγητής Αθλητιατρικής ΑΠΘ κ.
+Αστέριος Δεληγιάννης,ιδρυτής και τέως Διευθυντής του Εργαστηρίου. Επίσης έγινε η
+παρουσίαση του νέου βιβλίου του κ. Δεληγιάννημε τίτλο «Άθληση καικαρδιά: Σχέση
+αγάπης ή έχθρας ;». Η εκδήλωση που έγινε στην αίθουσα τελετών της Φιλοσοφικής Σχολής
+συγκέντρωσε περισσότερα από 300 άτομα.
+
+
+{{< image src="/images/history/ekdilosi_del01.jpg" alt="Έκδηλωση κ.Δεληγγιάννη-1" >}}
+{{< image src="/images/history/ekdilosi_del02.jpg" alt="Έκδηλωση κ.Δεληγγιάννη-2" >}}
+{{< image src="/images/history/ekdilosi_del03.jpeg" alt="Έκδηλωση κ.Δεληγγιάννη-3" >}}
+{{< image src="/images/history/ekdilosi_del04.jpeg" alt="Έκδηλωση κ.Δεληγγιάννη-4" >}}
+{{< image src="/images/history/ekdilosi_del05.jpeg" alt="Έκδηλωση κ.Δεληγγιάννη-5" >}}
+{{< image src="/images/history/ekdilosi_del06.jpeg" alt="Έκδηλωση κ.Δεληγγιάννη-6" >}}
+
+
