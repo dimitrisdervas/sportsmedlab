@@ -14,6 +14,17 @@
 
 {{ .Content }}
 
+{{ if .Params.images_multiple }}
+
+{{ with .Resources.Match "**.jpg" }}   
+{{ range . }}
+{{ $image := . }}
+{{ $image := $image.Fit "600x400" }}
+<img src="{{$image.RelPermalink }}" alt="{{$image.RelPermalink }}">
+{{ end }}
+{{ end }}
+{{ end }}
+
 {{ if isset .Params "link" }} 
 <div class="w-full text-blue-600 leading-relaxed mb-2">
 	από    <a href="{{.Params.link}}">{{ .Params.from }}</a>
