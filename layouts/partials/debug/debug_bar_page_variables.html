@@ -129,38 +129,7 @@
                         class="bg-gray-500 px-2 w-full mb-4">
                         File Variables
                     </a>
-                {{ with .File }}
-                <div class="page_variables flex flex-wrap mb-2">
-                    <div class="variable_title w-full text-pink-300">.File</div> 
-                    <div class="variable_value"> {{ . }}</div></div>
-                <div class="page_variables flex flex-wrap mb-2">
-                    <div class="variable_title w-full text-pink-300">.File.Path</div> 
-                    <div class="variable_value"> {{ .Path }}</div></div>
-                <div class="page_variables flex flex-wrap mb-2">
-                    <div class="variable_title w-full text-pink-300">.File.LogicalName</div> 
-                    <div class="variable_value"> {{.LogicalName}}</div></div>
-                <div class="page_variables flex flex-wrap mb-2">
-                    <div class="variable_title w-full text-pink-300">.File.TranslationBaseName</div> 
-                    <div class="variable_value"> {{.TranslationBaseName}}</div></div>
-                <div class="page_variables flex flex-wrap mb-2">
-                    <div class="variable_title w-full text-pink-300">.File.ContentBaseName</div> 
-                    <div class="variable_value"> {{.ContentBaseName}}</div></div>
-                <div class="page_variables flex flex-wrap mb-2">
-                    <div class="variable_title w-full text-pink-300">.File.BaseFileName</div> 
-                    <div class="variable_value"> {{.BaseFileName}}</div></div>
-                <div class="page_variables flex flex-wrap mb-2">
-                    <div class="variable_title w-full text-pink-300">.File.Ext</div> 
-                    <div class="variable_value"> {{.Ext}}</div></div>
-                <div class="page_variables flex flex-wrap mb-2">
-                    <div class="variable_title w-full text-pink-300">.File.Lang</div> 
-                    <div class="variable_value"> {{.Lang}}</div></div>
-                <div class="page_variables flex flex-wrap mb-2">
-                    <div class="variable_title w-full text-pink-300">.File.Dir</div> 
-                    <div class="variable_value"> {{ with .File }}{{ .Dir }}{{ end }}</div></div>
-                <div class="page_variables flex flex-wrap mb-2">
-                    <div class="variable_title w-full text-pink-300">.File.UniqueID</div> 
-                    <div class="variable_value"> {{.UniqueID}}</div></div>
-                {{ end }}
+            
             </div>
             <div class="squares w-full">
                     <h2 class="bg-gray-100 px-2 w-full py-1">In Section</h2>
