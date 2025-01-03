@@ -60,12 +60,14 @@ Undergraduate courses:
 - Descriptive and Functional Anatomy,
 - Sports Medicine, Swimming &
 - Physical Health,
-- Lifeguarding
 
 Postgraduate courses:
 
 - Ergogenic Aids-Special Issues of Nutrition,
 - Sports Medicine
+- Human Anatomy
+- Human Physiology,
+- Obesity and Exercise
 
 ## Research
 
