@@ -34,14 +34,14 @@
 
 {{ if isset .Params "program_url" }} 
 <div class="w-full text-blue-400 leading-relaxed ">
-<a class="text-blue-800" href="{{.Params.program_url}}">Πληροφορίες</a>
+<a class="text-blue-800" href="{{.Params.program_url}}" target="_blank">Πληροφορίες</a>
 </div>
 {{ end }}
 
 {{ with .Resources.Match "**.pdf" }}   
 <div class="flex gap-4 w-full justify-self-start py-2">
 {{ range .  }}
-	<a class="text-red-700  flex items-center text-lg" href="{{.Permalink}}">
+	<a class="text-red-700  flex items-center text-lg" href="{{.Permalink}}" target="_blank">
 		<img class="w-6 px-1 m-0" src="/pdf.svg" alt="pdf"> {{.Title}}</a>
 {{ end }}
  </div>
