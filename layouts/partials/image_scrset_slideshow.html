@@ -1,10 +1,10 @@
 {{ with .Params.image }}
 {{ $original := ($.Site.GetPage "section" "slideshow").Resources.GetMatch (string . ) }}
-{{ $image320w := $original.Fill "320x160 TopLeft" }}
-{{ $image375w := $original.Fill "375x184 TopLeft" }}
-{{ $image425w := $original.Fill "425x212 TopLeft" }}
-{{ $image768w := $original.Fill "768x384 TopLeft" }}
-{{ $image1024w := $original.Fill "1200x511 TopLeft" }}
+{{ $image320w := $original.Fill "320x160 Center" }}
+{{ $image375w := $original.Fill "375x184 Center" }}
+{{ $image425w := $original.Fill "425x212 Center" }}
+{{ $image768w := $original.Fill "768x384 Center" }}
+{{ $image1024w := $original.Fill "1200x511 Center" }}
 
 
 <img

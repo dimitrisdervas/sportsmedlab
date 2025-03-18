@@ -28,3 +28,6 @@ frontmatter:
   - date
   - publishDate
   - lastmod
+
+server:
+  isServer: true

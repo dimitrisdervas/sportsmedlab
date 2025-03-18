@@ -1,0 +1,58 @@
+<div class="hero  w-full">
+
+
+    {{ $page := $.Site.GetPage "/news/congress-20240414" }}
+
+<div class="py-4 mb-24 shadow-md bg-white border rounded-md p-8">
+    <div class="grid md:grid-cols-2 gap-8">
+        <div class="w-full">
+            {{ with .Resources.GetMatch .Params.image_hero }}
+                {{ $original := . }}
+                {{ $image320w := $original.Fit "320x320 left" }}
+                {{ $image375w := $original.Fit "375x375 left" }}
+                {{ $image425w := $original.Fit "425x380 left" }}
+                {{ $image768w := $original.Fit "768x768 left" }}
+                <img
+                class="lazyload" 
+                alt="{{ $page.Title }}"
+                data-sizes="auto"
+                data-srcset="
+                {{ $image320w.RelPermalink }} 320w,
+                {{ $image375w.RelPermalink }} 375w,
+                {{ $image425w.RelPermalink }} 425w,
+                {{ $image768w.RelPermalink }} 768w"
+                data-src="{{ $image768w.RelPermalink }}" />
+                <!-- noscript pattern -->
+                <noscript>
+                <img src="{{ $image768w.RelPermalink }}" width="{{ $original.Width }}" height="{{ $original.Height }}" />
+                </noscript>
+            {{ end }}
+        </div>
+        <div class="flex flex-col items-center content-center">
+            <div class="w-full text-left py-2 text-gray-600"> {{ $page.Date.Format "January 2, 2006" }}</div>
+            <div class="w-full mb-6">    
+                <a class="font-bold text-3xl text-tahiti text-left" href="{{ $page.RelPermalink }}">{{ $page.Title }}</a>
+            </div>
+            
+            {{ if isset $page.Params "link" }} 
+            <div class="w-full text-blue-600 leading-relaxed mb-2">
+                από <a href="{{ $page.Params.link }}">{{ $page.Params.from }}</a>
+            </div>
+            {{ end }}
+            <div class="publisher text-gray-600 leading-relaxed text-lg">{{ $page.Summary }}</div>
+            {{ with $page.Resources.Match "**.pdf" }}   
+            <div class="flex gap-4 w-full justify-self-start py-6">
+                {{ range . }}
+                <a class="text-red-700 flex items-center text-lg" href="{{ .Permalink }}">
+                    <img class="w-6 px-1" src="/pdf.svg" alt="pdf"> {{ .Title }}</a>
+                {{ end }}
+            </div>
+            {{ end }}            
+        </div>
+    </div>
+</div>
+
+  
+
+
+</div>
