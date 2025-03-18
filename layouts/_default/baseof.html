@@ -1,21 +1,36 @@
 <!DOCTYPE html>
 <html>
   <head>
-    {{ partial "head" . }}
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{{ .Site.Title }}{{ with .Title }} | {{ . }}{{ end }}</title>
 
-
-    <script
-      defer
-      src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"
-    >
-  </script>
+    <script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
     <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp"></script>
+    
+    {{ with resources.Get "css/main.scss" }}
+      {{ $opts := dict
+        "enableSourceMap" (not hugo.IsProduction)
+        "outputStyle" (cond hugo.IsProduction "compressed" "expanded")
+        "targetPath" "css/main.css"
+        "transpiler" "dartsass"
+      }}
+      {{ with . | toCSS $opts }}
+        {{ if hugo.IsProduction }}
+          {{ with . | fingerprint }}
+            <link rel="stylesheet" href="{{ .RelPermalink }}" integrity="{{ .Data.Integrity }}" crossorigin="anonymous">
+          {{ end }}
+        {{ else }}
+          <link rel="stylesheet" href="{{ .RelPermalink }}">
+        {{ end }}
+      {{ end }}
+    {{ end }}
+
     <style type="text/tailwindcss">
       @layer components {
         .page_variables {
-          @apply text-base text-white  flex w-full justify-start  pb-1 px-1;
+          @apply text-base text-white flex w-full justify-start pb-1 px-1;
         }
-
         .variable_title {
           @apply text-white w-40;
         }
@@ -23,59 +38,34 @@
           @apply text-gray-300 text-left;
         }
         .scroll {
-          white-space: nowrap; /* [1] */
-          overflow-x: auto; /* [2] */
-          -webkit-overflow-scrolling: touch; /* [3] */
-          -ms-overflow-style: -ms-autohiding-scrollbar; /* [4] */ }
-        
-        /* [5] */
+          white-space: nowrap;
+          overflow-x: auto;
+          -webkit-overflow-scrolling: touch;
+          -ms-overflow-style: -ms-autohiding-scrollbar;
+        }
         .scroll::-webkit-scrollbar {
-          display: none; }
-        
-          [x-cloak] { display: none !important; }
+          display: none;
+        }
+        [x-cloak] { 
+          display: none !important;
+        }
       }
       img {
-        width:100%;
+        width: 100%;
         display: block;
-     }
+      }
     </style>
-    {{/*  <link
-      rel="stylesheet"
-      href="https://unpkg.com/swiper@8/swiper-bundle.min.css"
-    />  */}}
-
-    {{/*  <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>  */}}
-
   </head>
 
-
-
   <body class="{{ .Kind }} text-black bg-bodybg h-full flex flex-col">
-
     {{ partial "header.html" . }}
 
-    <main class="py-8 flex-grow">{{ block "main" . }} {{ end }}</main>
+    <main class="py-8 flex-grow">
+      {{ block "main" . }}{{ end }}
+    </main>
 
+    {{ partial "footer" . }}
 
-    {{ partial "footer" . }} 
-    
-    {{/*  {{ $js := resources.Get "js/alpine/index.js" | js.Build }}   */}}
-    
-    {{ partial "debug/alpinejs_debug_menu.html" . }} 
-    {{/*  {{ partial "helpers/debug-tables/debug-tables-list" . }}  */}}
-
-        <script>
-                var swiper = new Swiper('.swiper', {
-            loop: 'true',
-            pagination: {
-                el: '.swiper-pagination',
-                type: 'progressbar',
-                dynamicBullets: true,
-            },
-        });
-    </script>
-
-<script src="https://cdnjs.cloudflare.com/ajax/libs/lazysizes/5.3.2/lazysizes.min.js" integrity="sha512-q583ppKrCRc7N5O0n2nzUiJ+suUv7Et1JGels4bXOaMFQcamPk9HjdUknZuuFjBNs7tsMuadge5k9RzdmO+1GQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lazysizes/5.3.2/lazysizes.min.js" integrity="sha512-q583ppKrCRc7N5O0n2nzUiJ+suUv7Et1JGels4bXOaMFQcamPk9HjdUknZuuFjBNs7tsMuadge5k9RzdmO+1GQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
   </body>
 </html>

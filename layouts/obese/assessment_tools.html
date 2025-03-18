@@ -1,0 +1,32 @@
+{{ define "main" }}
+<div class="container mx-auto pb-16">
+    <div class="border rounded-md shadow-md p-8 bg-white">
+        <div class="font-bold text-2xl py-4 text-tahiti">
+            {{ .Title }}
+        </div>
+        
+        <div class="prose max-w-none mb-8">
+            {{ .Content }}
+        </div>
+
+        <div class="grid gap-4">
+            {{ range .Resources.Match "**.pdf" }}
+            <div class="flex items-center p-4 border rounded-lg hover:bg-gray-50">
+                <div class="flex-shrink-0 mr-4">
+                    <img class="w-8 h-8" src="/pdf.svg" alt="PDF icon">
+                </div>
+                <div class="flex-grow">
+                    <a href="{{ .Permalink }}" 
+                       class="text-tahiti hover:text-blue-800 font-medium text-lg flex items-center">
+                        {{ .Name }}
+                    </a>
+                </div>
+                <div class="text-sm text-gray-500">
+                    {{ div (len .Content) 1024 | math.Ceil }} KB
+                </div>
+            </div>
+            {{ end }}
+        </div>
+    </div>
+</div>
+{{ end }}

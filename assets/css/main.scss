@@ -1,20 +1,61 @@
-@import "chroma";
-@import "prose";
-
-
+@use "chroma";
+@use "prose";
 
 .scroll {
-  white-space: nowrap; /* [1] */
-  overflow-x: auto; /* [2] */
-  -webkit-overflow-scrolling: touch; /* [3] */
-  -ms-overflow-style: -ms-autohiding-scrollbar; /* [4] */ }
+  white-space: nowrap;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  -ms-overflow-style: -ms-autohiding-scrollbar;
+}
 
-/* [5] */
 .scroll::-webkit-scrollbar {
-  display: none; }
+  display: none;
+}
 
-
-  img {
-    width:100%;
-    display: block;
+img {
+  width: 100%;
+  display: block;
  }
+
+ #TableOfContents > ul   {
+  padding-left: 1rem;
+   }
+
+ #TableOfContents > ul > li  {
+list-style-type: square;
+ }
+
+ #TableOfContents > ul > li > a > strong{
+  color: #000;
+  font-size: 0.8rem;
+  font-weight: normal;
+}
+
+// Custom table styles for exercise programs
+.prose {
+  table {
+    @apply w-full border-collapse mb-8;
+    
+    thead {
+      @apply bg-gray-100;
+      
+      th {
+        @apply p-3 text-left border border-gray-200;
+      }
+    }
+    
+    tbody {
+      tr {
+        @apply border-b border-gray-200;
+        
+        td {
+          @apply p-3 border border-gray-200;
+          
+          &:first-child {
+            @apply font-bold;
+          }
+        }
+      }
+    }
+  }
+}

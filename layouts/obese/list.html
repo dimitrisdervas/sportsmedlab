@@ -1,0 +1,26 @@
+{{ define "main" }}
+<div class="container mx-auto pb-16">
+    <div class="border rounded-md shadow-md p-8 bg-white">
+        <div class="font-bold text-2xl py-4 text-tahiti">
+            {{ .Title }}
+        </div>
+        
+        <div class="prose max-w-none">
+            {{ .Content }}
+        </div>
+
+        <div class="mt-8">
+            <ul class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                {{ range .Pages }}
+                <li class="border-b border-gray-200 pb-4">
+                    <a href="{{ .RelPermalink }}" class="block hover:text-tahiti">
+                        <h2 class="text-xl font-bold mb-2">{{ .Title }}</h2>
+                    </a>
+                </li>
+                {{ end }}
+            </ul>
+        </div>
+    </div>
+</div>
+
+{{ end }}

@@ -1,10 +1,9 @@
 ---
 ---
 
-@charset "utf-8";
-// 
+@use "sass:color";
+
 // COLORS
-// 
 $blue: #173173;
 $red: #de350c;
 $blue-2: #2b5eb1;
@@ -21,36 +20,29 @@ $body-bg-color: $grey;
 $link-bg-hover-color: $blue-2;
 $section-spacing: 120px;
 
-@import "styles/normalize-sass";
-// @import "fonts/googlecss/myGoogleFonts";
-@import "susy-config";
-@import "styles/susy/susy";
-@import "photoswipe.css";
-@import "default-skin/default-skin.css";
+@use "styles/normalize-sass";
+@use "susy-config";
+@use "styles/susy/susy";
+@use "photoswipe.css";
+@use "default-skin/default-skin.css";
 
+@use "styles/header";
+@use "styles/nav";
+@use "styles/content";
+@use "styles/sidebar";
+@use "styles/mobile-sidebar";
+@use "styles/footer";
+@use "styles/more";
 
-@import "styles/header";
-@import "styles/nav";
-@import "styles/content";
-@import "styles/sidebar";
-@import "styles/mobile-sidebar";
-@import "styles/footer";
-@import "styles/more";
+@use "styles/frontpage";
+@use "styles/education";
+@use "styles/develloper";
 
-@import "styles/frontpage";
-@import "styles/education";
-
-@import "styles/develloper";
-
-
-
-// 
 // LAYOUT
-// 
-
 *, *:before, *:after {
   box-sizing: border-box;
 }
+
 body {
     display: flex;
     flex-direction: column;

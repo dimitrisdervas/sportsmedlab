@@ -1,0 +1,17 @@
+<div class="mt-8 pt-4 border-t border-gray-200">
+    <h3 class="text-lg font-semibold mb-4 text-tahiti">Related Programs:</h3>
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+        {{ $currentPage := . }}
+        {{ range .CurrentSection.Pages }}
+            {{ if ne . $currentPage }}
+                <a href="{{ .RelPermalink }}" 
+                   class="p-4 border rounded-md hover:shadow-md transition-shadow bg-white hover:bg-gray-50">
+                    <h4 class="font-semibold text-tahiti mb-2">{{ .Title }}</h4>
+                    {{ with .Description }}
+                        <p class="text-sm text-gray-600">{{ . }}</p>
+                    {{ end }}
+                </a>
+            {{ end }}
+        {{ end }}
+    </div>
+</div>
