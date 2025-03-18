@@ -1,0 +1,5 @@
+styles:
+- name: main
+  path: css/main.scss
+  fingerprint: true
+  minify: true

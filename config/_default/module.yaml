@@ -3,10 +3,7 @@ mounts:
     target: assets
   - source: static
     target: static
-  - source: _huge
-    target: assets/_huge
   - source: node_modules
     target: static/plugins
 imports:
-  - path: github.com/theNewDynamic/huge
   - path: github.com/gohugoio/hugo-mod-jslibs-dist/alpinejs/v3

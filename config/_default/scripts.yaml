@@ -1,0 +1,3 @@
+scripts:
+- name: alpine
+  path: js/alpine/index.js
