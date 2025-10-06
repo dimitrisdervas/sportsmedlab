@@ -44,10 +44,6 @@ Fax: +302310 992188
 - ekouidi@med.auth.gr
 - kouidi@phed.auth.gr
 
-### ΦΩΤΙΟΣ ΜΑΥΡΟΒΟΥΝΙΩΤΗΣ
-
-- mavrov@phed.auth.gr
-
 ### ΝΙΚΟΛΑΟΣ ΚΟΥΤΛΙΑΝΟΣ
 
 - koutlian@phed.auth.gr
@@ -55,6 +51,11 @@ Fax: +302310 992188
 ### ΔΗΜΗΤΡΑ ΜΑΜΕΛΕΤΖΗ
 
 - mamel@phed.auth.gr
+
+### ΜΑΡΙΑ ΑΝΥΦΑΝΤΗ
+
+- manifant@med.auth.gr
+
 
 
 

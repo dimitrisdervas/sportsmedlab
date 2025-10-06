@@ -35,8 +35,7 @@ e-mails:
 - ekouidi@med.auth.gr
 - kouidi@phed.auth.gr
 
-### Fotios Mavrovouniotis
-- mavrov@phed.auth.gr
+
 
 ### Nikolaos Koutlianos
 - koutlian@phed.auth.gr
@@ -44,6 +43,8 @@ e-mails:
 ### Dimitra Mameletzi
 - mamel@phed.auth.gr
 
+### Maria Anifanti
+- manifant@med.auth.gr
 
 ## Useful Links:
 
