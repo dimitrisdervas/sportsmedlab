@@ -1,7 +1,6 @@
 ---
 title: Deligiannis
 name: Αστέριος Δεληγιάννης
-lang: gr
 position: Ομότιμος Καθηγητής Αθλητιατρικής ΤΕΦΑΑ ΑΠΘ
 degree: Πτυχίο Ιατρικής ΑΠΘ (1975)
 image: deligiannis.jpg

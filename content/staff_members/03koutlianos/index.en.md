@@ -1,8 +1,7 @@
 ---
 title: Koutlianos
 name: Koutlianos Nikolaos
-lang: en
-position: Professor - Athletes’ Physical Health Evaluation
+position: Professor - Athletes' Physical Health Evaluation
 degree: Ιατρός - Πτυχ. Φυσικής Αγωγής
 image: koutlianos.jpg
 cv_document: entipa/cv/en/cv-koutlianos.pdf

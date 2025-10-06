@@ -1,7 +1,6 @@
 ---
 title: Mavrovouniotis
 name: Φώτιος Μαυροβουνιώτης
-lang: gr
 position: Καθηγητής Άσκησης και Σωματικής Υγείας
 degree: Πτυχιούχος Φυσικής Αγωγής
 image: mavrovouniotis.jpg

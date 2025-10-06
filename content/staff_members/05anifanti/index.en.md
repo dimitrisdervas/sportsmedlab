@@ -1,7 +1,6 @@
 ---
 title: Anifanti
 name: Maria Anifanti
-lang: en
 position: Permanent Associate Professor of Sports Cardiology
 degree: Medical School Graduate, Cardiologist
 image: anifanti.png

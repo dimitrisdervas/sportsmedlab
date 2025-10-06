@@ -1,7 +1,6 @@
 ---
 title: Mavrovouniotis
 name: Fotis Mavrovouniotis
-lang: en
 position: Professor of Exercise and Physical Health
 degree: Πτυχιούχος Φυσικής Αγωγής
 image: mavrovouniotis.jpg

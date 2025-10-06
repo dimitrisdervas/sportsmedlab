@@ -1,7 +1,6 @@
 ---
 title: Koutlianos
 name: Νικόλαος Κουτλιάνος
-lang: gr
 position: Καθηγητής Αξιολόγησης Σωματικής Υγείας Αθλουμένων
 degree: Ιατρός - Πτυχ. Φυσικής Αγωγής
 image: koutlianos.jpg

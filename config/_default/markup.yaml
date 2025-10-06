@@ -1,1 +1,5 @@
 _merge: deep
+
+goldmark:
+  renderer:
+    unsafe: true

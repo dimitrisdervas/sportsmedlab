@@ -1,7 +1,6 @@
 ---
 title: deligiannis
 name: Deligiannis Asterios
-lang: en
 position: Emeritus Professor of Sports Medicine
 degree: Πτυχίο Ιατρικής ΑΠΘ (1975)
 image: deligiannis.jpg
