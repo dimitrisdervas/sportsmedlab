@@ -10,6 +10,7 @@ contact:
   tel: 2310 992 187
   email: mavrov@phed.auth.gr
 order: 2
+draft: true
 ---
 
 ## Προσωπικά στοιχεία

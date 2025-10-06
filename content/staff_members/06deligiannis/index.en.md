@@ -9,7 +9,7 @@ cv_document: entipa/cv/en/cv-deligiannis.pdf
 contact:
   tel: 2310 992 181
   email: adeligia@phed.auth.gr, stergios@med.auth.gr
-order: 5
+order: 6
 ---
 
 ## Personal details
