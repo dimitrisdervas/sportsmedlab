@@ -9,6 +9,7 @@
 <!-- Get image -->
 {{$img := resources.Get $src}}
 
+{{ if $img }}
 <!-- Resize image as a test it's working -->
 {{- $desktop := $img.Resize "700x"}}
 {{- $mobile := $img.Resize "400x"}}
@@ -17,6 +18,10 @@
     <source media="(max-width:401px)" srcset="{{ $mobile.Permalink }}">
     <img src="{{ $desktop.Permalink }}" alt="{{ $alt }}" style="width:auto;">
 </picture>
+{{ else }}
+<!-- Fallback for static images -->
+<img src="{{ $src | relURL }}" alt="{{ $alt }}" style="width:auto;">
+{{ end }}
 
 <em class="prose-sm ">{{ $caption }}</em>
 
