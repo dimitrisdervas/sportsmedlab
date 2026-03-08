@@ -1,4 +1,4 @@
-{{ if in .Page.RelPermalink "lab"}}
+{{ if or (in .Page.RelPermalink "lab") (in .Page.RelPermalink "news") }}
 <link rel="stylesheet" href="/plugins/photoswipe/dist/photoswipe.css">
 <script type="module">
 // Include Lightbox 

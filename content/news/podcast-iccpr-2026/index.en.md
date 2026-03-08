@@ -23,11 +23,15 @@ summary: "Dr. Evangelia Gudy, Cardiologist and Professor at Aristotle University
 
 **Guest:** If patients can move better, they feel better and they live better if they have gains in balance, functional capacity, strength and tolerance. They have gains in independence, mood, and social participation. That means that they improve their quality of life. So, exercise can be a medication.
 
+![Exercise as Medicine](/news/podcast-iccpr-2026/exercise-as-medicine.jpg)
+
 ---
 
 **Host:** Well, thank you. And I also know you were involved in several European projects focused on promoting behavior change in patients with chronic disease overall. So, what have been the most important lessons especially translating these models into real world practicing?
 
 **Guest:** We should focus on long-term interventions that means that an intervention doesn't actually fail. The way we focus may fail. We need to focus on the fact that exercise must be prescribed like medication as I said and also it is important physicians, nurses, all healthcare team to be engaged. On the other hand, we need to change the management of the programs and to adapt patients expectations, realities, daily program. So we should focus on patients needs.
+
+![Patient-Centric Rehabilitation](/news/podcast-iccpr-2026/patient-centric-rehabilitation.jpg)
 
 ---
 
